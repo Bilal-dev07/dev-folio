@@ -1,0 +1,360 @@
+{
+  "main": {
+    "name": "Awais",
+    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "titles": [
+      "Full Stack Developer",
+      "4 Years OF Professional Experience",
+      "10+ Projects Completed",
+      "Continuously Enhancing My Skills"
+    ],
+    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "techStackImages": [
+      "https://img.icons8.com/color/144/null/nodejs.png",
+      "https://img.icons8.com/color/144/react-native.png",
+      "https://img.icons8.com/color/144/postgreesql.png",
+      "https://img.icons8.com/color/144/null/amazon-web-services.png"
+    ]
+  },
+  "about": {
+    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImageCaption": "< I build stuff 🚀/>",
+    "title": "Full Stack Developer",
+    "about": "I'm a dedicated Full Stack Developer with 4 years of extensive experience in building and optimizing web applications. My focus is on creating scalable and high-performance solutions using modern technologies such as React, Node.js, PostgreSQL, and AWS. I have a strong passion for problem-solving and am committed to writing clean, maintainable code, contributing to project success through innovative technical solutions. I excel in fast-paced environments and enjoy collaborating with cross-functional teams to design, develop, and deploy reliable systems that enhance user experiences and achieve business objectives",
+    "callUrl": "",
+    "resumeUrl": ""
+  },
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/in/muhammadawaischaudhary"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/Chawais1122"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "image": "https://img.icons8.com/color/144/null/typescript.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "React",
+      "image": "https://img.icons8.com/color/144/react-native.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Redux",
+      "image": "https://img.icons8.com/color/144/redux.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Next.js",
+      "image": "https://img.icons8.com/fluency-systems-regular/144/nextjs.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "HTML5",
+      "image": "https://img.icons8.com/color/144/null/html-5.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS3",
+      "image": "https://img.icons8.com/color/144/null/css3.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Tailwind CSS",
+      "image": "https://img.icons8.com/color/144/null/tailwindcss.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Material UI",
+      "image": "https://img.icons8.com/color/144/null/material-ui.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "SASS",
+      "image": "https://img.icons8.com/color/144/sass.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Node.js",
+      "image": "https://img.icons8.com/color/144/null/nodejs.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Express",
+      "image": "https://img.icons8.com/fluency/144/express-js.png",
+      "category": "Backend"
+    },
+    {
+      "name": "NestJS",
+      "image": "https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg",
+      "category": "Backend"
+    },
+    {
+      "name": "RESTful API",
+      "image": "https://img.icons8.com/stickers/100/api-settings.png",
+      "category": "Backend"
+    },
+    {
+      "name": "GraphQL",
+      "image": "https://img.icons8.com/color/144/null/graphql.png",
+      "category": "Backend"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://img.icons8.com/color/144/null/mongodb.png",
+      "category": "Backend"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "https://img.icons8.com/color/144/postgreesql.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Redis",
+      "image": "https://img.icons8.com/color/144/null/redis.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Socket.IO",
+      "image": "https://www.vectorlogo.zone/logos/socketio/socketio-icon.svg",
+      "category": "Backend"
+    },
+    {
+      "name": "GitHub",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "Tools"
+    },
+    {
+      "name": "AWS",
+      "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Docker",
+      "image": "https://img.icons8.com/color/144/null/docker.png",
+      "category": "Tools"
+    },
+    {
+      "name": "RabbitMQ",
+      "image": "https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg",
+      "category": "Tools"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/color/144/null/git.png",
+      "category": "Tools"
+    },
+    {
+      "name": "VS Code",
+      "image": "https://img.icons8.com/color/144/null/visual-studio-code-2019.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Webpack",
+      "image": "https://img.icons8.com/color/144/null/webpack.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Heroku",
+      "image": "https://img.icons8.com/color/144/null/heroku.png",
+      "category": "Tools"
+    },
+    {
+      "name": "CI/CD",
+      "image": "https://img.icons8.com/stickers/100/code-fork.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Jira",
+      "image": "https://img.icons8.com/color/144/null/jira.png",
+      "category": "Tools"
+    },
+    {
+      "name": "ClickUp",
+      "image": "https://img.icons8.com/bubbles/100/clickup.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Postman",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+      "category": "Tools"
+    },
+    {
+      "name": "OpenAI",
+      "image": "https://img.icons8.com/stickers/100/chatgpt.png",
+      "category": "Tools"
+    },
+    {
+      "name": "PayPal",
+      "image": "https://img.icons8.com/color/144/null/paypal.png",
+      "category": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Designs.ai",
+      "techstack": "React.js, Node.js, Express.js, PostgreSQL, AI, Redux, REST APIs, AWS, RabbitMQ",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/mrruzinwjhhibbccwbrt.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://designs.ai/"
+      }
+    },
+    {
+      "name": "Oval",
+      "techstack": "Nest.js, TypeScript, MongoDB, ExpressJS, AWS, Docker, Stripe, CI/CD, QR Code",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/i0lhyyedfa1uxtxdq8pm.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://ovalapp.bio/"
+      }
+    },
+    {
+      "name": "ForecastPulse",
+      "techstack": "React, Tailwind CSS, Font Awesome, Weather Icons",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/zvtirkqeerqcpote2ati.png",
+      "links": {
+        "code": "https://github.com/Chawais1122/ForecastPulse",
+        "video": "",
+        "visit": "https://forecast-pulse.vercel.app/"
+      }
+    },
+    {
+      "name": "AdeptFlows",
+      "techstack": "OpenAI API, Docker, React, NestJS, MongoDB",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1756657611/Screenshot_from_2024-04-07_14-42-48_glw86h.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://adeptflows-ai.netlify.app/"
+      }
+    },
+    {
+      "name": "Sudoku",
+      "techstack": "HTML, CSS, React, TypeScript, Node.js",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/kt5o9el9lkx6yxuzxtnl.png",
+      "links": {
+        "code": "https://github.com/Chawais1122/Sudoku",
+        "video": "",
+        "visit": "https://sudoku-puzzle-blush.vercel.app/"
+      }
+    },
+    {
+      "name": "NetFlixHub",
+      "techstack": "HTML, CSS, React",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/oqhayz2hqfdedg95rpvh.png",
+      "links": {
+        "code": "https://github.com/Chawais1122/NetflixHub",
+        "video": "",
+        "visit": "https://netflix-hub.vercel.app/"
+      }
+    },
+    {
+      "name": "ResumeForge",
+      "techstack": "ReactJS, Chakra UI, UI/UX Design, JavaScript",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/hbuabo38jnhsetdddwmp.png",
+      "links": {
+        "code": "https://github.com/Chawais1122/ResumeForge",
+        "video": "",
+        "visit": "https://resume-forge-omega.vercel.app/"
+      }
+    },
+    {
+      "name": "Academia",
+      "techstack": "HTML, CSS, React, TypeScript, Node.js",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1756656971/ACADEMIA-Project_c5talt.jpg",
+      "links": {
+        "code": "https://github.com/Chawais1122/Academia",
+        "video": "",
+        "visit": "https://academia-today.vercel.app/"
+      }
+    }
+  ],
+  "educations": [
+    {
+      "institute": "Bahria University Islamabad",
+      "degree": "Bachelor OF Computer Science",
+      "duration": "2018 - 2022",
+      "desc": [
+        "Gained a strong foundation in computer science principles, including algorithms, data structures, and software engineering.",
+        "Completed projects on web development, database management, and mobile app development.",
+        "Actively participated in tech seminars and coding competitions, enhancing problem-solving and collaborative skills."
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "company": "THE DEV CORPORATE",
+      "position": "Backend Developer",
+      "duration": "Jun 2021 - Dec 2021",
+      "desc": [
+        "As a Backend Software Engineer at TDC, I played a vital role in contributing to developing and maintaining the company's software infrastructure.",
+        "This role was a dynamic and hands-on experience where I had the opportunity to collaborate with a talented team of professionals while learning and applying cutting-edge technologies to solve real-world challenges.",
+        "I Worked on several projects for clients as a backend engineer using the Node.js framework."
+      ]
+    },
+    {
+      "company": "DEVSINC",
+      "position": "Associate Software Engineer",
+      "duration": "Jun 2022 - jun 2023",
+      "desc": [
+        "Worked closely with senior developers to build responsive user interfaces using React and developed backend services using Node.js and Express.",
+        "Gained hands-on experience with RESTful APIs, database design, and cloud-based deployment environments.",
+        "Contributed to several client projects, collaborating with QA and UI/UX teams to deliver user-focused, scalable solutions."
+      ]
+    },
+    {
+      "company": "DEVSINC",
+      "position": "Software Engineer",
+      "duration": "Jun 2023 - Nov 2023",
+      "desc": [
+        "Implemented secure authentication and authorization solutions, ensuring the protection of sensitive customer data, and reducing security risk.",
+        "Collaborated with cross-functional teams to integrate third-party APIs and platforms, resulting in a seamless user experience and increased customer satisfaction.",
+        "Consulted with engineering team members to determine system loads and develop improvement plans."
+      ]
+    },
+    {
+      "company": "NARSUN STUDIOS",
+      "position": "Software Engineer",
+      "duration": "Nov 2023 - Dec 2024",
+      "desc": [
+        "Collaborated with cross-functional teams to design and architect scalable game software using NestJS and Express for the backend, and ReactJS for the front-end admin panel.",
+        "Designed RESTful APIs and GraphQL endpoints, enhancing response times and user engagement.",
+        "Managed AWS infrastructure and CI/CD automation, reducing costs and accelerating release cycles."
+      ]
+    },
+    {
+      "company": "NARSUN STUDIOS",
+      "position": "Senior Software Engineer",
+      "duration": "Jan 2025 - Present",
+      "desc": [
+        "Led the architecture and development of scalable full-stack applications using NestJS, GraphQL, and ReactJS, improving system performance and development speed.",
+        "Streamlined CI/CD pipelines with Docker, GitHub Actions, and AWS, accelerating release cycles and optimizing deployment.",
+        "Designed and implemented microservices architecture using Docker, RabbitMQ, and Apache Kafka, resulting in a 30% boost in system reliability and modularity.",
+        "Conducted code reviews, mentored junior developers, and set best practices for coding standards and system design, leading to a 20% improvement in team delivery efficiency.",
+        "Collaborated cross-functionally with product managers, designers, and QA engineers in Agile sprints to meet tight deadlines and deliver features aligned with business goals."
+      ]
+    }
+  ]
+}
