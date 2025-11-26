@@ -1,209 +1,283 @@
 {
   "main": {
-    "name": "Awais",
+    "name": "Muhammad Awais",
+    "gmail": "chaudharyawais.pk@gmail.com",
+    "linkedIn": "https://www.linkedin.com/in/muhammadawaischaudhary",
+    "github": "https://github.com/Chawais1122",
+    "phone": "+923340747390",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "opportunity": "Available for new opportunities",
+    "location": "Lahore, Pakistan",
+    "coffeeLabel": "Building the future",
     "titles": [
-      "Full Stack Developer",
-      "4 Years OF Professional Experience",
+      "Senior Software Engineer",
+      "4+ Years OF Professional Experience",
       "10+ Projects Completed",
       "Continuously Enhancing My Skills"
     ],
-    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "heroImage": "/me.png",
     "techStackImages": [
       "https://img.icons8.com/color/144/null/nodejs.png",
       "https://img.icons8.com/color/144/react-native.png",
       "https://img.icons8.com/color/144/postgreesql.png",
       "https://img.icons8.com/color/144/null/amazon-web-services.png"
+    ],
+    "tags": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "AWS",
+      "Docker"
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
-    "aboutImageCaption": "< I build stuff 🚀/>",
-    "title": "Full Stack Developer",
-    "about": "I'm a dedicated Full Stack Developer with 4 years of extensive experience in building and optimizing web applications. My focus is on creating scalable and high-performance solutions using modern technologies such as React, Node.js, PostgreSQL, and AWS. I have a strong passion for problem-solving and am committed to writing clean, maintainable code, contributing to project success through innovative technical solutions. I excel in fast-paced environments and enjoy collaborating with cross-functional teams to design, develop, and deploy reliable systems that enhance user experiences and achieve business objectives",
-    "callUrl": "",
-    "resumeUrl": ""
+    "title": "Senior Software Engineer",
+    "summary": "Senior Software Engineer with around 4+ years of hands on experience in designing, developing, and optimizing web applications for performance and scalability. Skilled in building secure and reliable systems using modern technologies such as React, Node.js, PostgreSQL, and AWS. Adept at writing clean, maintainable, and eﬃcient code while following best practices and modern design patterns. Experienced in working within agile environments and collaborating with cross functional teams to deliver high quality software that meets business goals and enhances user experience. Passionate about solving complex technical problems, improving development workﬂows, and continuously learning new tools and technologies to drive innovation and productivity.",
+    "currentFocus": [
+      "Building and improving scalable full-stack applications",
+      "Enhancing backend performance through caching, indexing, and optimized DB queries",
+      "Designing reliable REST and GraphQL APIs with microservice-ready architecture",
+      "Improving UI components for better usability, accessibility, and responsiveness",
+      "Managing cloud deployments using AWS, Vercel, Docker, and CI/CD pipelines"
+    ],
+    "achievements": [
+      "Delivered 10+ production-ready full-stack projects for global clients",
+      "Automated complex workflows and reduced manual work by up to 40% through custom dashboards",
+      "Improved backend API performance by up to 60% using caching and optimized queries",
+      "Led end-to-end development and deployment of multiple client products across web stacks",
+      "Deployed scalable and cost-efficient systems using AWS services like EC2, S3, RDS, and CloudWatch"
+    ]
   },
-  "socials": [
-    {
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/muhammadawaischaudhary"
-    },
-    {
-      "icon": "FaGithub",
-      "link": "https://github.com/Chawais1122"
-    }
-  ],
   "skills": [
     {
       "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
       "category": "Frontend"
     },
     {
       "name": "TypeScript",
-      "image": "https://img.icons8.com/color/144/null/typescript.png",
       "category": "Frontend"
     },
     {
       "name": "React",
-      "image": "https://img.icons8.com/color/144/react-native.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "Redux",
-      "image": "https://img.icons8.com/color/144/redux.png",
       "category": "Frontend"
     },
     {
       "name": "Next.js",
-      "image": "https://img.icons8.com/fluency-systems-regular/144/nextjs.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Redux",
       "category": "Frontend"
     },
     {
       "name": "HTML5",
-      "image": "https://img.icons8.com/color/144/null/html-5.png",
       "category": "Frontend"
     },
     {
       "name": "CSS3",
-      "image": "https://img.icons8.com/color/144/null/css3.png",
       "category": "Frontend"
     },
     {
       "name": "Tailwind CSS",
-      "image": "https://img.icons8.com/color/144/null/tailwindcss.png",
       "category": "Frontend"
     },
     {
       "name": "Material UI",
-      "image": "https://img.icons8.com/color/144/null/material-ui.png",
       "category": "Frontend"
     },
     {
       "name": "SASS",
-      "image": "https://img.icons8.com/color/144/sass.png",
       "category": "Frontend"
     },
     {
       "name": "Node.js",
-      "image": "https://img.icons8.com/color/144/null/nodejs.png",
       "category": "Backend"
     },
     {
-      "name": "Express",
-      "image": "https://img.icons8.com/fluency/144/express-js.png",
+      "name": "Express.js",
       "category": "Backend"
     },
     {
       "name": "NestJS",
-      "image": "https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg",
-      "category": "Backend"
-    },
-    {
-      "name": "RESTful API",
-      "image": "https://img.icons8.com/stickers/100/api-settings.png",
       "category": "Backend"
     },
     {
       "name": "GraphQL",
-      "image": "https://img.icons8.com/color/144/null/graphql.png",
+      "category": "Backend"
+    },
+    {
+      "name": "REST",
+      "category": "Backend"
+    },
+    {
+      "name": "OAuth",
+      "category": "Backend"
+    },
+    {
+      "name": "Python",
       "category": "Backend"
     },
     {
       "name": "MongoDB",
-      "image": "https://img.icons8.com/color/144/null/mongodb.png",
-      "category": "Backend"
+      "category": "Database"
     },
     {
       "name": "PostgreSQL",
-      "image": "https://img.icons8.com/color/144/postgreesql.png",
-      "category": "Backend"
+      "category": "Database"
     },
     {
       "name": "Redis",
-      "image": "https://img.icons8.com/color/144/null/redis.png",
-      "category": "Backend"
+      "category": "Database"
     },
     {
-      "name": "Socket.IO",
-      "image": "https://www.vectorlogo.zone/logos/socketio/socketio-icon.svg",
-      "category": "Backend"
+      "name": "Prisma",
+      "category": "Database"
     },
     {
-      "name": "GitHub",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "category": "Tools"
+      "name": "TypeORM",
+      "category": "Database"
     },
     {
-      "name": "AWS",
-      "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
-      "category": "Tools"
+      "name": "Sequelize",
+      "category": "Database"
     },
     {
-      "name": "Docker",
-      "image": "https://img.icons8.com/color/144/null/docker.png",
-      "category": "Tools"
-    },
-    {
-      "name": "RabbitMQ",
-      "image": "https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg",
-      "category": "Tools"
+      "name": "Firebase",
+      "category": "Database"
     },
     {
       "name": "Git",
-      "image": "https://img.icons8.com/color/144/null/git.png",
-      "category": "Tools"
+      "category": "DevOps & Tools"
     },
     {
-      "name": "VS Code",
-      "image": "https://img.icons8.com/color/144/null/visual-studio-code-2019.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Webpack",
-      "image": "https://img.icons8.com/color/144/null/webpack.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Heroku",
-      "image": "https://img.icons8.com/color/144/null/heroku.png",
-      "category": "Tools"
-    },
-    {
-      "name": "CI/CD",
-      "image": "https://img.icons8.com/stickers/100/code-fork.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Jira",
-      "image": "https://img.icons8.com/color/144/null/jira.png",
-      "category": "Tools"
-    },
-    {
-      "name": "ClickUp",
-      "image": "https://img.icons8.com/bubbles/100/clickup.png",
-      "category": "Tools"
+      "name": "GitHub",
+      "category": "DevOps & Tools"
     },
     {
       "name": "Postman",
-      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
-      "category": "Tools"
+      "category": "DevOps & Tools"
     },
     {
-      "name": "OpenAI",
-      "image": "https://img.icons8.com/stickers/100/chatgpt.png",
-      "category": "Tools"
+      "name": "Jira",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "ClickUp",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "AWS",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Vercel",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Heroku",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "CI/CD",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "SDLC",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Google Analytics (GA)",
+      "category": "DevOps & Tools"
+    },
+    {
+      "name": "Google Maps API",
+      "category": "APIs & Services"
+    },
+    {
+      "name": "Stripe",
+      "category": "APIs & Services"
     },
     {
       "name": "PayPal",
-      "image": "https://img.icons8.com/color/144/null/paypal.png",
-      "category": "Tools"
+      "category": "APIs & Services"
+    },
+    {
+      "name": "Payment Gateways",
+      "category": "APIs & Services"
+    },
+    {
+      "name": "GTM (Google Tag Manager)",
+      "category": "APIs & Services"
+    },
+    {
+      "name": "Meta Pixel",
+      "category": "APIs & Services"
+    },
+    {
+      "name": "SSO",
+      "category": "APIs & Services"
+    },
+    {
+      "name": "Swagger",
+      "category": "APIs & Services"
+    },
+    {
+      "name": "OpenAI",
+      "category": "AI Development"
+    },
+    {
+      "name": "Text to Speech (TTS)",
+      "category": "AI Development"
+    },
+    {
+      "name": "Google Gemini",
+      "category": "AI Development"
+    },
+    {
+      "name": "Cursor AI",
+      "category": "AI Development"
+    },
+    {
+      "name": "GPT",
+      "category": "AI Development"
+    },
+    {
+      "name": "Claude AI",
+      "category": "AI Development"
+    },
+    {
+      "name": "Prompt Engineering",
+      "category": "AI Development"
+    },
+    {
+      "name": "LLM Trainer",
+      "category": "AI Development"
     }
   ],
   "projects": [
     {
       "name": "Designs.ai",
+      "subtitle": "AI-powered creative automation platform",
+      "description": "A production-grade platform enabling automated content creation with AI-driven tools for videos, logos, and digital assets.",
+      "achievements": [
+        "Built frontend and backend flows improving performance and user interaction across creative AI tools",
+        "Optimized real-time rendering and API interactions using Redux and PostgreSQL"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "AI",
+        "Redux",
+        "REST APIs",
+        "AWS",
+        "RabbitMQ"
+      ],
       "techstack": "React.js, Node.js, Express.js, PostgreSQL, AI, Redux, REST APIs, AWS, RabbitMQ",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/mrruzinwjhhibbccwbrt.png",
@@ -215,6 +289,23 @@
     },
     {
       "name": "Oval",
+      "subtitle": "Modern event and community management platform",
+      "description": "A scalable system for ticketing, QR check-ins, payments, and online event interaction with cloud-native deployment.",
+      "achievements": [
+        "Implemented end-to-end payment workflows and integrated Stripe for secure transactions",
+        "Containerized services using Docker and improved API response speed with Nest.js"
+      ],
+      "technologies": [
+        "Nest.js",
+        "TypeScript",
+        "MongoDB",
+        "ExpressJS",
+        "AWS",
+        "Docker",
+        "Stripe",
+        "CI/CD",
+        "QR Code"
+      ],
       "techstack": "Nest.js, TypeScript, MongoDB, ExpressJS, AWS, Docker, Stripe, CI/CD, QR Code",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/i0lhyyedfa1uxtxdq8pm.png",
@@ -226,6 +317,18 @@
     },
     {
       "name": "ForecastPulse",
+      "subtitle": "Real-time weather forecasting dashboard",
+      "description": "A responsive weather dashboard providing live forecasts, icons, and user-friendly temperature insights.",
+      "achievements": [
+        "Developed clean UI components with Tailwind and optimized API calls for faster forecast retrieval",
+        "Implemented reusable weather visual elements using Font Awesome and Weather Icons"
+      ],
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "Font Awesome",
+        "Weather Icons"
+      ],
       "techstack": "React, Tailwind CSS, Font Awesome, Weather Icons",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/zvtirkqeerqcpote2ati.png",
@@ -237,6 +340,19 @@
     },
     {
       "name": "AdeptFlows",
+      "subtitle": "AI workflow automation and prompt execution tool",
+      "description": "A browser-based tool that streamlines task automation using AI, custom prompts, and modular workflows.",
+      "achievements": [
+        "Integrated OpenAI’s API for dynamic prompt execution and response generation",
+        "Built a scalable system with NestJS and MongoDB for storing workflows and automation history"
+      ],
+      "technologies": [
+        "OpenAI API",
+        "Docker",
+        "React",
+        "NestJS",
+        "MongoDB"
+      ],
       "techstack": "OpenAI API, Docker, React, NestJS, MongoDB",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1756657611/Screenshot_from_2024-04-07_14-42-48_glw86h.png",
@@ -248,6 +364,19 @@
     },
     {
       "name": "Sudoku",
+      "subtitle": "Interactive online Sudoku puzzle app",
+      "description": "A simple and fast Sudoku web app with clean UI and instant puzzle validation.",
+      "achievements": [
+        "Designed a keyboard-friendly interface using React and TypeScript",
+        "Built puzzle generation and validation logic with optimized algorithms"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
       "techstack": "HTML, CSS, React, TypeScript, Node.js",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/kt5o9el9lkx6yxuzxtnl.png",
@@ -259,6 +388,17 @@
     },
     {
       "name": "NetFlixHub",
+      "subtitle": "Netflix-style movie search and browsing app",
+      "description": "A simple movie showcase app inspired by Netflix UI with responsive layout and fast search.",
+      "achievements": [
+        "Developed modular React components for browsing and category filtering",
+        "Built responsive layout optimized for both desktop and mobile users"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "React"
+      ],
       "techstack": "HTML, CSS, React",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/oqhayz2hqfdedg95rpvh.png",
@@ -270,6 +410,18 @@
     },
     {
       "name": "ResumeForge",
+      "subtitle": "Online resume builder with real-time editing",
+      "description": "A modern resume builder UI with customizable templates and smooth live preview updates.",
+      "achievements": [
+        "Built flexible UI components using Chakra UI for real-time styling",
+        "Designed responsive resume sections with reusable modules"
+      ],
+      "technologies": [
+        "ReactJS",
+        "Chakra UI",
+        "UI/UX Design",
+        "JavaScript"
+      ],
       "techstack": "ReactJS, Chakra UI, UI/UX Design, JavaScript",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/hbuabo38jnhsetdddwmp.png",
@@ -281,6 +433,19 @@
     },
     {
       "name": "Academia",
+      "subtitle": "Student portal for courses & assignments",
+      "description": "A web-based platform for browsing courses, managing assignments, and improving learning productivity.",
+      "achievements": [
+        "Built multiple course and assignment pages with React and TypeScript",
+        "Improved UI consistency and user engagement with reusable design components"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
       "techstack": "HTML, CSS, React, TypeScript, Node.js",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1756656971/ACADEMIA-Project_c5talt.jpg",
@@ -295,11 +460,12 @@
     {
       "institute": "Bahria University Islamabad",
       "degree": "Bachelor OF Computer Science",
-      "duration": "2018 - 2022",
+      "startDate": "2018",
+      "endDate": "2022",
       "desc": [
         "Gained a strong foundation in computer science principles, including algorithms, data structures, and software engineering.",
         "Completed projects on web development, database management, and mobile app development.",
-        "Actively participated in tech seminars and coding competitions, enhancing problem-solving and collaborative skills."
+        "Participated in tech seminars and coding competitions, improving problem-solving and teamwork skills."
       ]
     }
   ],
@@ -307,54 +473,166 @@
     {
       "company": "THE DEV CORPORATE",
       "position": "Backend Developer",
-      "duration": "Jun 2021 - Dec 2021",
+      "location": "Lahore, Pakistan",
+      "startDate": "06/2021",
+      "endDate": "12/2021",
+      "color": "violet",
+      "stack": [
+        "Node.js",
+        "Express.js",
+        "Backend Development",
+        "API Development"
+      ],
       "desc": [
-        "As a Backend Software Engineer at TDC, I played a vital role in contributing to developing and maintaining the company's software infrastructure.",
-        "This role was a dynamic and hands-on experience where I had the opportunity to collaborate with a talented team of professionals while learning and applying cutting-edge technologies to solve real-world challenges.",
-        "I Worked on several projects for clients as a backend engineer using the Node.js framework."
+        "Contributed to building and maintaining backend infrastructure for client projects using Node.js and Express.",
+        "Collaborated with a skilled engineering team to solve real-world challenges using modern backend technologies.",
+        "Worked on multiple backend-focused projects delivering APIs and server-side logic."
       ]
     },
     {
       "company": "DEVSINC",
       "position": "Associate Software Engineer",
-      "duration": "Jun 2022 - jun 2023",
+      "location": "Lahore, Pakistan",
+      "startDate": "06/2022",
+      "endDate": "06/2023",
+      "color": "violet",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Database Design"
+      ],
       "desc": [
-        "Worked closely with senior developers to build responsive user interfaces using React and developed backend services using Node.js and Express.",
-        "Gained hands-on experience with RESTful APIs, database design, and cloud-based deployment environments.",
-        "Contributed to several client projects, collaborating with QA and UI/UX teams to deliver user-focused, scalable solutions."
+        "Built responsive user interfaces using React and developed backend services with Node.js and Express.",
+        "Gained practical experience in RESTful API development, database modeling, and cloud environments.",
+        "Collaborated with QA and UI/UX teams to deliver scalable and user-focused applications."
       ]
     },
     {
       "company": "DEVSINC",
       "position": "Software Engineer",
-      "duration": "Jun 2023 - Nov 2023",
+      "location": "Lahore, Pakistan",
+      "startDate": "06/2023",
+      "endDate": "11/2023",
+      "color": "orange",
+      "stack": [
+        "Node.js",
+        "Express.js",
+        "API Integration",
+        "Security",
+        "System Design"
+      ],
       "desc": [
-        "Implemented secure authentication and authorization solutions, ensuring the protection of sensitive customer data, and reducing security risk.",
-        "Collaborated with cross-functional teams to integrate third-party APIs and platforms, resulting in a seamless user experience and increased customer satisfaction.",
-        "Consulted with engineering team members to determine system loads and develop improvement plans."
+        "Implemented secure authentication and authorization mechanisms to protect sensitive customer data.",
+        "Integrated third-party APIs to enhance user experience and improve product stability.",
+        "Collaborated with engineering teams to estimate system loads and plan infrastructure improvements."
       ]
     },
     {
       "company": "NARSUN STUDIOS",
       "position": "Software Engineer",
-      "duration": "Nov 2023 - Dec 2024",
+      "location": "Lahore, Pakistan",
+      "startDate": "11/2023",
+      "endDate": "12/2024",
+      "color": "violet",
+      "stack": [
+        "NestJS",
+        "Express.js",
+        "ReactJS",
+        "REST APIs",
+        "GraphQL",
+        "AWS"
+      ],
       "desc": [
-        "Collaborated with cross-functional teams to design and architect scalable game software using NestJS and Express for the backend, and ReactJS for the front-end admin panel.",
-        "Designed RESTful APIs and GraphQL endpoints, enhancing response times and user engagement.",
-        "Managed AWS infrastructure and CI/CD automation, reducing costs and accelerating release cycles."
+        "Designed and developed scalable backend systems using NestJS and Express.",
+        "Built RESTful and GraphQL APIs, improving performance and user engagement.",
+        "Managed AWS infrastructure and automated CI/CD pipelines, reducing deployment time and costs."
       ]
     },
     {
       "company": "NARSUN STUDIOS",
       "position": "Senior Software Engineer",
-      "duration": "Jan 2025 - Present",
+      "location": "Lahore, Pakistan",
+      "startDate": "01/2025",
+      "endDate": "Present",
+      "color": "orange",
+      "stack": [
+        "NestJS",
+        "GraphQL",
+        "ReactJS",
+        "Docker",
+        "RabbitMQ",
+        "Kafka",
+        "Microservices",
+        "AWS",
+        "CI/CD"
+      ],
       "desc": [
-        "Led the architecture and development of scalable full-stack applications using NestJS, GraphQL, and ReactJS, improving system performance and development speed.",
-        "Streamlined CI/CD pipelines with Docker, GitHub Actions, and AWS, accelerating release cycles and optimizing deployment.",
-        "Designed and implemented microservices architecture using Docker, RabbitMQ, and Apache Kafka, resulting in a 30% boost in system reliability and modularity.",
-        "Conducted code reviews, mentored junior developers, and set best practices for coding standards and system design, leading to a 20% improvement in team delivery efficiency.",
-        "Collaborated cross-functionally with product managers, designers, and QA engineers in Agile sprints to meet tight deadlines and deliver features aligned with business goals."
+        "Led architecture and development of scalable full-stack applications using NestJS, GraphQL, and ReactJS.",
+        "Optimized CI/CD pipelines with Docker, GitHub Actions, and AWS to accelerate release cycles.",
+        "Built microservices using Docker, RabbitMQ, and Kafka, improving system reliability by 30%.",
+        "Mentored junior engineers and enforced best development practices, improving team output by 20%.",
+        "Collaborated across product, design, and QA teams to deliver features aligned with business goals."
       ]
+    }
+  ],
+  "contact": {
+    "email": "chaudharyawais.pk@gmail.com",
+    "phone": "+923340747390",
+    "linkedIn": "https://www.linkedin.com/in/muhammadawaischaudhary",
+    "location": "Lahore, Pakistan"
+  },
+  "achievements": [
+    {
+      "icon": "trophy",
+      "title": "Professional Certifications",
+      "desc": "Recognized credentials demonstrating expertise in cloud technologies, DevOps practices, AI tooling, and modern development workflows.",
+      "metrics": [
+        "AWS Certified Developer – Associate",
+        "DevOps Foundations: CI/CD",
+        "ChatGPT Prompt Engineering for Developers",
+        "Docker Foundations Professional Certificate"
+      ],
+      "accent": "from-blue-500 to-blue-600",
+      "bullet": "bg-blue-500"
+    },
+    {
+      "icon": "award",
+      "title": "Project Management Excellence",
+      "desc": "Successfully led multiple projects at NARSUN STUDIOS improving team efficiency and ensuring on-time deliveries, while maintaining strong communication with stakeholders.",
+      "metrics": [
+        "Improved cross-team collaboration",
+        "100% on-time delivery",
+        "20% team efficiency boost",
+        "3 concurrent projects"
+      ],
+      "accent": "from-pink-500 to-pink-600",
+      "bullet": "bg-pink-500"
+    },
+    {
+      "icon": "target",
+      "title": "Performance Optimization",
+      "desc": "Delivered significant performance improvements across multiple systems and products.",
+      "metrics": [
+        "50% performance increase",
+        "40% API response improvement",
+        "30% UI optimisation"
+      ],
+      "accent": "from-emerald-500 to-emerald-600",
+      "bullet": "bg-emerald-500"
+    },
+    {
+      "icon": "users",
+      "title": "Team Leadership",
+      "desc": "Led engineering teams and mentored junior developers while managing client expectations.",
+      "metrics": [
+        "2-person team leadership",
+        "Junior mentoring",
+        "Client project management"
+      ],
+      "accent": "from-violet-500 to-violet-600",
+      "bullet": "bg-violet-500"
     }
   ]
 }

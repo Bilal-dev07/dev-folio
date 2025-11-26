@@ -1,54 +1,121 @@
-import { MdSchool, MdWork } from 'react-icons/md'
+'use client';
+
+import { MdWork, MdLocationOn, MdCalendarMonth } from 'react-icons/md';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-interface ExperienceProps {
-  index: number,
-  company: string,
-  position: string,
-  desc: string[],
-  institute: string,
-  degree: string,
-  duration: string,
+interface Props {
+  index: number;
+  company: string;
+  position: string;
+  location?: string;
+  startDate: string;
+  endDate: string;
+  desc: string[];
+  stack?: string[];
+  color?: string;
 }
 
-const Experience = ({ index, company, position, desc, institute, degree, duration }: ExperienceProps) => {
-
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-    triggerOnce: true
-  });
+const ExperienceCard = ({
+  index,
+  company,
+  position,
+  location = 'Lahore, Pakistan',
+  startDate,
+  endDate,
+  desc,
+  stack = [],
+  color = 'violet',
+}: Props) => {
+  const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: false });
 
   const cardVariants = {
-    hidden: { x: index % 2 === 0 ? 20 : -20, opacity: 0 },
-    visible: { x: 0, opacity: 1, transition: { duration: 0.6, ease: 'easeInOut' } }
+    hidden: { opacity: 0, y: 40 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.55, ease: 'easeInOut' },
+    },
   };
 
   return (
-    <div className={`mb-6 md:mb-8 flex md:justify-between items-center w-full ${index % 2 === 0 ? 'md:flex-row-reverse left-timeline' : 'right-timeline'}`}>
-      <div className="order-1 md:w-5/12"></div>
+    <motion.div
+      ref={ref}
+      variants={cardVariants}
+      initial="hidden"
+      animate={inView ? 'visible' : 'hidden'}
+      whileHover={{ scale: 1.03, translateY: -6 }}
+      className="
+        rounded-xl bg-white dark:bg-grey-800 shadow-md p-6 md:p-7
+        border border-gray-100 dark:border-grey-700
+        relative overflow-hidden
+        transition-all duration-300 ease-out hover:shadow-xl
+      "
+    >
+      {/* Decorative Shape */}
+      <div className="absolute top-0 left-0 w-20 h-20 bg-violet-50 dark:bg-violet-900/30 rounded-br-full opacity-40"></div>
 
-      <span className="z-20 flex items-center order-1 justify-center w-6 h-6 md:w-9 md:h-9 bg-violet-200 rounded-full ring-4 md:ring-8 ring-white dark:ring-grey-800 dark:bg-violet-900">
-        {company && <MdWork className="text-base md:text-xl text-violet-600 dark:text-violet-400" />}
-        {institute && <MdSchool className="text-base md:text-xl text-violet-600 dark:text-violet-400" />}
-      </span>
+      {/* Title */}
+      <h3 className="text-xl font-semibold mb-1">{position}</h3>
 
-      <motion.div
-        ref={ref}
-        variants={cardVariants}
-        initial="hidden"
-        animate={inView ? 'visible' : 'hidden'}
-        className="order-1 rounded-lg w-full ml-3 md:ml-0 bg-white dark:bg-grey-800 md:w-5/12 p-3 md:px-4 md:py-4">
-        <h3 className="mb-2 font-medium text-lg md:text-xl">{company || institute}</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">{position || degree} | {duration}</p>
-        <ul className="text-sm text-gray-400 mt-2 ml-4 list-disc">
-          {desc && desc.map((d, i) => (
-            <li key={i} className='mb-0.5'>{d}</li>
-          ))}
-        </ul>
-      </motion.div>
-    </div >
-  )
-}
+      {/* Company */}
+      <p className="text-gray-600 dark:text-gray-300 font-medium flex items-center gap-2">
+        <MdWork className="text-gray-500" />
+        {company}
+      </p>
 
-export default Experience
+      {/* Details */}
+      <div className="flex items-center gap-4 text-gray-500 dark:text-gray-400 text-sm mt-2">
+        <div className="flex items-center gap-1">
+          <MdCalendarMonth />
+          {startDate} - {endDate}
+        </div>
+        <div className="flex items-center gap-1">
+          <MdLocationOn />
+          {location}
+        </div>
+      </div>
+
+      {/* Color Bar */}
+      <div
+        className={`h-[3px] w-full mt-4 ${
+          color === 'orange' ? 'bg-orange-500' : 'bg-violet-500'
+        }`}
+      ></div>
+
+      {/* Bullet Points */}
+      <ul className="mt-4 space-y-2 text-[15px] text-gray-600 dark:text-gray-300">
+        {desc.map((d, i) => (
+          <li key={i} className="flex items-start gap-2">
+            <span className="text-blue-500 mt-1">↗</span>
+            <span>{d}</span>
+          </li>
+        ))}
+      </ul>
+
+      {/* Tags */}
+      <div className="flex flex-wrap gap-2 mt-5">
+        {stack.map((t, i) => (
+          <span
+            key={i}
+            className="
+              px-3 py-1.5 text-sm font-medium
+              rounded-full
+              bg-blue-50 dark:bg-gray-700
+              text-gray-700 dark:text-gray-100
+              border border-blue-200 dark:border-gray-600
+              shadow-sm
+            "
+          >
+            {t}
+          </span>
+        ))}
+      </div>
+
+      {/* Decorative Bottom Shape */}
+      <div className="absolute bottom-0 right-0 w-24 h-24 bg-violet-100 dark:bg-violet-900/20 rounded-tl-full opacity-40"></div>
+    </motion.div>
+  );
+};
+
+export default ExperienceCard;

@@ -19,7 +19,8 @@ export default function Header({ logo }: { logo: string }) {
     window.addEventListener('scroll', updateScroll);
   }, []);
 
-  const navs = ['home', 'about', 'projects', 'experience', 'contact', 'resume'];
+  // Skills added here
+  const navs = ['home', 'about', 'skills', 'experience', 'projects', 'contact'];
 
   return (
     <header
@@ -33,7 +34,7 @@ export default function Header({ logo }: { logo: string }) {
           href={'/'}
           className="2xl:ml-6 hover:text-violet-700 hover:dark:text-violet-500 transition-colors duration-300"
         >
-          {logo === 'Awais' ? (
+          {logo === 'Muhammad Awais' ? (
             <FaNodeJs size={28} />
           ) : (
             <span className="text-lg font-medium">{logo.split(' ')[0]}</span>
@@ -43,28 +44,19 @@ export default function Header({ logo }: { logo: string }) {
         <ul className="flex items-center gap-8">
           {navs.map((e, i) => (
             <li key={i}>
-              {e === 'resume' ? (
-                <a
-                  href="/Awais_CV.pdf"
-                  download
-                  className="hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer"
-                >
-                  {e}
-                </a>
-              ) : (
-                <ScrollLink
-                  className="hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer"
-                  to={e}
-                  offset={-60}
-                  smooth={true}
-                  duration={500}
-                  isDynamic={true}
-                >
-                  {e}
-                </ScrollLink>
-              )}
+              <ScrollLink
+                className="hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer"
+                to={e}
+                offset={-60}
+                smooth={true}
+                duration={500}
+                isDynamic={true}
+              >
+                {e}
+              </ScrollLink>
             </li>
           ))}
+
           <span
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className="hover:bg-gray-100 hover:dark:bg-violet-700 p-1.5 rounded-full cursor-pointer transition-colors"
@@ -76,11 +68,12 @@ export default function Header({ logo }: { logo: string }) {
 
       {/* Mobile Nav */}
       <nav className="p-4 flex sm:hidden items-center justify-between">
-        {logo === 'Awais' ? (
+        {logo === 'Muhammad Awais' ? (
           <FaNodeJs size={28} />
         ) : (
           <span className="text-lg font-medium">{logo.split(' ')[0]}</span>
         )}
+
         <div className="flex items-center gap-4">
           <span
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
@@ -98,7 +91,7 @@ export default function Header({ logo }: { logo: string }) {
           !navCollapse ? 'right-0' : 'right-[-100%]'
         } bottom-0 z-50 ease-in duration-300`}
       >
-        <div className="w-1/4" onClick={() => setNavCollapse(true)}></div>
+        <div className="w-1/4" onClick={() => setNavCollapse(true)} />
 
         <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4">
           <CgClose
@@ -107,32 +100,20 @@ export default function Header({ logo }: { logo: string }) {
             onClick={() => setNavCollapse(true)}
           />
 
-          {navs.map((e) =>
-            e === 'resume' ? (
-              <a
-                key={e}
-                href="/Awais_CV.pdf"
-                download
-                className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
-                onClick={() => setNavCollapse(true)}
-              >
-                {e}
-              </a>
-            ) : (
-              <ScrollLink
-                key={e}
-                className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
-                to={e}
-                offset={-60}
-                smooth={true}
-                duration={500}
-                isDynamic={true}
-                onClick={() => setNavCollapse(true)}
-              >
-                {e}
-              </ScrollLink>
-            )
-          )}
+          {navs.map((e) => (
+            <ScrollLink
+              key={e}
+              className="hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
+              to={e}
+              offset={-60}
+              smooth={true}
+              duration={500}
+              isDynamic={true}
+              onClick={() => setNavCollapse(true)}
+            >
+              {e}
+            </ScrollLink>
+          ))}
 
           <ScrollLink
             to="contact"

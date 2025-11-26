@@ -1,12 +1,19 @@
 'use client';
 
-import { experience } from '@/types/main';
 import SectionWrapper from '../SectionWrapper';
-import ExperienceCard from './ExperienceCard';
+import EducationCard from './EducationCard';
 import { motion } from 'framer-motion';
 
+interface Education {
+  institute: string;
+  degree: string;
+  startDate: string;
+  endDate: string;
+  desc: string[];
+}
+
 interface Props {
-  experienceData: experience[];
+  educationData: Education[];
 }
 
 const sectionVariant = {
@@ -14,43 +21,46 @@ const sectionVariant = {
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.75, ease: 'easeInOut' },
+    transition: { duration: 0.6, ease: 'easeOut' },
   },
 };
 
-const ExperienceList = ({ experienceData }: Props) => {
-  const experiences = [...experienceData].reverse();
-  const viewportOpts = { once: true, amount: 0.15 };
+const EducationList = ({ educationData }: Props) => {
+  const viewportOpt = { once: false, amount: 0.1 };
 
   return (
-    <SectionWrapper id="experience" className="min-h-screen">
+    <SectionWrapper id="education" className="min-h-screen">
       <motion.div
         variants={sectionVariant}
         initial="hidden"
         whileInView="show"
-        viewport={viewportOpts}
+        viewport={viewportOpt}
       >
         <h2 className="text-5xl font-bold text-center mb-10">
-          Exper<span className="text-violet-600">ience</span>
+          Educa<span className="text-violet-600">tion</span>
         </h2>
 
         <div className="relative lg:container mx-auto lg:w-5/6 2xl:w-3/4">
           <div className="relative wrap overflow-hidden p-4 md:py-12">
+            {/* Timeline line */}
             <motion.div
               initial={{ scaleY: 0 }}
               whileInView={{ scaleY: 1 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
               className="absolute left-[22px] md:left-1/2 h-full origin-top
-                border border-gray-300 dark:border-grey-800"
+                        border border-gray-300 dark:border-grey-800"
             />
 
-            {experiences.map((e, i) => {
+            {educationData.map((e, i) => {
               const isLeft = i % 2 === 0;
 
               return (
                 <div key={i} className="mb-16 flex items-start w-full relative">
-                  {/* MOBILE DOT */}
-                  <div
+                  {/* Mobile dot */}
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                    transition={{ delay: 0.1, duration: 0.4 }}
                     className="
                       md:hidden absolute left-[14px] top-5
                       w-4 h-4 rounded-full bg-white dark:bg-grey-900
@@ -58,20 +68,20 @@ const ExperienceList = ({ experienceData }: Props) => {
                     "
                   />
 
-                  {/* MOBILE CARD */}
+                  {/* Mobile card */}
                   <div className="md:hidden w-full pl-10">
-                    <ExperienceCard {...e} index={i} />
+                    <EducationCard {...e} index={i} />
                   </div>
 
-                  {/* DESKTOP */}
+                  {/* Desktop layout */}
                   <div className="hidden md:flex md:w-full justify-between items-start">
-                    {/* LEFT CARD */}
+                    {/* Left card */}
                     {isLeft ? (
                       <motion.div
                         initial={{ opacity: 0, x: -60 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.2 }}
                         transition={{ duration: 0.55 }}
+                        viewport={{ once: true, amount: 0.3 }}
                         className="md:w-1/2 md:pr-10 relative"
                       >
                         <div
@@ -81,19 +91,19 @@ const ExperienceList = ({ experienceData }: Props) => {
                             border-4 border-violet-500
                           "
                         />
-                        <ExperienceCard {...e} index={i} />
+                        <EducationCard {...e} index={i} />
                       </motion.div>
                     ) : (
                       <div className="hidden md:block md:w-1/2"></div>
                     )}
 
-                    {/* RIGHT CARD */}
+                    {/* Right card */}
                     {!isLeft ? (
                       <motion.div
                         initial={{ opacity: 0, x: 60 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.2 }}
                         transition={{ duration: 0.55 }}
+                        viewport={{ once: true, amount: 0.3 }}
                         className="md:w-1/2 md:pl-10 relative"
                       >
                         <div
@@ -103,7 +113,7 @@ const ExperienceList = ({ experienceData }: Props) => {
                             border-4 border-violet-500
                           "
                         />
-                        <ExperienceCard {...e} index={i} />
+                        <EducationCard {...e} index={i} />
                       </motion.div>
                     ) : (
                       <div className="hidden md:block md:w-1/2"></div>
@@ -119,4 +129,4 @@ const ExperienceList = ({ experienceData }: Props) => {
   );
 };
 
-export default ExperienceList;
+export default EducationList;

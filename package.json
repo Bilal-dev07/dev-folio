@@ -20,9 +20,11 @@
     "eslint-config-next": "13.1.6",
     "fast-average-color": "^9.3.0",
     "firebase": "^9.17.1",
-    "framer-motion": "^9.0.4",
+    "framer-motion": "^9.1.7",
+    "lucide-react": "^0.553.0",
     "next": "13.1.6",
     "next-themes": "^0.2.1",
+    "nodemailer": "^7.0.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
@@ -32,6 +34,7 @@
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
+    "@types/nodemailer": "^7.0.4",
     "@types/react-scroll": "^1.8.6",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",

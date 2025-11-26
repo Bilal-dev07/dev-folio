@@ -1,35 +1,48 @@
-import type { NextApiRequest, NextApiResponse } from "next";
-import sgMail from "@sendgrid/mail";
+export const runtime = 'nodejs';
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY || '');
+import { NextResponse } from 'next/server';
+import nodemailer from 'nodemailer';
 
-type Data = {
-    message: string;
-};
+export async function POST(req: Request) {
+  try {
+    const { name, email, message } = await req.json();
 
-export default async function handler(
-    req: NextApiRequest,
-    res: NextApiResponse<Data>
-) {
-    if (req.method === "POST") {
-        const {
-            name,
-            email,
-            message,
-        }: { name: string; email: string; message: string } = req.body;
-        const msg = `Name: ${name}\r\n Email: ${email}\r\n Message: ${message}`;
-        const data = {
-            to: process.env.MAIL_TO as string,
-            from: process.env.MAIL_FROM as string,
-            subject: `${name.toUpperCase()} sent you a message from Portfolio`,
-            text: `Email => ${email}`,
-            html: msg.replace(/\r\n/g, "<br>"),
-        };
-        try {
-            await sgMail.send(data);
-            res.status(200).json({ message: "Your message was sent successfully." });
-        } catch (err) {
-            res.status(500).json({ message: `There was an error sending your message. ${err}` });
-        }
+    if (!name || !email || !message) {
+      return NextResponse.json(
+        { success: false, error: 'Missing required fields' },
+        { status: 400 }
+      );
     }
+
+    const transporter = nodemailer.createTransport({
+      host: 'smtp.gmail.com',
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS,
+      },
+    });
+
+    await transporter.sendMail({
+      from: `"Portfolio Contact" <${process.env.MAIL_USER}>`,
+      to: process.env.MAIL_TO,
+      subject: `New message from ${name}`,
+      text: `
+Name: ${name}
+Email: ${email}
+
+Message:
+${message}
+`,
+    });
+
+    return NextResponse.json({ success: true });
+  } catch (error: any) {
+    console.log('MAIL ERROR:', error);
+    return NextResponse.json(
+      { success: false, error: error.message },
+      { status: 500 }
+    );
+  }
 }

@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import { useTheme } from 'next-themes';
-import { Link as ScrollLink } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
-import { IoIosArrowForward } from 'react-icons/io';
-import wavingHand from '@/public/waving-hand.gif';
 import { main } from '@/types/main';
+import { motion } from 'framer-motion';
 
 interface HeroProps {
   mainData: main;
@@ -12,155 +10,317 @@ interface HeroProps {
 
 const Hero = ({ mainData }: HeroProps) => {
   const { theme } = useTheme();
-  const { name, titles, heroImage, shortDesc, techStackImages } = mainData;
+  const {
+    name,
+    gmail,
+    linkedIn,
+    github,
+    phone,
+    location,
+    coffeeLabel,
+    opportunity,
+    titles,
+    heroImage,
+    shortDesc,
+    techStackImages,
+    tags,
+  } = mainData;
+
+  const [firstName, ...rest] = (name || 'Your Name').split(' ');
+  const lastPart = rest.join(' ');
 
   return (
     <section
       id="home"
-      className={`${
-        theme === 'dark' && 'bg-grey-900'
-      } relative min-h-screen w-full mx-auto overflow-hidden`}
+      className={`relative min-h-screen w-full mx-auto overflow-hidden py-16 lg:py-28 pb-6 md:pb-10 ${
+        theme === 'dark' ? 'bg-grey-900' : ''
+      }`}
     >
-      <div className="absolute -z-10 min-h-screen h-full w-full">
+      {/* BG Image */}
+      <div className="absolute -z-10 inset-0">
         <Image
           src="/herobgc.jpg"
-          layout="fill"
-          objectFit="cover"
+          fill
+          className="object-cover object-bottom"
           loading="lazy"
-          className="object-bottom"
-          quality={100}
-          alt={''}
+          quality={80}
+          alt=""
         />
       </div>
 
-      <div className="py-16 lg:py-48 flex flex-col-reverse lg:flex-row justify-around gap-10 lg:gap-0">
-        <div className="flex flex-col gap-4 md:gap-6 text-left lg:w-1/2 2xl:w-1/3 mx-4 md:mx-6 xl:mx-0">
-          <div className="flex items-center gap-1">
-            <Image
-              unoptimized={true}
-              alt="waving-hand"
-              width={30}
-              height={30}
-              src={wavingHand}
-            />
-            <p className="text-lg md:text-xl mt-2 md:mt-1.5">Hey</p>
-          </div>
-          <h1 className="text-4xl md:text-6xl font-bold relative">
-            I&apos;m {name}
-          </h1>
-          <div className="flex flex-row items-start md:items-center gap-1.5">
-            <h2 className="text-lg md:text-2xl"></h2>
-            <Typewriter
-              options={{
-                strings: titles,
-                autoStart: true,
-                loop: true,
-                deleteSpeed: 50,
-                delay: 50,
-                wrapperClassName:
-                  'text-violet-700 dark:text-violet-600 text-lg md:text-2xl font-medium',
-                cursorClassName:
-                  'text-violet-700 dark:text-violet-600 text-lg md:text-2xl',
-              }}
-            />
+      {/* prevent mobile overflow */}
+      <div className="container mx-auto px-4 sm:px-6 overflow-hidden">
+        <div className="flex flex-col-reverse lg:flex-row items-start gap-12 lg:gap-24 w-full overflow-hidden">
+          {/* LEFT */}
+          <div className="lg:w-1/2 max-w-2xl w-full overflow-hidden">
+            <div className="flex items-center gap-3 mb-6 max-w-full overflow-hidden">
+              <span className="inline-flex items-center gap-2 bg-white/60 dark:bg-black/40 text-sm rounded-full py-1 px-3 shadow-sm">
+                <span className="w-2 h-2 rounded-full bg-green-400 block" />
+                <span className="text-xs truncate max-w-[180px] sm:max-w-none">
+                  {opportunity}
+                </span>
+              </span>
+            </div>
+
+            {/* HERO NAME FIXED */}
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-4 break-words">
+              {firstName}{' '}
+              <span className="text-violet-600 break-words">{lastPart}</span>
+            </h1>
+
+            {/* TITLES FIXED */}
+            <div
+              className="flex items-center gap-3 mb-6 w-full max-w-xs sm:max-w-md md:max-w-lg overflow-hidden"
+              style={{ minHeight: '2.5rem' }}
+            >
+              <Typewriter
+                options={{
+                  strings: titles || ['Senior Software Engineer'],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 30,
+                  delay: 50,
+                  wrapperClassName:
+                    'text-slate-600 dark:text-slate-300 text-base sm:text-lg md:text-xl font-medium break-words',
+                  cursorClassName: 'text-violet-600',
+                }}
+              />
+            </div>
+
+            <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-xl text-sm sm:text-base">
+              {shortDesc}
+            </p>
+
+            {/* location + coffee */}
+            <div className="flex flex-wrap items-center gap-4 text-gray-600 dark:text-gray-300 mb-8">
+              <div className="flex items-center gap-2 min-w-0">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="text-violet-600"
+                >
+                  <path d="M12 2C8.7 2 6 4.7 6 8c0 4.4 6 12 6 12s6-7.6 6-12c0-3.3-2.7-6-6-6zm0 8.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 5.5 12 5.5s2.5 1.1 2.5 2.5S13.4 10.5 12 10.5z" />
+                </svg>
+                <span className="truncate max-w-[200px]">{location}</span>
+              </div>
+
+              <div className="flex items-center gap-2 min-w-0">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="text-violet-600"
+                >
+                  <path d="M3 8h13v5a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z" />
+                  <path d="M16 8h1a3 3 0 1 1 0 6h-1" />
+                  <path d="M7 2h.01M11 2h.01M15 2h.01" />
+                </svg>
+                <span className="truncate max-w-[200px]">{coffeeLabel}</span>
+              </div>
+            </div>
+
+            {/* BUTTONS + ICONS kept same */}
+            <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 mb-8 w-full">
+              <div className="mb-3 sm:mb-0">
+                <a
+                  href="/Awais_CV.pdf"
+                  download
+                  className="inline-flex items-center gap-2 bg-violet-600 text-white px-5 py-2 rounded-md shadow hover:opacity-95 transition"
+                >
+                  Download Resume
+                </a>
+              </div>
+
+              <div className="flex flex-wrap items-center gap-3">
+                {/* GitHub */}
+                {[
+                  {
+                    label: 'github',
+                    onClick: () => window.open(github, '_blank'),
+                    svg: (
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M12 .5C5.73.5.83 5.4.83 11.67c0 4.86 3.16 8.99 7.55 10.44.55.1.75-.24.75-.53 0-.26-.01-1.12-.02-2.03-3.07.67-3.72-1.48-3.72-1.48-.5-1.28-1.22-1.62-1.22-1.62-.99-.68.07-.67.07-.67 1.09.08 1.66 1.12 1.66 1.12.97 1.66 2.55 1.18 3.17.9.1-.7.38-1.18.69-1.45-2.45-.28-5.03-1.22-5.03-5.42 0-1.2.43-2.18 1.14-2.95-.11-.28-.5-1.41.11-2.95 0 0 .93-.3 3.05 1.13a10.7 10.7 0 0 1 2.78-.37c.94 0 1.9.13 2.78.37 2.12-1.43 3.05-1.13 3.05-1.13.61 1.54.22 2.67.11 2.95.71.77 1.14 1.75 1.14 2.95 0 4.21-2.59 5.14-5.05 5.41.39.34.74 1.01.74 2.04 0 1.47-.01 2.66-.01 3.02 0 .29.19.64.76.53A11.51 11.51 0 0 0 23.17 11.67C23.17 5.4 18.27.5 12 .5z" />
+                      </svg>
+                    ),
+                  },
+                  {
+                    label: 'linkedin',
+                    onClick: () => window.open(linkedIn, '_blank'),
+                    svg: (
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M4.98 3.5C3.33 3.5 2 4.84 2 6.49c0 1.66 1.33 2.99 2.98 2.99h.02c1.67 0 3-1.33 3-2.99C7.98 4.84 6.65 3.5 4.98 3.5zM2.4 21.5h5.15V9.75H2.4V21.5zM9.75 21.5h5v-6.55c0-3.5 4.3-3.78 4.3 0V21.5h5v-8.5c0-7.33-8.5-7.06-10.3-3.45V9.75H9.75V21.5z" />
+                      </svg>
+                    ),
+                  },
+                  {
+                    label: 'email',
+                    onClick: () => window.open(`mailto:${gmail}`, '_blank'),
+                    svg: (
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M20 4H4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                      </svg>
+                    ),
+                  },
+                ].map((icon, i) => (
+                  <button
+                    key={i}
+                    aria-label={icon.label}
+                    onClick={icon.onClick}
+                    className="inline-flex items-center justify-center 
+                      w-10 h-10 rounded-md 
+                      border border-slate-200 dark:border-slate-600
+                      bg-white dark:bg-grey-800 
+                      transition-all duration-300 
+                      hover:scale-110 active:scale-95
+                      hover:bg-violet-600 hover:text-white
+                      dark:hover:bg-violet-600 dark:hover:text-white"
+                  >
+                    {icon.svg}
+                  </button>
+                ))}
+
+                {/* Phone */}
+                <button
+                  aria-label="phone"
+                  onClick={() => {
+                    navigator.clipboard.writeText(`${phone}`);
+
+                    const bubble = document.createElement('div');
+                    bubble.innerText = 'Copied!';
+                    bubble.className = `
+                      copied-bubble fixed z-[9999] 
+                      text-xs px-3 py-1 rounded-md 
+                      bg-black/80 text-white 
+                      left-1/2 top-[75%]
+                      -translate-x-1/2 animate-fadeInOut
+                    `;
+                    document.body.appendChild(bubble);
+                    setTimeout(() => bubble.remove(), 900);
+                  }}
+                  className="inline-flex items-center justify-center 
+                    w-10 h-10 rounded-md 
+                    border border-slate-200 dark:border-slate-600
+                    bg-white dark:bg-grey-800 
+                    transition-all duration-300 
+                    hover:scale-110 active:scale-95
+                    hover:bg-violet-600 hover:text-white
+                    dark:hover:bg-violet-600 dark:hover:text-white"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3.11 5.18 2 2 0 0 1 5.1 3h3a2 2 0 0 1 2 1.72c.12.81.37 1.59.72 2.32a2 2 0 0 1-.45 2.18l-1.27 1.27a16 16 0 0 0 6.88 6.88l1.27-1.27a2 2 0 0 1 2.18-.45c.73.35 1.51.6 2.32.72A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            {/* TAGS FIXED */}
+            <div className="flex flex-wrap gap-2 max-w-full">
+              {tags?.map((tag, idx) => (
+                <motion.span
+                  key={idx}
+                  initial={{ opacity: 0, y: 12, scale: 0.9 }}
+                  whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                  transition={{
+                    duration: 0.4,
+                    delay: idx * 0.08,
+                    ease: 'easeOut',
+                  }}
+                  viewport={{ once: false }}
+                  className="text-xs py-1 px-3 rounded-xl break-words 
+                    bg-violet-100 text-violet-700
+                    border border-violet-200
+                    dark:bg-violet-600 dark:text-white
+                    dark:border-violet-500
+                    shadow-sm"
+                >
+                  {tag}
+                </motion.span>
+              ))}
+            </div>
           </div>
 
-          <p className="text-sm md:text-base text-gray-600 dark:text-gray-300">
-            {shortDesc}
-          </p>
+          {/* RIGHT IMAGE BLOCK */}
+          <div className="lg:w-1/2 flex justify-center lg:justify-end items-start relative w-full">
+            <div className="relative w-[14rem] sm:w-[18rem] md:w-[22rem] lg:w-[24rem] mx-auto overflow-visible">
+              {/* Avatar */}
+              <div className="w-40 h-40 sm:w-56 sm:h-56 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden shadow-xl relative z-[10]">
+                <Image
+                  alt="avatar"
+                  width={1200}
+                  height={1200}
+                  className="w-full h-full object-cover"
+                  src={heroImage}
+                />
+              </div>
 
-          {/* <a href="https://sppuprep.tech" target="_blank" rel="noopener noreferrer" className="relative whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 before:bg-violet-300 dark:before:bg-violet-600">
-                        <span className="relative">SPPU Prep</span>
-                    </a> */}
+              {/* Floating Tech Icons — safe positions, never hidden */}
+              <div className="absolute inset-0 pointer-events-none">
+                {techStackImages?.slice(0, 4).map((src, i) => {
+                  const positions = [
+                    'top-0 left-2 sm:left-4',
+                    'top-10 right-0 sm:right-4',
+                    'bottom-12 right-2 sm:right-6',
+                    'bottom-0 left-4 sm:left-8',
+                  ];
 
-          <ScrollLink
-            className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
-            to={'about'}
-            offset={-60}
-            smooth={true}
-            duration={500}
-            isDynamic={true}
-          >
-            About Me
-            <IoIosArrowForward className="group-hover:translate-x-1 transition-transform" />
-          </ScrollLink>
-        </div>
-
-        <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
-          <div className="w-56 h-56 md:w-80 md:h-80 lg:-translate-x-16">
-            <Image
-              alt="avatar"
-              width={1000}
-              height={1000}
-              className="rounded-full w-full h-full object-cover"
-              src={heroImage}
-            />
-          </div>
-
-          <div className="absolute grid -top-6 -left-12 lg:-top-14 lg:-left-32 w-16 h-16 md:w-20 md:h-20 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
-            <Image
-              alt="tech-stack"
-              className="h-8 w-8 md:h-10 md:w-10 object-cover"
-              src={techStackImages[0]}
-              width={100}
-              height={100}
-            />
-          </div>
-          <div className="absolute grid top-0 -right-12 lg:-right-4 w-14 h-14 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
-            <Image
-              alt="tech-stack"
-              className="h-8 w-8 md:h-10 md:w-10 object-cover"
-              src={techStackImages[1]}
-              width={100}
-              height={100}
-            />
-          </div>
-          <div className="absolute grid bottom-[4rem] md:bottom-24 -right-16 md:-right-20 lg:bottom-[8.5rem] lg:-right-12 w-12 h-12 md:w-16 md:h-16 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
-            <Image
-              alt="tech-stack"
-              className="h-6 w-6 md:h-10 md:w-10 object-cover"
-              src={techStackImages[2]}
-              width={100}
-              height={100}
-            />
-          </div>
-          <div className="absolute grid -bottom-10 -right-8 lg:-bottom-0 lg:right-6 w-14 md:w-16 h-14 md:h-16 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
-            <Image
-              alt="tech-stack"
-              className="h-10 w-10 object-cover"
-              src={techStackImages[3]}
-              width={100}
-              height={100}
-            />
+                  return (
+                    <div
+                      key={i}
+                      className={`
+              absolute ${positions[i]}
+              w-10 h-10 sm:w-12 sm:h-12 
+              bg-white dark:bg-grey-800 rounded-full 
+              grid place-items-center shadow-md 
+              transition-transform duration-300 hover:scale-105 
+              z-[20]
+            `}
+                    >
+                      <Image
+                        alt={`tech-${i}`}
+                        src={src}
+                        width={60}
+                        height={60}
+                        className="object-contain p-1"
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <svg
-        className="absolute hidden md:block right-0 bottom-0 translate-x-6 translate-y-4 opacity-25 lg:opacity-60"
-        width="186"
-        height="186"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M153.722 91.11c-1.137 0-2.085.948-2.085 2.148 0 1.138.948 2.085 2.149 2.085 1.2 0 2.084-.947 2.084-2.148 0-1.137-.947-2.085-2.148-2.085Zm0 30.455c-1.137 0-2.085.947-2.085 2.148 0 1.137.948 2.085 2.149 2.085 1.2 0 2.084-.948 2.084-2.149 0-1.137-.947-2.084-2.148-2.084Zm0 30.391c-1.137 0-2.085.947-2.085 2.148 0 1.137.948 2.085 2.149 2.085 1.2 0 2.084-.948 2.084-2.149 0-1.137-.947-2.084-2.148-2.084Zm0 30.706c-1.011 0-1.769.822-1.769 1.833 0 1.011.822 1.769 1.833 1.769 1.011 0 1.768-.821 1.768-1.833 0-1.011-.821-1.769-1.832-1.769Zm0-121.943a2.103 2.103 0 0 0-2.085 2.085c0 1.137.948 2.085 2.085 2.085a2.104 2.104 0 0 0 2.085-2.085c.063-1.138-.948-2.085-2.085-2.085Zm0-60.466c-1.011 0-1.769.82-1.769 1.832 0 1.011.822 1.77 1.833 1.77 1.011 0 1.768-.822 1.768-1.833 0-1.011-.821-1.769-1.832-1.769ZM93.198 90.226c-1.516 0-2.78 1.264-2.78 2.78 0 1.516 1.264 2.78 2.78 2.78 1.516 0 2.78-1.264 2.78-2.78 0-1.516-1.264-2.78-2.78-2.78Zm0 30.833c-1.326 0-2.464 1.137-2.464 2.401 0 1.327 1.138 2.338 2.464 2.338 1.327 0 2.464-1.138 2.464-2.338 0-1.39-1.137-2.401-2.464-2.401 0-.127 0-.127 0 0Zm0 30.581c-1.2 0-2.148 1.011-2.148 2.148 0 1.2 1.011 2.148 2.148 2.148 1.137 0 2.148-1.011 2.148-2.148a2.13 2.13 0 0 0-2.148-2.148Zm0 30.769a1.834 1.834 0 0 0 0 3.665 1.833 1.833 0 0 0 0-3.665Zm0-122.196c-1.326 0-2.4 1.138-2.4 2.465s1.136 2.4 2.463 2.4c1.327 0 2.401-1.137 2.401-2.4a2.468 2.468 0 0 0-2.464-2.465c0-.063 0-.063 0 0Zm0-60.213a1.833 1.833 0 0 0 0 3.664 1.832 1.832 0 0 0 0-3.664ZM62.936 91.11c-1.327 0-2.463 1.075-2.463 2.401 0 1.327 1.073 2.464 2.4 2.464s2.464-1.074 2.464-2.4c0-1.328-1.075-2.465-2.401-2.465Zm0 30.391c-1.327 0-2.463 1.075-2.463 2.401 0 1.327 1.073 2.464 2.4 2.464s2.464-1.073 2.464-2.401c0-1.327-1.075-2.464-2.401-2.464Zm0 30.708c-1.137 0-2.148.947-2.148 2.084 0 1.138.948 2.148 2.085 2.148s2.148-.948 2.148-2.084c0-1.201-.948-2.148-2.085-2.148Zm0 30.706c-1.011 0-1.832.758-1.832 1.769s.758 1.833 1.769 1.833c1.01 0 1.833-.758 1.833-1.769s-.76-1.833-1.77-1.833Zm0-122.196a2.4 2.4 0 0 0-2.4 2.401 2.4 2.4 0 1 0 4.801 0c0-1.264-1.075-2.4-2.401-2.4ZM32.674 91.426c-1.137 0-2.148.948-2.148 2.085 0 1.138.948 2.149 2.085 2.149s2.148-.948 2.148-2.086c.063-1.2-.948-2.211-2.085-2.148 0-.063 0-.063 0 0Zm0 30.391c-1.137 0-2.148.948-2.148 2.085 0 1.138.948 2.149 2.085 2.149s2.148-.949 2.148-2.086c.063-1.2-.948-2.211-2.085-2.148 0-.063 0-.063 0 0Zm0 30.392c-1.137 0-2.148.947-2.148 2.084 0 1.138.948 2.148 2.085 2.148s2.148-.948 2.148-2.084c.063-1.201-.948-2.212-2.085-2.148 0-.064 0-.064 0 0Zm0 30.706c-1.011 0-1.832.758-1.832 1.769s.758 1.833 1.77 1.833c1.01 0 1.83-.758 1.83-1.769.065-1.075-.757-1.896-1.768-1.833 0-.063 0-.063 0 0Zm90.849-152.271c-1.137 0-2.147.948-2.147 2.084 0 1.138.947 2.149 2.084 2.149 1.138 0 2.148-.947 2.148-2.085.063-1.2-.948-2.212-2.085-2.148 0-.064 0-.064 0 0ZM62.936.569c-1.011 0-1.832.758-1.832 1.769 0 1.01.758 1.832 1.769 1.832 1.01 0 1.833-.758 1.833-1.769.062-1.074-.76-1.895-1.77-1.832 0-.063 0-.063 0 0ZM2.412 91.679c-1.01 0-1.832.758-1.832 1.769 0 1.01.758 1.832 1.768 1.832 1.011 0 1.833-.758 1.833-1.769 0-1.01-.758-1.832-1.769-1.832Zm0 30.391c-1.01 0-1.832.758-1.832 1.769s.758 1.832 1.768 1.832c1.011 0 1.833-.758 1.833-1.769s-.758-1.832-1.769-1.832Zm0 30.391c-1.01 0-1.832.758-1.832 1.769s.758 1.832 1.768 1.832c1.011 0 1.833-.758 1.833-1.769s-.758-1.832-1.769-1.832Zm0 30.391c-1.01 0-1.832.758-1.832 1.769s.758 1.833 1.768 1.833c1.011 0 1.833-.759 1.833-1.77 0-1.011-.758-1.832-1.769-1.832Zm0-151.892c-1.01 0-1.832.821-1.832 1.768 0 .949.821 1.77 1.832 1.77 1.011 0 1.832-.821 1.832-1.77-.127-1.01-.82-1.768-1.832-1.768Zm0 30.39c-1.01 0-1.832.822-1.832 1.77 0 .948.821 1.77 1.832 1.77 1.011 0 1.832-.822 1.832-1.77-.127-1.01-.82-1.77-1.832-1.77Zm0-60.844C1.402.506.58 1.264.58 2.275c0 1.01.758 1.832 1.768 1.832 1.011 0 1.833-.759 1.833-1.77 0-1.01-.758-1.831-1.769-1.831ZM123.46 90.794a2.467 2.467 0 0 0-2.464 2.464 2.427 2.427 0 0 0 2.464 2.464 2.427 2.427 0 0 0 2.464-2.464 2.467 2.467 0 0 0-2.464-2.464Zm0 30.391c-1.327 0-2.464 1.138-2.464 2.464 0 1.327 1.137 2.464 2.464 2.464s2.464-1.137 2.464-2.464c0-1.326-1.137-2.464-2.464-2.464Zm0 30.707c-1.2 0-2.148 1.011-2.148 2.148 0 1.201 1.011 2.149 2.148 2.149 1.138 0 2.148-1.011 2.148-2.149 0-1.137-.948-2.148-2.148-2.148Zm0 30.77a1.833 1.833 0 1 0 1.833 1.833c0-1.075-.822-1.833-1.833-1.833Zm30.262-152.271c-1.137 0-2.147.948-2.147 2.085 0 1.138.947 2.085 2.147 2.085 1.201 0 2.148-.947 2.148-2.085 0-1.2-1.011-2.085-2.148-2.085ZM123.46 60.403c-1.327 0-2.4 1.138-2.4 2.464 0 1.327 1.136 2.402 2.463 2.402 1.327 0 2.401-1.138 2.401-2.465s-1.137-2.4-2.464-2.4Zm0-60.214c-1.011 0-1.832.822-1.832 1.77a1.833 1.833 0 0 0 3.665 0c0-.948-.822-1.77-1.833-1.77Zm60.525 91.3c-1.011 0-1.769.821-1.769 1.832 0 1.011.82 1.77 1.831 1.77 1.011 0 1.769-.822 1.769-1.833 0-1.01-.82-1.768-1.831-1.768Zm0 30.391c-1.011 0-1.769.822-1.769 1.833 0 1.011.82 1.769 1.831 1.769 1.011 0 1.769-.822 1.769-1.833 0-1.011-.82-1.769-1.831-1.769Zm0 30.391c-1.011 0-1.769.822-1.769 1.833 0 1.011.82 1.769 1.831 1.769 1.011 0 1.769-.822 1.769-1.833 0-1.011-.82-1.769-1.831-1.769Zm0 30.391c-1.011 0-1.769.822-1.769 1.833 0 1.011.82 1.769 1.831 1.769 1.011 0 1.769-.821 1.769-1.833 0-1.011-.82-1.769-1.831-1.769Zm0-151.955c-.949 0-1.769.821-1.769 1.77 0 .947.82 1.768 1.769 1.768.947 0 1.768-.821 1.768-1.769.063-1.01-.821-1.77-1.768-1.77Zm0-30.454c-1.011 0-1.769.82-1.769 1.832 0 1.011.82 1.77 1.831 1.77 1.011 0 1.769-.822 1.769-1.833 0-1.011-.82-1.769-1.831-1.769ZM32.674 61.035c-1.2 0-2.085.948-2.085 2.085s.948 2.085 2.085 2.085a2.103 2.103 0 0 0 2.084-2.085c.064-1.2-.947-2.085-2.084-2.085Zm0-60.466c-1.011 0-1.832.758-1.832 1.769 0 1.01.758 1.832 1.77 1.832 1.01 0 1.83-.758 1.83-1.769.065-1.074-.757-1.895-1.768-1.832 0-.063 0-.063 0 0ZM93.26 30.644c-1.137 0-2.148.948-2.148 2.084 0 1.138.948 2.149 2.085 2.149 1.138 0 2.148-.947 2.148-2.085.063-1.2-.948-2.212-2.085-2.148 0-.064 0-.064 0 0Zm-30.325 0a2.063 2.063 0 0 0-2.085 2.084c0 1.138.885 2.086 2.085 2.086s2.085-.884 2.085-2.086c.063-1.136-.884-2.084-2.085-2.084Zm-30.262 0c-1.2 0-2.085.948-2.085 2.084 0 1.138.948 2.086 2.085 2.086a2.103 2.103 0 0 0 2.084-2.086c.064-1.2-.884-2.084-2.084-2.084Zm151.311 30.455c-.949 0-1.769.82-1.769 1.768 0 .948.82 1.77 1.769 1.77.947 0 1.768-.822 1.768-1.77.063-1.01-.821-1.768-1.768-1.768Z"
-          fill="url(#a)"
-        ></path>
-        <defs>
-          <linearGradient
-            id="a"
-            x1="56.392"
-            y1="0"
-            x2="189.028"
-            y2="2.312"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#2D88E2"></stop>
-            <stop offset="1" stop-color="#36EC74"></stop>
-          </linearGradient>
-        </defs>
-      </svg>
     </section>
   );
 };
