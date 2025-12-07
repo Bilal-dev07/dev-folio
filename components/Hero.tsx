@@ -32,7 +32,7 @@ const Hero = ({ mainData }: HeroProps) => {
   return (
     <section
       id="home"
-      className={`relative min-h-screen w-full mx-auto overflow-hidden py-16 lg:py-28 pb-6 md:pb-10 ${
+      className={`relative min-h-screen flex items-center w-full mx-auto overflow-hidden py-16 lg:py-28 md:pb-10 ${
         theme === 'dark' ? 'bg-grey-900' : ''
       }`}
     >
@@ -50,7 +50,7 @@ const Hero = ({ mainData }: HeroProps) => {
 
       {/* prevent mobile overflow */}
       <div className="container mx-auto px-4 sm:px-6 overflow-hidden">
-        <div className="flex flex-col-reverse lg:flex-row items-start gap-12 lg:gap-24 w-full overflow-hidden">
+        <div className="flex flex-col-reverse items-center lg:flex-row items-start gap-12 lg:gap-24 w-full overflow-hidden">
           {/* LEFT */}
           <div className="lg:w-1/2 max-w-2xl w-full overflow-hidden">
             <div className="flex items-center gap-3 mb-6 max-w-full overflow-hidden">

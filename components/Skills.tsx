@@ -76,7 +76,7 @@ const Skills = ({ skillData }: Props) => {
   };
 
   return (
-    <SectionWrapper id="skills" className="py-24 bg-gray-50 dark:bg-grey-900">
+    <SectionWrapper id="skills" className="pb-16 md:pb-24 bg-gray-50 dark:bg-grey-900">
       <motion.div
         variants={sectionVariant}
         initial="hidden"
@@ -85,12 +85,12 @@ const Skills = ({ skillData }: Props) => {
       >
         <motion.h2
           variants={sectionVariant}
-          className="text-5xl font-bold text-center mb-6"
+          className="text-4xl md:text-5xl font-bold text-center mb-6"
         >
           Tech <span className="text-violet-600">Stack</span>
         </motion.h2>
 
-        <p className="text-center text-gray-600 dark:text-gray-300 mb-12 text-lg max-w-2xl mx-auto">
+        <p className="text-center text-gray-600 dark:text-gray-300 mb-6 text-lg max-w-2xl mx-auto">
           Technologies and tools I use to build exceptional digital experiences.
         </p>
 
@@ -102,12 +102,12 @@ const Skills = ({ skillData }: Props) => {
           viewport={viewportOpts}
           className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8"
         >
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 min-h-[200px]">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 min-h-[200px]">
             {Object.entries(grouped).map(([category, items], idx) => (
               <motion.div
                 key={idx}
                 variants={cardItemVariant}
-                className="w-full"
+                className="w-full flex"
               >
                 <motion.div
                   whileHover={{ y: -6 }}
@@ -155,7 +155,7 @@ const Skills = ({ skillData }: Props) => {
             initial="hidden"
             whileInView="show"
             viewport={viewportOpts}
-            className="grid md:grid-cols-3 gap-6 mt-16"
+            className="grid md:grid-cols-3 gap-6 mt-6 md:mt-16"
           >
             {[
               { value: '4+', label: 'Years Experience' },

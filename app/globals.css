@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
 }
 
 /* body {
@@ -51,4 +52,8 @@ html {
 
 .animate-fadeInOut {
   animation: fadeInOut 0.9s ease;
+}
+
+section#projects {
+    opacity: 1 !important;
 }

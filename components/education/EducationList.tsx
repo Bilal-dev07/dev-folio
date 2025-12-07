@@ -29,19 +29,19 @@ const EducationList = ({ educationData }: Props) => {
   const viewportOpt = { once: false, amount: 0.1 };
 
   return (
-    <SectionWrapper id="education" className="min-h-screen">
+    <SectionWrapper id="education" className="pb-16 md:pb-24 mx-4 md:mx-6 lg:mx-auto">
       <motion.div
         variants={sectionVariant}
         initial="hidden"
         whileInView="show"
         viewport={viewportOpt}
       >
-        <h2 className="text-5xl font-bold text-center mb-10">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 md:mb-10">
           Educa<span className="text-violet-600">tion</span>
         </h2>
 
         <div className="relative lg:container mx-auto lg:w-5/6 2xl:w-3/4">
-          <div className="relative wrap overflow-hidden p-4 md:py-12">
+          <div className="relative wrap overflow-hidden">
             {/* Timeline line */}
             <motion.div
               initial={{ scaleY: 0 }}
@@ -55,21 +55,21 @@ const EducationList = ({ educationData }: Props) => {
               const isLeft = i % 2 === 0;
 
               return (
-                <div key={i} className="mb-16 flex items-start w-full relative">
+                <div key={i} className="flex items-start w-full relative">
                   {/* Mobile dot */}
                   <motion.div
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     transition={{ delay: 0.1, duration: 0.4 }}
                     className="
-                      md:hidden absolute left-[14px] top-5
+                      hidden md:block absolute left-[14px] top-5
                       w-4 h-4 rounded-full bg-white dark:bg-grey-900
                       border-4 border-violet-500
                     "
                   />
 
                   {/* Mobile card */}
-                  <div className="md:hidden w-full pl-10">
+                  <div className="md:hidden w-full md:pl-10">
                     <EducationCard {...e} index={i} />
                   </div>
 
@@ -86,7 +86,7 @@ const EducationList = ({ educationData }: Props) => {
                       >
                         <div
                           className="
-                            absolute top-5 -right-[35px]
+                            absolute top-5 -right-[9px]
                             w-4 h-4 rounded-full bg-white dark:bg-grey-900
                             border-4 border-violet-500
                           "
@@ -108,7 +108,7 @@ const EducationList = ({ educationData }: Props) => {
                       >
                         <div
                           className="
-                            absolute top-5 -left-[35px]
+                            absolute top-5 -left-[9px]
                             w-4 h-4 rounded-full bg-white dark:bg-grey-900
                             border-4 border-violet-500
                           "

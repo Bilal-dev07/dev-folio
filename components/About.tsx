@@ -46,7 +46,7 @@ const About = ({ aboutData }: Props) => {
   return (
     <SectionWrapper
       id="about"
-      className="min-h-[90vh] pt-12 bg-gradient-to-b from-white to-gray-100/20 dark:from-grey-900 dark:to-grey-900"
+      className="px-4 md:px-0 pb-16 md:pb-24 bg-gradient-to-b from-white to-gray-100/20 dark:from-grey-900 dark:to-grey-900 md:mx-6 lg:mx-auto"
     >
       {/* MAIN HEADING */}
       <motion.h2
@@ -54,7 +54,7 @@ const About = ({ aboutData }: Props) => {
         initial="hidden"
         whileInView="show"
         viewport={viewportOpts}
-        className="text-5xl font-bold text-center mb-6"
+        className="text-4xl md:text-5xl font-bold text-center mb-6"
       >
         About <span className="text-violet-600">Me</span>
       </motion.h2>
@@ -70,7 +70,7 @@ const About = ({ aboutData }: Props) => {
           scale: 1.02,
           transition: { type: 'spring', stiffness: 220, damping: 18 },
         }}
-        className="w-full lg:w-10/12 mx-auto px-4"
+        className="w-full lg:w-10/12 mx-auto"
       >
         <div className="bg-white dark:bg-grey-800 rounded-2xl shadow-lg px-8 py-10 border border-gray-200/60 dark:border-grey-700/50">
           <motion.p
@@ -90,7 +90,7 @@ const About = ({ aboutData }: Props) => {
       </motion.div>
 
       {/* TWO COLUMNS */}
-      <div className="grid md:grid-cols-2 gap-6 w-full lg:w-10/12 mx-auto mt-10 px-4">
+      <div className="grid md:grid-cols-2 gap-6 w-full lg:w-10/12 mx-auto mt-10">
         {/* CURRENT FOCUS */}
         <motion.div
           variants={cardVariant}

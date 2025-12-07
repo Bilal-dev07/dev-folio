@@ -95,7 +95,7 @@ const Contact = ({ contactData }: Props) => {
   return (
     <SectionWrapper
       id="contact"
-      className="mb-16 mx-4 lg:mx-0 relative z-10 !overflow-visible"
+      className="mx-4 lg:mx-0 pb-4 md:pb-24 relative z-10 !overflow-visible"
     >
       {/* Title Animation */}
       <motion.div
@@ -120,7 +120,7 @@ const Contact = ({ contactData }: Props) => {
         >
           <h3 className="text-xl font-semibold mb-3">Get in Touch</h3>
           <p className="text-gray-600 dark:text-gray-300 text-sm mb-6">
-            I'm always interested in discussing opportunities, projects, and
+            I am always interested in discussing opportunities, projects, and
             ideas to create exceptional digital experiences.
           </p>
 

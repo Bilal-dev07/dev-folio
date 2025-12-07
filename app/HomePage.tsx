@@ -19,7 +19,7 @@ const HomePage = ({ data }: Props) => {
   return (
     <>
       <Header logo={data.main.name} />
-      <Hero mainData={data.main} />
+      <Hero mainData={data?.main} />
       <About aboutData={data.about} />
       <Skills skillData={data.skills} />
       <Experiences experienceData={data.experiences} />

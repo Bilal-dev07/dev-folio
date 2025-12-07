@@ -9,7 +9,7 @@ const achievements = [
     desc: 'Recognized credentials demonstrating expertise in cloud technologies, DevOps practices, AI tooling, and modern development workflows.',
     metrics: [
       'AWS Certified Developer – Associate',
-      'DevOps Foundations: CI/CD',
+      'DevOps Foundations – CI/CD',
       'ChatGPT Prompt Engineering for Developers',
       'Docker Foundations Professional Certificate',
     ],
@@ -66,9 +66,9 @@ const cardVariants = {
 
 export default function KeyAchievementsSection() {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-grey-900">
+    <section className="pb-16 md:pb-24 bg-gray-50 dark:bg-grey-900">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white mb-6 md:mb-10">
           Key <span className="text-violet-600">Achievements</span>
         </h2>
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12">
@@ -85,7 +85,7 @@ export default function KeyAchievementsSection() {
               viewport={{ once: false, amount: 0.3 }}
               variants={cardVariants}
               whileHover={{ scale: 1.03, y: -5 }}
-              className="relative bg-white dark:bg-grey-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-md hover:shadow-xl flex flex-col h-full overflow-hidden"
+              className="relative bg-white dark:bg-grey-800 border border-gray-200 dark:border-gray-700 rounded-2xl pt-0 p-6 shadow-md hover:shadow-xl flex flex-col h-full overflow-hidden"
             >
               {/* ALWAYS-VISIBLE ACCENT CORNER */}
               <div

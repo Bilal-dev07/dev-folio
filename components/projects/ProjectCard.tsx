@@ -25,17 +25,17 @@ const Project = ({
   links,
 }: project) => {
   return (
-    <motion.div
-      variants={cardVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: false, amount: 0.01 }} // 🔥 better for mobile
-      whileHover={{ y: -8 }}
-      transition={{
-        type: 'spring',
-        stiffness: 220,
-        damping: 18,
-      }}
+    <div
+      // variants={cardVariants}
+      // initial="hidden"
+      // whileInView="visible"
+      // viewport={{ once: false, amount: 0.01 }} // 🔥 better for mobile
+      // whileHover={{ y: -8 }}
+      // transition={{
+      //   type: 'spring',
+      //   stiffness: 220,
+      //   damping: 18,
+      // }}
       className="
         relative
         bg-white dark:bg-grey-800
@@ -137,7 +137,7 @@ const Project = ({
           </div>
         </div>
       )}
-    </motion.div>
+    </div>
   );
 };
 

@@ -23,24 +23,24 @@ const ExperienceList = ({ experienceData }: Props) => {
   const viewportOpts = { once: true, amount: 0.15 };
 
   return (
-    <SectionWrapper id="experience" className="min-h-screen">
+    <SectionWrapper id="experience" className="px-4 md:px-0 pb-16 md:pb-24 md:mx-6 lg:mx-auto">
       <motion.div
         variants={sectionVariant}
         initial="hidden"
         whileInView="show"
         viewport={viewportOpts}
       >
-        <h2 className="text-5xl font-bold text-center mb-10">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 md:mb-10">
           Exper<span className="text-violet-600">ience</span>
         </h2>
 
         <div className="relative lg:container mx-auto lg:w-5/6 2xl:w-3/4">
-          <div className="relative wrap overflow-hidden p-4 md:py-12">
+          <div className="relative wrap overflow-hidden pt-4 md:pt-24 -mt-4 md:-mt-24">
             <motion.div
               initial={{ scaleY: 0 }}
               whileInView={{ scaleY: 1 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="absolute left-[22px] md:left-1/2 h-full origin-top
+              className="hidden md:block absolute left-[22px] md:left-1/2 h-full origin-top
                 border border-gray-300 dark:border-grey-800"
             />
 
@@ -48,18 +48,18 @@ const ExperienceList = ({ experienceData }: Props) => {
               const isLeft = i % 2 === 0;
 
               return (
-                <div key={i} className="mb-16 flex items-start w-full relative">
+                <div key={i} className={`${i === experiences?.length -1 ? '' : 'mb-6 md:mb-16'} flex items-start w-full relative`}>
                   {/* MOBILE DOT */}
-                  <div
+                  {/* <div
                     className="
-                      md:hidden absolute left-[14px] top-5
+                      hidden md:block absolute left-[14px] top-5
                       w-4 h-4 rounded-full bg-white dark:bg-grey-900
                       border-4 border-violet-500
                     "
-                  />
+                  /> */}
 
                   {/* MOBILE CARD */}
-                  <div className="md:hidden w-full pl-10">
+                  <div className="md:hidden w-full md:pl-10">
                     <ExperienceCard {...e} index={i} />
                   </div>
 
@@ -76,7 +76,7 @@ const ExperienceList = ({ experienceData }: Props) => {
                       >
                         <div
                           className="
-                            absolute top-5 -right-[35px]
+                            absolute top-5 -right-[9px]
                             w-4 h-4 rounded-full bg-white dark:bg-grey-900
                             border-4 border-violet-500
                           "
@@ -98,7 +98,7 @@ const ExperienceList = ({ experienceData }: Props) => {
                       >
                         <div
                           className="
-                            absolute top-5 -left-[35px]
+                            absolute top-5 -left-[9px]
                             w-4 h-4 rounded-full bg-white dark:bg-grey-900
                             border-4 border-violet-500
                           "

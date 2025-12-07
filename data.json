@@ -118,6 +118,10 @@
       "category": "Backend"
     },
     {
+      "name": "Microservices",
+      "category": "Backend"
+    },
+    {
       "name": "MongoDB",
       "category": "Database"
     },
@@ -260,40 +264,45 @@
   ],
   "projects": [
     {
-      "name": "Designs.ai",
-      "subtitle": "AI-powered creative automation platform",
-      "description": "A production-grade platform enabling automated content creation with AI-driven tools for videos, logos, and digital assets.",
+      "name": "LassWho",
+      "subtitle": "Live video chat platform connecting fans with global icons",
+      "description": "A real-time video communication platform enabling fans to interact with world-class athletes, speakers, and celebrities through secure video calls using WebRTC and modern web technologies.",
       "achievements": [
-        "Built frontend and backend flows improving performance and user interaction across creative AI tools",
-        "Optimized real-time rendering and API interactions using Redux and PostgreSQL"
+        "Developed and optimized WebRTC-based real-time video calling, boosting engagement by 30%",
+        "Built responsive, interactive UI using Tailwind CSS and TypeScript, improving load times by 25%",
+        "Optimized PostgreSQL queries, increasing data retrieval performance by 20%",
+        "Integrated secure video conferencing APIs for seamless low-latency calls",
+        "Collaborated with product and design teams to enhance cross-platform usability, improving retention by 15%",
+        "Improved call stability to reach a 98% uptime across multiple devices"
       ],
       "technologies": [
-        "React.js",
-        "Node.js",
-        "Express.js",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
         "PostgreSQL",
-        "AI",
-        "Redux",
-        "REST APIs",
-        "AWS",
-        "RabbitMQ"
+        "WebRTC",
+        "Video Conferencing API"
       ],
-      "techstack": "React.js, Node.js, Express.js, PostgreSQL, AI, Redux, REST APIs, AWS, RabbitMQ",
-      "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/mrruzinwjhhibbccwbrt.png",
+      "techstack": "Next.js, TypeScript, Tailwind CSS, PostgreSQL, WebRTC, Video Conferencing API",
+      "category": "Full Stack",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765215793/LassWho_fsaor7.png",
       "links": {
         "code": "",
         "video": "",
-        "visit": "https://designs.ai/"
+        "visit": "https://lasswho.com/"
       }
     },
     {
       "name": "Oval",
-      "subtitle": "Modern event and community management platform",
-      "description": "A scalable system for ticketing, QR check-ins, payments, and online event interaction with cloud-native deployment.",
+      "subtitle": "NFC-powered digital business card and networking platform",
+      "description": "A cloud-based digital business card system enabling seamless profile sharing using NFC Smart Cards and QR codes, designed for modern networking and lead generation.",
       "achievements": [
-        "Implemented end-to-end payment workflows and integrated Stripe for secure transactions",
-        "Containerized services using Docker and improved API response speed with Nest.js"
+        "Developed NFC and QR-based profile sharing workflows, increasing lead generation by 30%",
+        "Built scalable backend services using Nest.js and TypeScript, improving API response times by 25%",
+        "Integrated Stripe for secure payments and subscription handling",
+        "Created automated CI/CD pipelines, reducing deployment time by 40%",
+        "Utilized Docker to deploy efficient microservices on AWS, lowering infrastructure costs by 20%",
+        "Enhanced user onboarding flows to reduce account setup time by 15%"
       ],
       "technologies": [
         "Nest.js",
@@ -316,143 +325,123 @@
       }
     },
     {
-      "name": "ForecastPulse",
-      "subtitle": "Real-time weather forecasting dashboard",
-      "description": "A responsive weather dashboard providing live forecasts, icons, and user-friendly temperature insights.",
+      "name": "Designs.ai",
+      "subtitle": "AI-powered design automation platform",
+      "description": "An AI-driven creative platform that enables users to quickly produce marketing assets, videos, branding content, and graphic designs through automated and intelligent workflows.",
       "achievements": [
-        "Developed clean UI components with Tailwind and optimized API calls for faster forecast retrieval",
-        "Implemented reusable weather visual elements using Font Awesome and Weather Icons"
+        "Built AI-driven templates and design suggestion features, improving engagement by 35%",
+        "Developed scalable and responsive interfaces using React and Redux, improving load speed by 25%",
+        "Integrated Node.js and Express REST APIs for faster data handling, reducing retrieval times by 30%",
+        "Implemented RabbitMQ for efficient task processing, speeding up real-time previews by 20%",
+        "Collaborated with backend and DevOps teams for smooth AWS deployment with 99.9% uptime",
+        "Improved UI accessibility standards, increasing usability across multiple device types"
       ],
       "technologies": [
-        "React",
-        "Tailwind CSS",
-        "Font Awesome",
-        "Weather Icons"
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "AI",
+        "Redux",
+        "REST APIs",
+        "AWS",
+        "RabbitMQ"
       ],
-      "techstack": "React, Tailwind CSS, Font Awesome, Weather Icons",
+      "techstack": "React.js, Node.js, Express.js, PostgreSQL, AI, Redux, REST APIs, AWS, RabbitMQ",
       "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/zvtirkqeerqcpote2ati.png",
-      "links": {
-        "code": "https://github.com/Chawais1122/ForecastPulse",
-        "video": "",
-        "visit": "https://forecast-pulse.vercel.app/"
-      }
-    },
-    {
-      "name": "AdeptFlows",
-      "subtitle": "AI workflow automation and prompt execution tool",
-      "description": "A browser-based tool that streamlines task automation using AI, custom prompts, and modular workflows.",
-      "achievements": [
-        "Integrated OpenAI’s API for dynamic prompt execution and response generation",
-        "Built a scalable system with NestJS and MongoDB for storing workflows and automation history"
-      ],
-      "technologies": [
-        "OpenAI API",
-        "Docker",
-        "React",
-        "NestJS",
-        "MongoDB"
-      ],
-      "techstack": "OpenAI API, Docker, React, NestJS, MongoDB",
-      "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1756657611/Screenshot_from_2024-04-07_14-42-48_glw86h.png",
+      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/mrruzinwjhhibbccwbrt.png",
       "links": {
         "code": "",
         "video": "",
-        "visit": "https://adeptflows-ai.netlify.app/"
+        "visit": "https://designs.ai/"
       }
     },
     {
-      "name": "Sudoku",
-      "subtitle": "Interactive online Sudoku puzzle app",
-      "description": "A simple and fast Sudoku web app with clean UI and instant puzzle validation.",
+      "name": "Glamezy",
+      "subtitle": "Beauty service booking platform",
+      "description": "A cloud-hosted booking system enabling users to find nearby beauty salons, book appointments, and make secure payments.",
       "achievements": [
-        "Designed a keyboard-friendly interface using React and TypeScript",
-        "Built puzzle generation and validation logic with optimized algorithms"
+        "Developed core features that enhanced user booking experience and platform usability",
+        "Integrated Stripe for secure and seamless payment processing",
+        "Implemented Google Maps API to help users locate and book nearby venues.",
+        "Built responsive UI components using React and TypeScript, improving overall engagement",
+        "Optimized backend workflows to reduce booking confirmation time by 18%"
       ],
       "technologies": [
-        "HTML",
-        "CSS",
+        "NestJS",
         "React",
+        "Redux",
+        "Docker",
+        "Amazon S3",
+        "Stripe",
+        "PostgreSQL",
+        "Google Maps API"
+      ],
+      "techstack": "NestJS, React, Redux, Docker, Amazon S3, Stripe, PostgreSQL, Google Maps API",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765217655/glamezy_as26cz.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://glamezy.com/main/home"
+      }
+    },
+    {
+      "name": "Popless",
+      "subtitle": "Next-gen learning and teaching management platform",
+      "description": "A production-grade platform enabling teachers and students to manage classes, payments, and learning workflows efficiently with a scalable backend.",
+      "achievements": [
+        "Developed backend services using Nest.js and TypeScript to enhance performance and scalability",
+        "Configured and optimized PostgreSQL database architecture for secure and efficient data storage",
+        "Integrated Stripe to support global payment processing with multi-currency support",
+        "Implemented GraphQL APIs enabling efficient communication and reduced data over-fetching"
+      ],
+      "technologies": [
+        "Nest.js",
         "TypeScript",
-        "Node.js"
+        "PostgreSQL",
+        "GraphQL",
+        "AWS",
+        "Docker",
+        "Stripe",
+        "CI/CD"
       ],
-      "techstack": "HTML, CSS, React, TypeScript, Node.js",
+      "techstack": "Nest.js, TypeScript, PostgreSQL, GraphQL, AWS, Docker, Stripe, CI/CD",
       "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/kt5o9el9lkx6yxuzxtnl.png",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765217654/popless_snpltg.png",
       "links": {
-        "code": "https://github.com/Chawais1122/Sudoku",
+        "code": "",
         "video": "",
-        "visit": "https://sudoku-puzzle-blush.vercel.app/"
+        "visit": "https://www.popless.com/"
       }
     },
     {
-      "name": "NetFlixHub",
-      "subtitle": "Netflix-style movie search and browsing app",
-      "description": "A simple movie showcase app inspired by Netflix UI with responsive layout and fast search.",
+      "name": "SeekSocial",
+      "subtitle": "Influencer discovery and engagement platform",
+      "description": "A scalable platform helping users search, filter, and analyze influencers with fast data processing and real-time performance.",
       "achievements": [
-        "Developed modular React components for browsing and category filtering",
-        "Built responsive layout optimized for both desktop and mobile users"
+        "Developed core platform features including influencer search, filtering, and personalized browsing experience",
+        "Improved system performance using React, Redux, and optimized REST API integration",
+        "Implemented RabbitMQ message queues to speed up influencer search and request processing",
+        "Collaborated with cross-functional teams to ensure smooth AWS deployment and high availability"
       ],
       "technologies": [
-        "HTML",
-        "CSS",
-        "React"
-      ],
-      "techstack": "HTML, CSS, React",
-      "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/oqhayz2hqfdedg95rpvh.png",
-      "links": {
-        "code": "https://github.com/Chawais1122/NetflixHub",
-        "video": "",
-        "visit": "https://netflix-hub.vercel.app/"
-      }
-    },
-    {
-      "name": "ResumeForge",
-      "subtitle": "Online resume builder with real-time editing",
-      "description": "A modern resume builder UI with customizable templates and smooth live preview updates.",
-      "achievements": [
-        "Built flexible UI components using Chakra UI for real-time styling",
-        "Designed responsive resume sections with reusable modules"
-      ],
-      "technologies": [
-        "ReactJS",
-        "Chakra UI",
-        "UI/UX Design",
-        "JavaScript"
-      ],
-      "techstack": "ReactJS, Chakra UI, UI/UX Design, JavaScript",
-      "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987944/projects/hbuabo38jnhsetdddwmp.png",
-      "links": {
-        "code": "https://github.com/Chawais1122/ResumeForge",
-        "video": "",
-        "visit": "https://resume-forge-omega.vercel.app/"
-      }
-    },
-    {
-      "name": "Academia",
-      "subtitle": "Student portal for courses & assignments",
-      "description": "A web-based platform for browsing courses, managing assignments, and improving learning productivity.",
-      "achievements": [
-        "Built multiple course and assignment pages with React and TypeScript",
-        "Improved UI consistency and user engagement with reusable design components"
-      ],
-      "technologies": [
-        "HTML",
-        "CSS",
         "React",
-        "TypeScript",
-        "Node.js"
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "RabbitMQ",
+        "MongoDB",
+        "AWS",
+        "REST APIs"
       ],
-      "techstack": "HTML, CSS, React, TypeScript, Node.js",
+      "techstack": "React, Redux, Node.js, Express.js, RabbitMQ, MongoDB, AWS, REST APIs",
       "category": "MERN Stack",
-      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1756656971/ACADEMIA-Project_c5talt.jpg",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765217654/seeksocial_ribnuv.png",
       "links": {
-        "code": "https://github.com/Chawais1122/Academia",
+        "code": "",
         "video": "",
-        "visit": "https://academia-today.vercel.app/"
+        "visit": "https://seeksocial.io"
       }
     }
   ],
@@ -480,60 +469,69 @@
       "stack": [
         "Node.js",
         "Express.js",
-        "Backend Development",
-        "API Development"
+        "React.js",
+        "REST APIs",
+        "PostgreSQL"
       ],
       "desc": [
-        "Contributed to building and maintaining backend infrastructure for client projects using Node.js and Express.",
-        "Collaborated with a skilled engineering team to solve real-world challenges using modern backend technologies.",
-        "Worked on multiple backend-focused projects delivering APIs and server-side logic."
+        "Assisted in building backend services using Node.js and Express.js, ensuring smooth data flow between client and server.",
+        "Developed responsive and dynamic user interfaces using React.js to improve user engagement.",
+        "Optimized PostgreSQL queries and schema designs to enhance performance and data retrieval efficiency.",
+        "Collaborated with senior developers to troubleshoot issues and improve overall application performance."
       ]
     },
     {
       "company": "DEVSINC",
       "position": "Associate Software Engineer",
       "location": "Lahore, Pakistan",
-      "startDate": "06/2022",
-      "endDate": "06/2023",
+      "startDate": "04/2022",
+      "endDate": "12/2022",
       "color": "violet",
       "stack": [
-        "React",
         "Node.js",
-        "Express.js",
+        "Next.js",
         "REST APIs",
-        "Database Design"
+        "GraphQL",
+        "MongoDB",
+        "PostgreSQL"
       ],
       "desc": [
-        "Built responsive user interfaces using React and developed backend services with Node.js and Express.",
-        "Gained practical experience in RESTful API development, database modeling, and cloud environments.",
-        "Collaborated with QA and UI/UX teams to deliver scalable and user-focused applications."
+        "Developed server-side applications using Node.js with RESTful and GraphQL APIs for efficient communication.",
+        "Built responsive web applications using Next.js, enhancing cross-platform user experience.",
+        "Optimized MongoDB and PostgreSQL queries to improve reliability and performance.",
+        "Collaborated with cross-functional teams to identify issues and enhance system performance and stability."
       ]
     },
     {
       "company": "DEVSINC",
       "position": "Software Engineer",
       "location": "Lahore, Pakistan",
-      "startDate": "06/2023",
+      "startDate": "01/2023",
       "endDate": "11/2023",
       "color": "orange",
       "stack": [
+        "NestJS",
         "Node.js",
-        "Express.js",
-        "API Integration",
-        "Security",
-        "System Design"
+        "Kafka",
+        "PostgreSQL",
+        "MongoDB",
+        "AWS",
+        "CI/CD"
       ],
       "desc": [
-        "Implemented secure authentication and authorization mechanisms to protect sensitive customer data.",
-        "Integrated third-party APIs to enhance user experience and improve product stability.",
-        "Collaborated with engineering teams to estimate system loads and plan infrastructure improvements."
+        "Led development of scalable applications using NestJS and Node.js with strong focus on maintainable architecture.",
+        "Designed and implemented microservices using Apache Kafka for real-time event-driven communication.",
+        "Optimized PostgreSQL and MongoDB schemas and queries to improve system performance.",
+        "Managed AWS infrastructure with a focus on scalability, security, and cost optimization.",
+        "Automated CI/CD pipelines, significantly accelerating the release process.",
+        "Mentored junior engineers and contributed to system design best practices."
       ]
     },
     {
       "company": "NARSUN STUDIOS",
       "position": "Software Engineer",
       "location": "Lahore, Pakistan",
-      "startDate": "11/2023",
+      "startDate": "12/2023",
       "endDate": "12/2024",
       "color": "violet",
       "stack": [
@@ -542,12 +540,17 @@
         "ReactJS",
         "REST APIs",
         "GraphQL",
-        "AWS"
+        "MongoDB",
+        "AWS",
+        "Docker",
+        "CI/CD"
       ],
       "desc": [
-        "Designed and developed scalable backend systems using NestJS and Express.",
-        "Built RESTful and GraphQL APIs, improving performance and user engagement.",
-        "Managed AWS infrastructure and automated CI/CD pipelines, reducing deployment time and costs."
+        "Developed and maintained full-stack web applications using NestJS with focus on scalable architecture.",
+        "Built REST and GraphQL APIs to improve performance, flexibility, and data-access efficiency.",
+        "Managed AWS infrastructure including S3, EC2, and cloud security.",
+        "Automated CI/CD processes to reduce deployment time and improve delivery efficiency.",
+        "Troubleshot and optimized existing applications to improve performance and UX."
       ]
     },
     {
@@ -560,20 +563,24 @@
       "stack": [
         "NestJS",
         "GraphQL",
-        "ReactJS",
+        "React",
         "Docker",
-        "RabbitMQ",
+        "PostgreSQL",
+        "Redis",
         "Kafka",
+        "RabbitMQ",
         "Microservices",
         "AWS",
         "CI/CD"
       ],
       "desc": [
-        "Led architecture and development of scalable full-stack applications using NestJS, GraphQL, and ReactJS.",
-        "Optimized CI/CD pipelines with Docker, GitHub Actions, and AWS to accelerate release cycles.",
-        "Built microservices using Docker, RabbitMQ, and Kafka, improving system reliability by 30%.",
-        "Mentored junior engineers and enforced best development practices, improving team output by 20%.",
-        "Collaborated across product, design, and QA teams to deliver features aligned with business goals."
+        "Led architecture and development of scalable full-stack applications using NestJS, GraphQL, and React.",
+        "Implemented microservices using Docker, Kafka, and RabbitMQ, improving system reliability and throughput.",
+        "Optimized CI/CD pipelines using Docker, GitHub Actions, and AWS to accelerate release cycles.",
+        "Managed cloud infrastructure with AWS focusing on scalability, security, and cost efficiency.",
+        "Implemented unit and integration testing to ensure quality and maintainability.",
+        "Mentored junior developers, promoted best practices, and improved team productivity.",
+        "Collaborated with product, design, and QA teams to deliver features aligned with business goals."
       ]
     }
   ],
@@ -590,7 +597,7 @@
       "desc": "Recognized credentials demonstrating expertise in cloud technologies, DevOps practices, AI tooling, and modern development workflows.",
       "metrics": [
         "AWS Certified Developer – Associate",
-        "DevOps Foundations: CI/CD",
+        "DevOps Foundations – CI/CD",
         "ChatGPT Prompt Engineering for Developers",
         "Docker Foundations Professional Certificate"
       ],

@@ -35,27 +35,26 @@ const Projects = ({ projectsData }: Props) => {
   const [projects] = useState([...projectsData].reverse() as project[]);
 
   return (
-    <SectionWrapper id="projects" className="mx-4 md:mx-0 min-h-screen pt-10">
+    <SectionWrapper id="projects" className="mx-4 md:mx-0 mb-12 md:mb-0 pb-4 md:pb-24">
       {/* Title */}
       <motion.h2
         variants={sectionVariant}
         initial="hidden"
         whileInView="show"
         viewport={viewportOpts}
-        className="mt-6 text-4xl md:text-5xl font-bold text-center mb-10"
+        className="text-4xl md:text-5xl font-bold text-center mb-6 md:mb-10"
       >
         Proj<span className="text-violet-600">ects</span>
       </motion.h2>
 
       {/* Grid */}
-      <motion.div
-        variants={sectionVariant}
-        initial="hidden"
-        whileInView="show"
-        viewport={viewportOpts}
+      <div
+        // variants={sectionVariant}
+        // initial="show"
+        // whileInView="show"
+        // viewport={viewportOpts}
         className="
           md:mx-6 lg:mx-auto lg:w-5/6 2xl:w-3/4 
-          my-4 md:my-12
           grid md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10
         "
       >
@@ -70,7 +69,7 @@ const Projects = ({ projectsData }: Props) => {
             <ProjectCard {...p} />
           </motion.div>
         ))}
-      </motion.div>
+      </div>
     </SectionWrapper>
   );
 };
