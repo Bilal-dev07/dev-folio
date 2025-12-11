@@ -21,11 +21,14 @@ type project = {
 };
 
 type experience = {
-  duration: string;
   company: string;
   position: string;
+  location: string;
   startDate: string;
   endDate: string;
+  current: boolean;
+  color: string;
+  stack: string[];
   desc: string[];
 };
 

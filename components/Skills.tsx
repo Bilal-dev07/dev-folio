@@ -76,7 +76,10 @@ const Skills = ({ skillData }: Props) => {
   };
 
   return (
-    <SectionWrapper id="skills" className="pb-16 md:pb-24 bg-gray-50 dark:bg-grey-900">
+    <SectionWrapper
+      id="skills"
+      className="pb-16 md:pb-24 bg-gray-50 dark:bg-grey-900"
+    >
       <motion.div
         variants={sectionVariant}
         initial="hidden"

@@ -1,122 +1,153 @@
-'use client';
-
-import { experience } from '@/types/main';
-import SectionWrapper from '../SectionWrapper';
-import ExperienceCard from './ExperienceCard';
+import { Card } from '@/components/experiences/card';
+import { Badge } from '@/components/experiences/badge';
+import { Briefcase, Calendar, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-interface Props {
-  experienceData: experience[];
+export interface ExperienceItem {
+  company: string;
+  position: string;
+  location: string;
+  startDate: string;
+  endDate: string;
+  current: boolean;
+  color: string;
+  stack: string[];
+  desc: string[];
 }
 
-const sectionVariant = {
-  hidden: { opacity: 0, y: 40 },
-  show: {
+export interface ExperienceProps {
+  experienceData: ExperienceItem[];
+}
+
+// Animation variants
+const cardVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.75, ease: 'easeInOut' },
-  },
+    transition: { delay: i * 0.15, duration: 0.5, ease: 'easeOut' },
+  }),
 };
 
-const ExperienceList = ({ experienceData }: Props) => {
-  const experiences = [...experienceData].reverse();
-  const viewportOpts = { once: true, amount: 0.15 };
-
+export const Experience = ({ experienceData }: ExperienceProps) => {
   return (
-    <SectionWrapper id="experience" className="px-4 md:px-0 pb-16 md:pb-24 md:mx-6 lg:mx-auto">
-      <motion.div
-        variants={sectionVariant}
-        initial="hidden"
-        whileInView="show"
-        viewport={viewportOpts}
-      >
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 md:mb-10">
-          Exper<span className="text-violet-600">ience</span>
-        </h2>
+    <section id="experience" className="py-20 px-4">
+      <div className="container max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Professional <span className="text-violet-600">Experience</span>
+          </h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            A journey of growth, innovation, and delivering exceptional results
+          </p>
+        </div>
 
-        <div className="relative lg:container mx-auto lg:w-5/6 2xl:w-3/4">
-          <div className="relative wrap overflow-hidden pt-4 md:pt-24 -mt-4 md:-mt-24">
+        <div className="space-y-6 max-w-4xl mx-auto">
+          {experienceData.map((exp, index) => (
             <motion.div
-              initial={{ scaleY: 0 }}
-              whileInView={{ scaleY: 1 }}
-              transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="hidden md:block absolute left-[22px] md:left-1/2 h-full origin-top
-                border border-gray-300 dark:border-grey-800"
-            />
-
-            {experiences.map((e, i) => {
-              const isLeft = i % 2 === 0;
-
-              return (
-                <div key={i} className={`${i === experiences?.length -1 ? '' : 'mb-6 md:mb-16'} flex items-start w-full relative`}>
-                  {/* MOBILE DOT */}
-                  {/* <div
-                    className="
-                      hidden md:block absolute left-[14px] top-5
-                      w-4 h-4 rounded-full bg-white dark:bg-grey-900
-                      border-4 border-violet-500
-                    "
-                  /> */}
-
-                  {/* MOBILE CARD */}
-                  <div className="md:hidden w-full md:pl-10">
-                    <ExperienceCard {...e} index={i} />
+              key={index}
+              custom={index}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
+              variants={cardVariants}
+            >
+              <Card className="p-6 md:p-8 border-border/50 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
+                  <div className="flex-1">
+                    <div className="flex items-start gap-3 mb-2">
+                      <div
+                        className={`p-2 rounded-lg ${
+                          exp.color === 'orange'
+                            ? 'bg-orange-500/10'
+                            : 'bg-violet-500/10'
+                        } mt-1`}
+                      >
+                        <Briefcase
+                          className={`w-5 h-5 ${
+                            exp.color === 'orange'
+                              ? 'text-orange-500'
+                              : 'text-violet-500'
+                          }`}
+                        />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold mb-1">
+                          {exp.position}
+                        </h3>
+                        {exp.current && (
+                          <Badge
+                            variant="default"
+                            className="inline-flex items-center gap-2 bg-violet-600 text-white px-3 py-1 rounded-md shadow hover:opacity-95 transition"
+                          >
+                            Current
+                          </Badge>
+                        )}
+                      </div>
+                    </div>
+                    <p
+                      className={`font-semibold mb-1 ${
+                        exp.color === 'orange'
+                          ? 'text-orange-500'
+                          : 'text-violet-500'
+                      }`}
+                    >
+                      {exp.company}
+                    </p>
+                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <MapPin className="w-4 h-4" />
+                      <span>{exp.location}</span>
+                    </div>
                   </div>
-
-                  {/* DESKTOP */}
-                  <div className="hidden md:flex md:w-full justify-between items-start">
-                    {/* LEFT CARD */}
-                    {isLeft ? (
-                      <motion.div
-                        initial={{ opacity: 0, x: -60 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.2 }}
-                        transition={{ duration: 0.55 }}
-                        className="md:w-1/2 md:pr-10 relative"
-                      >
-                        <div
-                          className="
-                            absolute top-5 -right-[9px]
-                            w-4 h-4 rounded-full bg-white dark:bg-grey-900
-                            border-4 border-violet-500
-                          "
-                        />
-                        <ExperienceCard {...e} index={i} />
-                      </motion.div>
-                    ) : (
-                      <div className="hidden md:block md:w-1/2"></div>
-                    )}
-
-                    {/* RIGHT CARD */}
-                    {!isLeft ? (
-                      <motion.div
-                        initial={{ opacity: 0, x: 60 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.2 }}
-                        transition={{ duration: 0.55 }}
-                        className="md:w-1/2 md:pl-10 relative"
-                      >
-                        <div
-                          className="
-                            absolute top-5 -left-[9px]
-                            w-4 h-4 rounded-full bg-white dark:bg-grey-900
-                            border-4 border-violet-500
-                          "
-                        />
-                        <ExperienceCard {...e} index={i} />
-                      </motion.div>
-                    ) : (
-                      <div className="hidden md:block md:w-1/2"></div>
-                    )}
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Calendar className="w-4 h-4" />
+                    <span>
+                      {exp.startDate} - {exp.endDate}
+                    </span>
                   </div>
                 </div>
-              );
-            })}
-          </div>
+
+                {/* Tech Stack */}
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {exp.stack.map((tech, idx) => (
+                    <Badge
+                      key={idx}
+                      variant="secondary"
+                      className={`text-xs ${
+                        exp.color === 'orange'
+                          ? 'bg-orange-500/10 text-orange-600 dark:text-orange-400'
+                          : 'bg-violet-500/10 text-violet-600 dark:text-violet-400'
+                      }`}
+                    >
+                      {tech}
+                    </Badge>
+                  ))}
+                </div>
+
+                <ul className="space-y-2">
+                  {exp.desc.map((achievement, idx) => (
+                    <li
+                      key={idx}
+                      className="flex items-start gap-2 text-sm text-muted-foreground"
+                    >
+                      <span
+                        className={`mt-1.5 ${
+                          exp.color === 'orange'
+                            ? 'text-orange-500'
+                            : 'text-violet-500'
+                        }`}
+                      >
+                        •
+                      </span>
+                      <span>{achievement}</span>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+            </motion.div>
+          ))}
         </div>
-      </motion.div>
-    </SectionWrapper>
+      </div>
+    </section>
   );
 };
-
-export default ExperienceList;

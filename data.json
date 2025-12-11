@@ -460,106 +460,13 @@
   ],
   "experiences": [
     {
-      "company": "THE DEV CORPORATE",
-      "position": "Backend Developer",
-      "location": "Lahore, Pakistan",
-      "startDate": "06/2021",
-      "endDate": "12/2021",
-      "color": "violet",
-      "stack": [
-        "Node.js",
-        "Express.js",
-        "React.js",
-        "REST APIs",
-        "PostgreSQL"
-      ],
-      "desc": [
-        "Assisted in building backend services using Node.js and Express.js, ensuring smooth data flow between client and server.",
-        "Developed responsive and dynamic user interfaces using React.js to improve user engagement.",
-        "Optimized PostgreSQL queries and schema designs to enhance performance and data retrieval efficiency.",
-        "Collaborated with senior developers to troubleshoot issues and improve overall application performance."
-      ]
-    },
-    {
-      "company": "DEVSINC",
-      "position": "Associate Software Engineer",
-      "location": "Lahore, Pakistan",
-      "startDate": "04/2022",
-      "endDate": "12/2022",
-      "color": "violet",
-      "stack": [
-        "Node.js",
-        "Next.js",
-        "REST APIs",
-        "GraphQL",
-        "MongoDB",
-        "PostgreSQL"
-      ],
-      "desc": [
-        "Developed server-side applications using Node.js with RESTful and GraphQL APIs for efficient communication.",
-        "Built responsive web applications using Next.js, enhancing cross-platform user experience.",
-        "Optimized MongoDB and PostgreSQL queries to improve reliability and performance.",
-        "Collaborated with cross-functional teams to identify issues and enhance system performance and stability."
-      ]
-    },
-    {
-      "company": "DEVSINC",
-      "position": "Software Engineer",
-      "location": "Lahore, Pakistan",
-      "startDate": "01/2023",
-      "endDate": "11/2023",
-      "color": "orange",
-      "stack": [
-        "NestJS",
-        "Node.js",
-        "Kafka",
-        "PostgreSQL",
-        "MongoDB",
-        "AWS",
-        "CI/CD"
-      ],
-      "desc": [
-        "Led development of scalable applications using NestJS and Node.js with strong focus on maintainable architecture.",
-        "Designed and implemented microservices using Apache Kafka for real-time event-driven communication.",
-        "Optimized PostgreSQL and MongoDB schemas and queries to improve system performance.",
-        "Managed AWS infrastructure with a focus on scalability, security, and cost optimization.",
-        "Automated CI/CD pipelines, significantly accelerating the release process.",
-        "Mentored junior engineers and contributed to system design best practices."
-      ]
-    },
-    {
-      "company": "NARSUN STUDIOS",
-      "position": "Software Engineer",
-      "location": "Lahore, Pakistan",
-      "startDate": "12/2023",
-      "endDate": "12/2024",
-      "color": "violet",
-      "stack": [
-        "NestJS",
-        "Express.js",
-        "ReactJS",
-        "REST APIs",
-        "GraphQL",
-        "MongoDB",
-        "AWS",
-        "Docker",
-        "CI/CD"
-      ],
-      "desc": [
-        "Developed and maintained full-stack web applications using NestJS with focus on scalable architecture.",
-        "Built REST and GraphQL APIs to improve performance, flexibility, and data-access efficiency.",
-        "Managed AWS infrastructure including S3, EC2, and cloud security.",
-        "Automated CI/CD processes to reduce deployment time and improve delivery efficiency.",
-        "Troubleshot and optimized existing applications to improve performance and UX."
-      ]
-    },
-    {
       "company": "NARSUN STUDIOS",
       "position": "Senior Software Engineer",
       "location": "Lahore, Pakistan",
       "startDate": "01/2025",
       "endDate": "Present",
-      "color": "orange",
+      "current": true,
+      "color": "violet",
       "stack": [
         "NestJS",
         "GraphQL",
@@ -581,6 +488,104 @@
         "Implemented unit and integration testing to ensure quality and maintainability.",
         "Mentored junior developers, promoted best practices, and improved team productivity.",
         "Collaborated with product, design, and QA teams to deliver features aligned with business goals."
+      ]
+    },
+    {
+      "company": "NARSUN STUDIOS",
+      "position": "Software Engineer",
+      "location": "Lahore, Pakistan",
+      "startDate": "12/2023",
+      "endDate": "12/2024",
+      "current": false,
+      "color": "violet",
+      "stack": [
+        "NestJS",
+        "Express.js",
+        "ReactJS",
+        "REST APIs",
+        "GraphQL",
+        "MongoDB",
+        "AWS",
+        "Docker",
+        "CI/CD"
+      ],
+      "desc": [
+        "Developed and maintained full-stack web applications using NestJS with focus on scalable architecture.",
+        "Built REST and GraphQL APIs to improve performance, flexibility, and data-access efficiency.",
+        "Managed AWS infrastructure including S3, EC2, and cloud security.",
+        "Automated CI/CD processes to reduce deployment time and improve delivery efficiency.",
+        "Troubleshot and optimized existing applications to improve performance and UX."
+      ]
+    },
+    {
+      "company": "DEVSINC",
+      "position": "Software Engineer",
+      "location": "Lahore, Pakistan",
+      "startDate": "01/2023",
+      "endDate": "11/2023",
+      "current": false,
+      "color": "violet",
+      "stack": [
+        "NestJS",
+        "Node.js",
+        "Kafka",
+        "PostgreSQL",
+        "MongoDB",
+        "AWS",
+        "CI/CD"
+      ],
+      "desc": [
+        "Led development of scalable applications using NestJS and Node.js with strong focus on maintainable architecture.",
+        "Designed and implemented microservices using Apache Kafka for real-time event-driven communication.",
+        "Optimized PostgreSQL and MongoDB schemas and queries to improve system performance.",
+        "Managed AWS infrastructure with a focus on scalability, security, and cost optimization.",
+        "Automated CI/CD pipelines, significantly accelerating the release process.",
+        "Mentored junior engineers and contributed to system design best practices."
+      ]
+    },
+    {
+      "company": "DEVSINC",
+      "position": "Associate Software Engineer",
+      "location": "Lahore, Pakistan",
+      "startDate": "04/2022",
+      "endDate": "12/2022",
+      "current": false,
+      "color": "violet",
+      "stack": [
+        "Node.js",
+        "Next.js",
+        "REST APIs",
+        "GraphQL",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "desc": [
+        "Developed server-side applications using Node.js with RESTful and GraphQL APIs for efficient communication.",
+        "Built responsive web applications using Next.js, enhancing cross-platform user experience.",
+        "Optimized MongoDB and PostgreSQL queries to improve reliability and performance.",
+        "Collaborated with cross-functional teams to identify issues and enhance system performance and stability."
+      ]
+    },
+    {
+      "company": "THE DEV CORPORATE",
+      "position": "Backend Developer",
+      "location": "Lahore, Pakistan",
+      "startDate": "06/2021",
+      "endDate": "12/2021",
+      "current": false,
+      "color": "violet",
+      "stack": [
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "REST APIs",
+        "PostgreSQL"
+      ],
+      "desc": [
+        "Assisted in building backend services using Node.js and Express.js, ensuring smooth data flow between client and server.",
+        "Developed responsive and dynamic user interfaces using React.js to improve user engagement.",
+        "Optimized PostgreSQL queries and schema designs to enhance performance and data retrieval efficiency.",
+        "Collaborated with senior developers to troubleshoot issues and improve overall application performance."
       ]
     }
   ],
