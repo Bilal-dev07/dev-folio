@@ -1,6 +1,6 @@
 import { Card } from '@/components/experiences/card';
 import { Badge } from '@/components/experiences/badge';
-import { Briefcase, Calendar, MapPin } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, Building } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export interface ExperienceItem {
@@ -55,55 +55,44 @@ export const Experience = ({ experienceData }: ExperienceProps) => {
               <Card className="p-6 md:p-8 border-border/50 hover:shadow-lg transition-shadow">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                   <div className="flex-1">
-                    <div className="flex items-start gap-3 mb-2">
-                      <div
-                        className={`p-2 rounded-lg ${
-                          exp.color === 'orange'
-                            ? 'bg-orange-500/10'
-                            : 'bg-violet-500/10'
-                        } mt-1`}
-                      >
-                        <Briefcase
-                          className={`w-5 h-5 ${
-                            exp.color === 'orange'
-                              ? 'text-orange-500'
-                              : 'text-violet-500'
-                          }`}
-                        />
+                    {/* Position + Icon */}
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="p-2 rounded-lg bg-violet-500/10 flex items-center justify-center">
+                        <Briefcase className="w-5 h-5 text-violet-500" />
                       </div>
-                      <div>
-                        <h3 className="text-xl font-bold mb-1">
-                          {exp.position}
-                        </h3>
-                        {exp.current && (
-                          <Badge
-                            variant="default"
-                            className="inline-flex items-center gap-2 bg-violet-600 text-white px-3 py-1 rounded-md shadow hover:opacity-95 transition"
-                          >
-                            Current
-                          </Badge>
-                        )}
-                      </div>
+                      <h3 className="text-xl font-bold">{exp.position}</h3>
                     </div>
-                    <p
-                      className={`font-semibold mb-1 ${
-                        exp.color === 'orange'
-                          ? 'text-orange-500'
-                          : 'text-violet-500'
-                      }`}
-                    >
-                      {exp.company}
-                    </p>
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <MapPin className="w-4 h-4" />
+
+                    {/* Company + Icon */}
+                    <div className="flex items-center gap-3 mb-1">
+                      <div className="p-2 rounded-lg bg-violet-500/10 flex items-center justify-center">
+                        <Building className="w-5 h-5 text-violet-500" />
+                      </div>
+                      <p>{exp.company}</p>
+                    </div>
+
+                    {/* Location */}
+                    <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                      <div className="p-2 rounded-lg bg-violet-500/10 flex items-center justify-center">
+                        <MapPin className="w-5 h-5 text-violet-500" />
+                      </div>
                       <span>{exp.location}</span>
                     </div>
                   </div>
+
+                  {/* Date + Current badge */}
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Calendar className="w-4 h-4" />
+                    <div className="p-2 rounded-lg bg-violet-500/10 flex items-center justify-center">
+                      <Calendar className="w-5 h-5 text-violet-500" />
+                    </div>
                     <span>
                       {exp.startDate} - {exp.endDate}
                     </span>
+                    {exp.current && (
+                      <Badge className="inline-flex items-center gap-2 bg-green-500 text-white px-3 py-1 rounded-md shadow hover:opacity-95 transition">
+                        Current
+                      </Badge>
+                    )}
                   </div>
                 </div>
 
@@ -113,17 +102,18 @@ export const Experience = ({ experienceData }: ExperienceProps) => {
                     <Badge
                       key={idx}
                       variant="secondary"
-                      className={`text-xs ${
-                        exp.color === 'orange'
-                          ? 'bg-orange-500/10 text-orange-600 dark:text-orange-400'
-                          : 'bg-violet-500/10 text-violet-600 dark:text-violet-400'
-                      }`}
+                      className="
+                          px-3 py-1 text-sm font-medium
+                          rounded-xl bg-blue-50 text-gray-800
+                          dark:bg-gray-700 dark:text-gray-100
+                          border border-blue-200 dark:border-gray-600
+                          shadow-sm
+                        "
                     >
                       {tech}
                     </Badge>
                   ))}
                 </div>
-
                 <ul className="space-y-2">
                   {exp.desc.map((achievement, idx) => (
                     <li
