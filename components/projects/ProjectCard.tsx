@@ -98,14 +98,16 @@ const Project = ({
             <span className="text-blue-600">◎</span> Key Achievements
           </h4>
 
-          <ul className="flex flex-col gap-2 md:gap-3">
+          <ul className="flex flex-col gap-3">
             {achievements.map((ach, i) => (
               <li
                 key={i}
-                className="flex items-start gap-2 text-gray-600 dark:text-gray-300 text-sm"
+                className="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"
               >
-                <FaCheckCircle className="text-blue-500 mt-0.5" size={14} />
-                {ach}
+                <div className="p-1 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 mt-0.5">
+                  <FaCheckCircle size={10} />
+                </div>
+                <span>{ach}</span>
               </li>
             ))}
           </ul>

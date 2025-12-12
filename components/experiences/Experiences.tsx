@@ -118,10 +118,10 @@ export const Experience = ({ experienceData }: ExperienceProps) => {
                   {exp.desc.map((achievement, idx) => (
                     <li
                       key={idx}
-                      className="flex items-start gap-2 text-sm text-muted-foreground"
+                      className="flex items-center gap-3 text-sm text-muted-foreground"
                     >
                       <span
-                        className={`mt-1.5 ${
+                        className={`text-lg leading-none ${
                           exp.color === 'orange'
                             ? 'text-orange-500'
                             : 'text-violet-500'
@@ -129,7 +129,7 @@ export const Experience = ({ experienceData }: ExperienceProps) => {
                       >
                         •
                       </span>
-                      <span>{achievement}</span>
+                      <span className="leading-snug">{achievement}</span>
                     </li>
                   ))}
                 </ul>
