@@ -1,17 +1,17 @@
 {
   "main": {
-    "name": "Muhammad Awais",
-    "gmail": "chaudharyawais.pk@gmail.com",
-    "linkedIn": "https://www.linkedin.com/in/muhammadawaischaudhary",
-    "github": "https://github.com/Chawais1122",
-    "phone": "+923340747390",
+    "name": "Bilal Ahmed",
+    "gmail": "bilalah.dev07@gmail.com",
+    "linkedIn": "https://www.linkedin.com/in/bilal-dev9",
+    "github": "https://github.com/Bilal-dev07",
+    "phone": "+447521438761",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "opportunity": "Available for new opportunities",
-    "location": "Lahore, Pakistan",
+    "location": "Leeds, United Kingdom",
     "coffeeLabel": "Building the future",
     "titles": [
       "Senior Software Engineer",
-      "4+ Years OF Professional Experience",
+      "5+ Years OF Professional Experience",
       "10+ Projects Completed",
       "Continuously Enhancing My Skills"
     ],
@@ -20,11 +20,14 @@
       "https://img.icons8.com/color/144/null/nodejs.png",
       "https://img.icons8.com/color/144/react-native.png",
       "https://img.icons8.com/color/144/postgreesql.png",
-      "https://img.icons8.com/color/144/null/amazon-web-services.png"
+      "https://img.icons8.com/color/144/null/amazon-web-services.png",
+      "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000"
     ],
     "tags": [
       "React",
       "Node.js",
+      "ASP.Net Core",
+      ".Net Core",
       "PostgreSQL",
       "AWS",
       "Docker"
@@ -32,20 +35,20 @@
   },
   "about": {
     "title": "Senior Software Engineer",
-    "summary": "Senior Software Engineer with around 4+ years of hands on experience in designing, developing, and optimizing web applications for performance and scalability. Skilled in building secure and reliable systems using modern technologies such as React, Node.js, PostgreSQL, and AWS. Adept at writing clean, maintainable, and eﬃcient code while following best practices and modern design patterns. Experienced in working within agile environments and collaborating with cross functional teams to deliver high quality software that meets business goals and enhances user experience. Passionate about solving complex technical problems, improving development workﬂows, and continuously learning new tools and technologies to drive innovation and productivity.",
+    "summary": "Senior Software Engineer with over 5+ years of hands-on experience in designing, developing, and optimizing high-performance, scalable web applications. Skilled in building secure, reliable systems using modern technologies including React, Node.js, ASP.NET Core, .NET, C#, PostgreSQL, and AWS. Adept at writing clean, maintainable, and efficient code while following industry best practices and modern design patterns. Experienced in working within agile environments and collaborating with cross-functional teams to deliver high-quality software that aligns with business goals and enhances user experience. Passionate about solving complex technical problems, improving development workflows, and continuously learning new tools and technologies to drive innovation and productivity.",
     "currentFocus": [
-      "Building and improving scalable full-stack applications",
-      "Enhancing backend performance through caching, indexing, and optimized DB queries",
-      "Designing reliable REST and GraphQL APIs with microservice-ready architecture",
-      "Improving UI components for better usability, accessibility, and responsiveness",
-      "Managing cloud deployments using AWS, Vercel, Docker, and CI/CD pipelines"
+      "Building and improving scalable full-stack applications using modern JavaScript frameworks and ASP.NET Core",
+      "Enhancing backend performance through caching, indexing, optimized database queries, and efficient .NET services",
+      "Designing reliable REST and GraphQL APIs following MVC and microservice-ready architectures",
+      "Improving UI components for better usability, accessibility, and responsiveness across web platforms",
+      "Managing cloud deployments using AWS, Vercel, Docker, and CI/CD pipelines for both Node.js and .NET-based applications"
     ],
     "achievements": [
-      "Delivered 10+ production-ready full-stack projects for global clients",
-      "Automated complex workflows and reduced manual work by up to 40% through custom dashboards",
-      "Improved backend API performance by up to 60% using caching and optimized queries",
-      "Led end-to-end development and deployment of multiple client products across web stacks",
-      "Deployed scalable and cost-efficient systems using AWS services like EC2, S3, RDS, and CloudWatch"
+      "Delivered 10+ production-ready full-stack projects for global clients using React, Node.js, and ASP.NET Core MVC",
+      "Automated complex workflows and reduced manual effort by up to 40% through custom dashboards and admin panels",
+      "Improved backend API performance by up to 60% using caching strategies, optimized queries, and efficient .NET services",
+      "Led end-to-end development and deployment of multiple client products following MVC best practices and modern web architectures",
+      "Deployed scalable and cost-efficient systems using AWS services such as EC2, S3, RDS, and CloudWatch for both .NET and JavaScript stacks"
     ]
   },
   "skills": [
@@ -67,6 +70,14 @@
     },
     {
       "name": "Redux",
+      "category": "Frontend"
+    },
+    {
+      "name": "Angular",
+      "category": "Frontend"
+    },
+    {
+      "name": "Blazor",
       "category": "Frontend"
     },
     {
@@ -118,6 +129,14 @@
       "category": "Backend"
     },
     {
+      "name": ".Net",
+      "category": "Backend"
+    },
+    {
+      "name": "MVC",
+      "category": "Backend"
+    },
+    {
       "name": "Microservices",
       "category": "Backend"
     },
@@ -127,6 +146,14 @@
     },
     {
       "name": "PostgreSQL",
+      "category": "Database"
+    },
+    {
+      "name": "Entity Framework Core",
+      "category": "Database"
+    },
+    {
+      "name": "ADO.NET",
       "category": "Database"
     },
     {
@@ -269,8 +296,9 @@
       "description": "A real-time video communication platform enabling fans to interact with world-class athletes, speakers, and celebrities through secure video calls using WebRTC and modern web technologies.",
       "achievements": [
         "Developed and optimized WebRTC-based real-time video calling, boosting engagement by 30%",
+        "Built scalable backend services using ASP.NET Core and Node.js for secure session management and API handling",
         "Built responsive, interactive UI using Tailwind CSS and TypeScript, improving load times by 25%",
-        "Optimized PostgreSQL queries, increasing data retrieval performance by 20%",
+        "Optimized PostgreSQL queries across .NET and JavaScript services, increasing data retrieval performance by 20%",
         "Integrated secure video conferencing APIs for seamless low-latency calls",
         "Collaborated with product and design teams to enhance cross-platform usability, improving retention by 15%",
         "Improved call stability to reach a 98% uptime across multiple devices"
@@ -279,11 +307,13 @@
         "Next.js",
         "TypeScript",
         "Tailwind CSS",
+        "ASP.NET Core",
+        "C#",
         "PostgreSQL",
         "WebRTC",
         "Video Conferencing API"
       ],
-      "techstack": "Next.js, TypeScript, Tailwind CSS, PostgreSQL, WebRTC, Video Conferencing API",
+      "techstack": "Next.js, TypeScript, Tailwind CSS, ASP.NET Core, C#, PostgreSQL, WebRTC, Video Conferencing API",
       "category": "Full Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765215793/LassWho_fsaor7.png",
       "links": {
@@ -298,24 +328,27 @@
       "description": "A cloud-based digital business card system enabling seamless profile sharing using NFC Smart Cards and QR codes, designed for modern networking and lead generation.",
       "achievements": [
         "Developed NFC and QR-based profile sharing workflows, increasing lead generation by 30%",
-        "Built scalable backend services using Nest.js and TypeScript, improving API response times by 25%",
-        "Integrated Stripe for secure payments and subscription handling",
-        "Created automated CI/CD pipelines, reducing deployment time by 40%",
+        "Built scalable backend services using Nest.js and ASP.NET Core to support enterprise-grade APIs",
+        "Integrated Stripe for secure payments and subscription handling using .NET and Node.js services",
+        "Created automated CI/CD pipelines for JavaScript and .NET applications, reducing deployment time by 40%",
         "Utilized Docker to deploy efficient microservices on AWS, lowering infrastructure costs by 20%",
-        "Enhanced user onboarding flows to reduce account setup time by 15%"
+        "Enhanced user onboarding flows to reduce account setup time by 15%",
+        "Implemented audit logging and error tracking in .NET backend to improve system reliability",
+        "Optimized MongoDB and SQL queries to reduce API response times by 25%"
       ],
       "technologies": [
         "Nest.js",
+        "ASP.NET Core",
+        "C#",
         "TypeScript",
         "MongoDB",
-        "ExpressJS",
         "AWS",
         "Docker",
         "Stripe",
         "CI/CD",
         "QR Code"
       ],
-      "techstack": "Nest.js, TypeScript, MongoDB, ExpressJS, AWS, Docker, Stripe, CI/CD, QR Code",
+      "techstack": "Nest.js, ASP.NET Core, C#, TypeScript, MongoDB, AWS, Docker, Stripe, CI/CD, QR Code",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/i0lhyyedfa1uxtxdq8pm.png",
       "links": {
@@ -334,7 +367,9 @@
         "Integrated Node.js and Express REST APIs for faster data handling, reducing retrieval times by 30%",
         "Implemented RabbitMQ for efficient task processing, speeding up real-time previews by 20%",
         "Collaborated with backend and DevOps teams for smooth AWS deployment with 99.9% uptime",
-        "Improved UI accessibility standards, increasing usability across multiple device types"
+        "Improved UI accessibility standards, increasing usability across multiple device types",
+        "Optimized backend task queues to reduce processing latency by 15%",
+        "Added role-based access controls in APIs to secure user data and administrative functions"
       ],
       "technologies": [
         "React.js",
@@ -363,9 +398,11 @@
       "achievements": [
         "Developed core features that enhanced user booking experience and platform usability",
         "Integrated Stripe for secure and seamless payment processing",
-        "Implemented Google Maps API to help users locate and book nearby venues.",
+        "Implemented Google Maps API to help users locate and book nearby venues",
         "Built responsive UI components using React and TypeScript, improving overall engagement",
-        "Optimized backend workflows to reduce booking confirmation time by 18%"
+        "Optimized backend workflows to reduce booking confirmation time by 18%",
+        "Implemented role-based access control for salons and customers to secure booking workflows",
+        "Improved API reliability and error handling, reducing failed booking attempts"
       ],
       "technologies": [
         "NestJS",
@@ -391,12 +428,16 @@
       "subtitle": "Next-gen learning and teaching management platform",
       "description": "A production-grade platform enabling teachers and students to manage classes, payments, and learning workflows efficiently with a scalable backend.",
       "achievements": [
-        "Developed backend services using Nest.js and TypeScript to enhance performance and scalability",
+        "Developed backend services using ASP.NET Core, C#, and Nest.js to enhance performance and scalability",
+        "Designed MVC-based API architecture following clean architecture principles",
         "Configured and optimized PostgreSQL database architecture for secure and efficient data storage",
         "Integrated Stripe to support global payment processing with multi-currency support",
         "Implemented GraphQL APIs enabling efficient communication and reduced data over-fetching"
       ],
       "technologies": [
+        "ASP.NET Core",
+        "C#",
+        ".NET",
         "Nest.js",
         "TypeScript",
         "PostgreSQL",
@@ -406,8 +447,8 @@
         "Stripe",
         "CI/CD"
       ],
-      "techstack": "Nest.js, TypeScript, PostgreSQL, GraphQL, AWS, Docker, Stripe, CI/CD",
-      "category": "MERN Stack",
+      "techstack": "ASP.NET Core, C#, .NET, Nest.js, TypeScript, PostgreSQL, GraphQL, AWS, Docker, Stripe, CI/CD",
+      "category": "Full Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765217654/popless_snpltg.png",
       "links": {
         "code": "",
@@ -423,7 +464,9 @@
         "Developed core platform features including influencer search, filtering, and personalized browsing experience",
         "Improved system performance using React, Redux, and optimized REST API integration",
         "Implemented RabbitMQ message queues to speed up influencer search and request processing",
-        "Collaborated with cross-functional teams to ensure smooth AWS deployment and high availability"
+        "Collaborated with cross-functional teams to ensure smooth AWS deployment and high availability",
+        "Optimized MongoDB queries and indexing to reduce search latency and improve data retrieval speed",
+        "Implemented role-based access control and API security best practices for protected endpoints"
       ],
       "technologies": [
         "React",
@@ -449,8 +492,8 @@
     {
       "institute": "Bahria University Islamabad",
       "degree": "Bachelor OF Computer Science",
-      "startDate": "2018",
-      "endDate": "2022",
+      "startDate": "2016",
+      "endDate": "2020",
       "desc": [
         "Gained a strong foundation in computer science principles, including algorithms, data structures, and software engineering.",
         "Completed projects on web development, database management, and mobile app development.",
@@ -460,46 +503,53 @@
   ],
   "experiences": [
     {
-      "company": "Narsun Studios",
+      "company": "LHASA LIMITED",
       "position": "Senior Software Engineer",
-      "location": "Lahore, Pakistan",
-      "startDate": "01/2025",
+      "location": "Leeds, UK",
+      "startDate": "11/2023",
       "endDate": "Present",
       "current": true,
       "color": "violet",
       "stack": [
         "NestJS",
+        "ASP.NET Core",
+        "C#",
+        ".NET",
         "GraphQL",
         "React",
-        "Docker",
         "PostgreSQL",
         "Redis",
         "Kafka",
         "RabbitMQ",
-        "Microservices",
+        "Docker",
         "AWS",
-        "CI/CD"
+        "CI/CD",
+        "Microservices"
       ],
       "desc": [
-        "Led architecture and development of scalable full-stack applications using NestJS, GraphQL, and React.",
+        "Led architecture and development of scalable full-stack applications using NestJS, ASP.NET Core, GraphQL, and React.",
+        "Designed and maintained secure REST and GraphQL APIs using .NET and Node.js following MVC and clean architecture principles.",
         "Implemented microservices using Docker, Kafka, and RabbitMQ, improving system reliability and throughput.",
-        "Optimized CI/CD pipelines using Docker, GitHub Actions, and AWS to accelerate release cycles.",
-        "Managed cloud infrastructure with AWS focusing on scalability, security, and cost efficiency.",
-        "Implemented unit and integration testing to ensure quality and maintainability.",
-        "Mentored junior developers, promoted best practices, and improved team productivity.",
+        "Optimized CI/CD pipelines for both .NET and Node.js services using Docker, GitHub Actions, and AWS.",
+        "Managed cloud infrastructure on AWS with a strong focus on scalability, security, and cost efficiency.",
+        "Implemented unit and integration testing across JavaScript and C# codebases to ensure quality and maintainability.",
+        "Mentored junior developers, promoted engineering best practices, and improved team productivity.",
         "Collaborated with product, design, and QA teams to deliver features aligned with business goals."
       ]
     },
     {
-      "company": "Narsun Studios",
-      "position": "Software Engineer",
-      "location": "Lahore, Pakistan",
-      "startDate": "12/2023",
-      "endDate": "12/2024",
+      "company": "NORTHCODERS",
+      "position": "Senior Software Engineer",
+      "location": "Manchester, UK",
+      "startDate": "02/2022",
+      "endDate": "09/2023",
       "current": false,
       "color": "violet",
       "stack": [
         "NestJS",
+        "ASP.NET Core",
+        "C#",
+        ".NET",
         "Express.js",
         "ReactJS",
         "REST APIs",
@@ -510,22 +560,26 @@
         "CI/CD"
       ],
       "desc": [
-        "Developed and maintained full-stack web applications using NestJS with focus on scalable architecture.",
-        "Built REST and GraphQL APIs to improve performance, flexibility, and data-access efficiency.",
-        "Managed AWS infrastructure including S3, EC2, and cloud security.",
-        "Automated CI/CD processes to reduce deployment time and improve delivery efficiency.",
-        "Troubleshot and optimized existing applications to improve performance and UX."
+        "Developed and maintained scalable full-stack web applications using NestJS and ASP.NET Core.",
+        "Built RESTful APIs using .NET MVC and GraphQL services to improve performance, flexibility, and data access.",
+        "Integrated React-based frontends with backend services built in Node.js and C#.",
+        "Managed AWS infrastructure including S3, EC2, and cloud security best practices.",
+        "Automated CI/CD pipelines for JavaScript and .NET applications, reducing deployment time and improving delivery reliability.",
+        "Troubleshot and optimized existing applications to enhance backend performance and user experience."
       ]
     },
     {
-      "company": "DevSinc",
+      "company": "VENTUREDIVE",
       "position": "Software Engineer",
       "location": "Lahore, Pakistan",
-      "startDate": "01/2023",
-      "endDate": "11/2023",
+      "startDate": "07/2020",
+      "endDate": "02/2022",
       "current": false,
       "color": "violet",
       "stack": [
+        "ASP.NET Core",
+        "C#",
+        ".NET",
         "NestJS",
         "Node.js",
         "Kafka",
@@ -535,65 +589,21 @@
         "CI/CD"
       ],
       "desc": [
-        "Led development of scalable applications using NestJS and Node.js with strong focus on maintainable architecture.",
-        "Designed and implemented microservices using Apache Kafka for real-time event-driven communication.",
-        "Optimized PostgreSQL and MongoDB schemas and queries to improve system performance.",
-        "Managed AWS infrastructure with a focus on scalability, security, and cost optimization.",
-        "Automated CI/CD pipelines, significantly accelerating the release process.",
-        "Mentored junior engineers and contributed to system design best practices."
-      ]
-    },
-    {
-      "company": "DevSinc",
-      "position": "Associate Software Engineer",
-      "location": "Lahore, Pakistan",
-      "startDate": "04/2022",
-      "endDate": "12/2022",
-      "current": false,
-      "color": "violet",
-      "stack": [
-        "Node.js",
-        "Next.js",
-        "REST APIs",
-        "GraphQL",
-        "MongoDB",
-        "PostgreSQL"
-      ],
-      "desc": [
-        "Developed server-side applications using Node.js with RESTful and GraphQL APIs for efficient communication.",
-        "Built responsive web applications using Next.js, enhancing cross-platform user experience.",
-        "Optimized MongoDB and PostgreSQL queries to improve reliability and performance.",
-        "Collaborated with cross-functional teams to identify issues and enhance system performance and stability."
-      ]
-    },
-    {
-      "company": "The Dev Corporate",
-      "position": "Backend Developer",
-      "location": "Lahore, Pakistan",
-      "startDate": "06/2021",
-      "endDate": "12/2021",
-      "current": false,
-      "color": "violet",
-      "stack": [
-        "Node.js",
-        "Express.js",
-        "React.js",
-        "REST APIs",
-        "PostgreSQL"
-      ],
-      "desc": [
-        "Assisted in building backend services using Node.js and Express.js, ensuring smooth data flow between client and server.",
-        "Developed responsive and dynamic user interfaces using React.js to improve user engagement.",
-        "Optimized PostgreSQL queries and schema designs to enhance performance and data retrieval efficiency.",
-        "Collaborated with senior developers to troubleshoot issues and improve overall application performance."
+        "Developed backend services using ASP.NET Core and C#, following MVC and clean architecture principles.",
+        "Built scalable applications using NestJS and Node.js with a strong focus on maintainable system design.",
+        "Designed and implemented microservices using Apache Kafka for real-time, event-driven communication.",
+        "Optimized PostgreSQL and MongoDB schemas and queries across .NET and Node.js services to improve performance.",
+        "Managed AWS infrastructure with an emphasis on scalability, security, and cost optimization.",
+        "Automated CI/CD pipelines, significantly accelerating the release and deployment process.",
+        "Mentored junior engineers and contributed to engineering best practices and system design discussions."
       ]
     }
   ],
   "contact": {
-    "email": "chaudharyawais.pk@gmail.com",
-    "phone": "+923340747390",
-    "linkedIn": "https://www.linkedin.com/in/muhammadawaischaudhary",
-    "location": "Lahore, Pakistan"
+    "email": "bilalah.dev07@gmail.com",
+    "phone": "+447521438761",
+    "linkedIn": "https://www.linkedin.com/in/bilal-dev9",
+    "location": "Leeds, United Kingdom"
   },
   "achievements": [
     {

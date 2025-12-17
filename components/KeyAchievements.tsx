@@ -11,7 +11,7 @@ const achievements = [
       'AWS Certified Developer – Associate',
       'DevOps Foundations – CI/CD',
       'ChatGPT Prompt Engineering for Developers',
-      'Docker Foundations Professional Certificate',
+      'C# Design Patterns Certificate',
     ],
     color: 'from-blue-400 to-blue-600',
     bullet: 'bg-blue-500',
@@ -46,7 +46,7 @@ const achievements = [
     title: 'Team Leadership',
     desc: 'Led engineering teams and mentored junior developers while managing client expectations.',
     metrics: [
-      '2-person team leadership',
+      '6-person team leadership',
       'Junior mentoring',
       'Client project management',
     ],

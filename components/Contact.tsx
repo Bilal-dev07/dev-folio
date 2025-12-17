@@ -67,7 +67,7 @@ const Contact = ({ contactData }: Props) => {
       formData.append('message', values.message);
 
       const res = await fetch(
-        'https://formsubmit.co/ajax/chaudharyawais.pk@gmail.com',
+        'https://formsubmit.co/ajax/bilalah.dev07@gmail.com',
         {
           method: 'POST',
           body: formData,

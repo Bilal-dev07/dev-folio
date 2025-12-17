@@ -103,7 +103,7 @@ const Hero = ({ mainData }: HeroProps) => {
                 >
                   <path d="M12 2C8.7 2 6 4.7 6 8c0 4.4 6 12 6 12s6-7.6 6-12c0-3.3-2.7-6-6-6zm0 8.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 5.5 12 5.5s2.5 1.1 2.5 2.5S13.4 10.5 12 10.5z" />
                 </svg>
-                <span className="truncate max-w-[200px]">{location}</span>
+                <span className="truncate max-w-[260px]">{location}</span>
               </div>
 
               <div className="flex items-center gap-2 min-w-0">
@@ -130,7 +130,7 @@ const Hero = ({ mainData }: HeroProps) => {
             <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 mb-8 w-full">
               <div className="mb-3 sm:mb-0">
                 <a
-                  href="/Awais_CV.pdf"
+                  href="/Bilal_CV.pdf"
                   download
                   className="inline-flex items-center gap-2 bg-violet-600 text-white px-5 py-2 rounded-md shadow hover:opacity-95 transition"
                 >
@@ -286,25 +286,26 @@ const Hero = ({ mainData }: HeroProps) => {
 
               {/* Floating Tech Icons — safe positions, never hidden */}
               <div className="absolute inset-0 pointer-events-none">
-                {techStackImages?.slice(0, 4).map((src, i) => {
+                {techStackImages?.slice(0, 5).map((src, i) => {
                   const positions = [
-                    'top-0 left-2 sm:left-4',
-                    'top-10 right-0 sm:right-4',
-                    'bottom-12 right-2 sm:right-6',
-                    'bottom-0 left-4 sm:left-8',
+                    'top-0 left-2 sm:left-4', // 1st
+                    'top-10 right-0 sm:right-4', // 2nd
+                    'bottom-12 right-2 sm:right-6', // 3rd
+                    'bottom-0 left-4 sm:left-8', // 4th
+                    'bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2', // 5th
                   ];
 
                   return (
                     <div
                       key={i}
                       className={`
-              absolute ${positions[i]}
-              w-10 h-10 sm:w-12 sm:h-12 
-              bg-white dark:bg-grey-800 rounded-full 
-              grid place-items-center shadow-md 
-              transition-transform duration-300 hover:scale-105 
-              z-[20]
-            `}
+          absolute ${positions[i]}
+          w-10 h-10 sm:w-12 sm:h-12 
+          bg-white dark:bg-grey-800 rounded-full 
+          grid place-items-center shadow-md 
+          transition-transform duration-300 hover:scale-105 
+          z-[20]
+        `}
                     >
                       <Image
                         alt={`tech-${i}`}

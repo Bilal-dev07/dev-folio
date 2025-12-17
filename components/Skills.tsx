@@ -10,11 +10,11 @@ interface Props {
 }
 
 const sectionVariant = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 20 },
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.75, ease: 'easeInOut' },
+    transition: { duration: 0.4, ease: 'easeOut' },
   },
 };
 
@@ -23,23 +23,23 @@ const cardContainerVariant = {
   hidden: {},
   show: {
     transition: {
-      staggerChildren: 0.08,
+      staggerChildren: 0.04, // was 0.08
     },
   },
 };
 
 // FIXED: lighter animation so mobile doesn’t drop frames
 const cardItemVariant = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0, y: 12 },
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.45, ease: 'easeInOut' },
+    transition: { duration: 0.3, ease: 'easeOut' },
   },
 };
 
 // FIXED: once true prevents repeated re-renders
-const viewportOpts = { once: true, amount: 0.15 };
+const viewportOpts = { once: true, amount: 0.05 };
 
 const Skills = ({ skillData }: Props) => {
   const grouped = skillData.reduce((acc, item) => {
@@ -161,7 +161,7 @@ const Skills = ({ skillData }: Props) => {
             className="grid md:grid-cols-3 gap-6 mt-6 md:mt-16"
           >
             {[
-              { value: '4+', label: 'Years Experience' },
+              { value: '5+', label: 'Years Experience' },
               { value: '20+', label: 'Technologies Mastered' },
               { value: '10+', label: 'Projects Completed' },
             ].map((stat, i) => (
