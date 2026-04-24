@@ -9,7 +9,7 @@ const achievements = [
     desc: 'Recognized credentials demonstrating expertise in cloud technologies, DevOps practices, AI tooling, and modern development workflows.',
     metrics: [
       'AWS Certified Developer – Associate',
-      'DevOps Foundations – CI/CD',
+      'LLM Applications Development with LangChain and OpenAI',
       'ChatGPT Prompt Engineering for Developers',
       'C# Design Patterns Certificate',
     ],
