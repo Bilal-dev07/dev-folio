@@ -42,11 +42,14 @@ const cardItemVariant = {
 const viewportOpts = { once: true, amount: 0.05 };
 
 const Skills = ({ skillData }: Props) => {
-  const grouped = skillData.reduce((acc, item) => {
-    acc[item.category] = acc[item.category] || [];
-    acc[item.category].push(item);
-    return acc;
-  }, {} as Record<string, skill[]>);
+  const grouped = skillData.reduce(
+    (acc, item) => {
+      acc[item.category] = acc[item.category] || [];
+      acc[item.category].push(item);
+      return acc;
+    },
+    {} as Record<string, skill[]>,
+  );
 
   const config: Record<string, { icon: JSX.Element; underline: string }> = {
     Frontend: {
@@ -69,7 +72,7 @@ const Skills = ({ skillData }: Props) => {
       icon: <Link2 className="w-5 h-5 text-pink-500" />,
       underline: 'bg-pink-400',
     },
-    'AI Development': {
+    'AI Engineering': {
       icon: <Bot className="w-5 h-5 text-blue-500" />,
       underline: 'bg-blue-400',
     },

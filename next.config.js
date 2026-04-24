@@ -13,6 +13,7 @@ const nextConfig = {
       'img.freepik.com',
       'media.geeksforgeeks.org',
     ],
+    qualities: [75, 80],
   },
 };
 

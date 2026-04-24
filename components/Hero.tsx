@@ -75,7 +75,7 @@ const Hero = ({ mainData }: HeroProps) => {
             >
               <Typewriter
                 options={{
-                  strings: titles || ['Senior Software Engineer'],
+                  strings: titles || ['Senior AI Engineer'],
                   autoStart: true,
                   loop: true,
                   deleteSpeed: 30,

@@ -5,12 +5,12 @@
     "linkedIn": "https://www.linkedin.com/in/bilal-dev9",
     "github": "https://github.com/Bilal-dev07",
     "phone": "+447521438761",
-    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "shortDesc": "I build scalable AI-powered systems and modern web applications, with a focus on LLM integration, backend architecture, and high performance full-stack solutions that drive real business impact.",
     "opportunity": "Available for new opportunities",
     "location": "Leeds, United Kingdom",
     "coffeeLabel": "Building the future",
     "titles": [
-      "Senior Software Engineer",
+      "Senior AI Engineer",
       "5+ Years OF Professional Experience",
       "10+ Projects Completed",
       "Continuously Enhancing My Skills"
@@ -24,31 +24,43 @@
       "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000"
     ],
     "tags": [
+      "AI Engineering",
+      "LLM",
+      "Generative AI",
+      "RAG",
+      "Vector Databases",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
       "React",
       "Node.js",
-      "ASP.Net Core",
-      ".Net Core",
+      "ASP.NET Core",
+      ".NET Core",
       "PostgreSQL",
       "AWS",
-      "Docker"
+      "Docker",
+      "Microservices Architecture",
+      "REST & GraphQL APIs",
+      "CI/CD"
     ]
   },
   "about": {
-    "title": "Senior Software Engineer",
-    "summary": "Senior Software Engineer with over 5+ years of hands-on experience in designing, developing, and optimizing high-performance, scalable web applications. Skilled in building secure, reliable systems using modern technologies including React, Node.js, ASP.NET Core, .NET, C#, PostgreSQL, and AWS. Adept at writing clean, maintainable, and efficient code while following industry best practices and modern design patterns. Experienced in working within agile environments and collaborating with cross-functional teams to deliver high-quality software that aligns with business goals and enhances user experience. Passionate about solving complex technical problems, improving development workflows, and continuously learning new tools and technologies to drive innovation and productivity.",
+    "title": "Senior AI Engineer",
+    "summary": "Senior AI Engineer with over 5+ years of hands-on experience in designing, developing, and deploying scalable, high-performance AI-driven systems and intelligent web applications. Specialized in Large Language Models (LLMs), backend architecture, and full-stack development, with expertise in technologies including React, Node.js, ASP.NET Core, .NET, C#, PostgreSQL, and AWS. Proven ability to build secure, reliable, and production-ready solutions, integrating AI capabilities into real-world applications to drive business value. Adept at writing clean, maintainable, and efficient code while adhering to modern design patterns and best practices. Experienced in agile environments, collaborating with cross-functional teams to deliver innovative, data-driven solutions that enhance user experience and operational efficiency. Passionate about solving complex technical challenges, advancing AI capabilities, and continuously exploring emerging technologies to deliver impactful and scalable solutions.",
     "currentFocus": [
-      "Building and improving scalable full-stack applications using modern JavaScript frameworks and ASP.NET Core",
-      "Enhancing backend performance through caching, indexing, optimized database queries, and efficient .NET services",
-      "Designing reliable REST and GraphQL APIs following MVC and microservice-ready architectures",
-      "Improving UI components for better usability, accessibility, and responsiveness across web platforms",
-      "Managing cloud deployments using AWS, Vercel, Docker, and CI/CD pipelines for both Node.js and .NET-based applications"
+      "Designing and deploying scalable AI-driven systems and applications leveraging Large Language Models (LLMs) and modern full-stack architectures",
+      "Optimizing backend performance for AI workloads through efficient data pipelines, caching strategies, vector databases, and high-performance .NET and Node.js services",
+      "Building and integrating intelligent APIs (REST/GraphQL) with AI capabilities, following clean architecture and microservices principles",
+      "Developing AI-enhanced user experiences, including conversational interfaces, semantic search, and personalized features",
+      "Managing cloud-native AI deployments using AWS, Docker, and CI/CD pipelines, ensuring reliability, scalability, and production readiness",
+      "Exploring advanced AI systems including autonomous agents, multi-agent orchestration, LLM evaluation frameworks, and AI safety/guardrails for production-grade reliability"
     ],
     "achievements": [
-      "Delivered 10+ production-ready full-stack projects for global clients using React, Node.js, and ASP.NET Core MVC",
-      "Automated complex workflows and reduced manual effort by up to 40% through custom dashboards and admin panels",
-      "Improved backend API performance by up to 60% using caching strategies, optimized queries, and efficient .NET services",
-      "Led end-to-end development and deployment of multiple client products following MVC best practices and modern web architectures",
-      "Deployed scalable and cost-efficient systems using AWS services such as EC2, S3, RDS, and CloudWatch for both .NET and JavaScript stacks"
+      "Delivered 10+ production-ready AI-enabled full-stack applications for global clients, integrating Large Language Models (LLMs) into React, Node.js, and ASP.NET Core ecosystems",
+      "Automated complex business workflows and reduced manual effort by up to 40% using AI-driven solutions, including intelligent dashboards, NLP pipelines, and decision-support systems",
+      "Enhanced system performance and scalability by up to 60% through optimized backend architectures, caching strategies, vector search integration, and efficient .NET/Node.js services",
+      "Led end-to-end design and deployment of AI-powered products, implementing clean architecture, microservices, and LLM-based features such as semantic search and conversational interfaces",
+      "Deployed scalable, secure, and cost-efficient AI systems on AWS (EC2, S3, RDS, CloudWatch), ensuring high availability, observability, and production-grade reliability"
     ]
   },
   "skills": [
@@ -66,6 +78,10 @@
     },
     {
       "name": "Next.js",
+      "category": "Frontend"
+    },
+    {
+      "name": "Vue.js",
       "category": "Frontend"
     },
     {
@@ -93,14 +109,6 @@
       "category": "Frontend"
     },
     {
-      "name": "Material UI",
-      "category": "Frontend"
-    },
-    {
-      "name": "SASS",
-      "category": "Frontend"
-    },
-    {
       "name": "Node.js",
       "category": "Backend"
     },
@@ -113,31 +121,35 @@
       "category": "Backend"
     },
     {
-      "name": "GraphQL",
-      "category": "Backend"
-    },
-    {
-      "name": "REST",
-      "category": "Backend"
-    },
-    {
-      "name": "OAuth",
-      "category": "Backend"
-    },
-    {
       "name": "Python",
       "category": "Backend"
     },
     {
-      "name": ".Net",
+      "name": "Django",
       "category": "Backend"
     },
     {
-      "name": "MVC",
+      "name": "FastAPI",
       "category": "Backend"
     },
     {
-      "name": "Microservices",
+      "name": ".NET / ASP.NET Core",
+      "category": "Backend"
+    },
+    {
+      "name": "REST APIs",
+      "category": "Backend"
+    },
+    {
+      "name": "GraphQL",
+      "category": "Backend"
+    },
+    {
+      "name": "Microservices Architecture",
+      "category": "Backend"
+    },
+    {
+      "name": "OAuth / SSO",
       "category": "Backend"
     },
     {
@@ -175,6 +187,54 @@
     {
       "name": "Firebase",
       "category": "Database"
+    },
+    {
+      "name": "LLM",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Generative AI",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "RAG",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Prompt Engineering",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "AI System Design",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Semantic Search",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Embeddings",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Vector Search",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "OpenAI",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Gemini",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Claude",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Conversational AI",
+      "category": "AI Engineering"
     },
     {
       "name": "Git",
@@ -257,36 +317,8 @@
       "category": "APIs & Services"
     },
     {
-      "name": "OpenAI",
-      "category": "AI Development"
-    },
-    {
-      "name": "Text to Speech (TTS)",
-      "category": "AI Development"
-    },
-    {
-      "name": "Google Gemini",
-      "category": "AI Development"
-    },
-    {
-      "name": "Cursor AI",
-      "category": "AI Development"
-    },
-    {
-      "name": "GPT",
-      "category": "AI Development"
-    },
-    {
-      "name": "Claude AI",
-      "category": "AI Development"
-    },
-    {
-      "name": "Prompt Engineering",
-      "category": "AI Development"
-    },
-    {
-      "name": "LLM Trainer",
-      "category": "AI Development"
+      "name": "Firebase",
+      "category": "APIs & Services"
     }
   ],
   "projects": [
@@ -362,14 +394,11 @@
       "subtitle": "AI-powered design automation platform",
       "description": "An AI-driven creative platform that enables users to quickly produce marketing assets, videos, branding content, and graphic designs through automated and intelligent workflows.",
       "achievements": [
-        "Built AI-driven templates and design suggestion features, improving engagement by 35%",
-        "Developed scalable and responsive interfaces using React and Redux, improving load speed by 25%",
-        "Integrated Node.js and Express REST APIs for faster data handling, reducing retrieval times by 30%",
-        "Implemented RabbitMQ for efficient task processing, speeding up real-time previews by 20%",
-        "Collaborated with backend and DevOps teams for smooth AWS deployment with 99.9% uptime",
-        "Improved UI accessibility standards, increasing usability across multiple device types",
-        "Optimized backend task queues to reduce processing latency by 15%",
-        "Added role-based access controls in APIs to secure user data and administrative functions"
+        "Built AI-driven templates and design suggestions, increasing user engagement by 35%",
+        "Developed scalable React/Redux interfaces and integrated Node.js APIs, improving load speed by 25% and reducing data retrieval time by 30%",
+        "Implemented RabbitMQ and optimized backend task queues, reducing processing latency by up to 20%",
+        "Collaborated with backend and DevOps teams to ensure smooth AWS deployment with 99.9% uptime",
+        "Implemented role-based access control (RBAC) in APIs to secure user data and administrative functions"
       ],
       "technologies": [
         "React.js",
@@ -486,11 +515,74 @@
         "video": "",
         "visit": "https://seeksocial.io"
       }
+    },
+    {
+      "name": "Sabermine",
+      "subtitle": "AI Document Processing System",
+      "description": "An AI-powered document processing platform designed to automate large-scale extraction, validation, and analysis of structured and unstructured documents using OCR, NLP, and scalable cloud-based architecture.",
+      "achievements": [
+        "Developed OCR and NLP pipelines to extract and structure data from complex, low-quality, and handwritten documents",
+        "Built scalable FastAPI microservices for high-volume document ingestion and real-time processing",
+        "Automated document validation and auditing workflows, significantly reducing manual effort and turnaround time",
+        "Designed multi-format processing system supporting PDFs, images, and reports with structured output generation",
+        "Deployed on AWS with scalable infrastructure to enable high-throughput, reliable document processing"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "OCR",
+        "Natural Language Processing (NLP)",
+        "Document AI",
+        "AWS",
+        "Microservices",
+        "Data Extraction",
+        "Automation"
+      ],
+      "techstack": "Python, FastAPI, OCR, NLP, AWS, Microservices, Document AI, Automation",
+      "category": "AI Engineering",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1777055089/sabermine_lasqti.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://www.sabermine.ai/"
+      }
+    },
+    {
+      "name": "Amelia",
+      "subtitle": "Enterprise Conversational AI Platform",
+      "description": "An enterprise-grade conversational AI platform enabling intelligent, context-aware AI agents to automate complex customer interactions and business workflows using LLMs, RAG pipelines, and multi-agent orchestration.",
+      "achievements": [
+        "Designed and deployed RAG-based architecture using embeddings and vector databases for accurate, context-aware AI responses",
+        "Built multi-agent workflows with LangGraph to handle complex reasoning and automated task execution",
+        "Developed scalable FastAPI microservices for real-time conversational AI and API integrations",
+        "Implemented semantic search and vector retrieval for efficient querying across large enterprise datasets",
+        "Deployed production-grade AI system on AWS, optimizing scalability, performance, and reliability"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "LLM",
+        "RAG",
+        "LangGraph",
+        "Vector Databases",
+        "Semantic Search",
+        "Prompt Engineering",
+        "AWS",
+        "Microservices"
+      ],
+      "techstack": "Python, FastAPI, LLMs, RAG, LangGraph, Vector Databases, AWS, Semantic Search, Prompt Engineering, Microservices",
+      "category": "AI Engineering",
+      "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1777055089/Amelia_jpcuz6.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://www.soundhound.com/voice-ai-products/amelia/"
+      }
     }
   ],
   "educations": [
     {
-      "institute": "Bahria University Islamabad",
+      "institute": "University of Leeds",
       "degree": "Bachelor OF Computer Science",
       "startDate": "2016",
       "endDate": "2020",
@@ -503,14 +595,20 @@
   ],
   "experiences": [
     {
-      "company": "LHASA LIMITED",
-      "position": "Senior Software Engineer",
+      "company": "The Codest",
+      "position": "Senior AI Engineer",
       "location": "Leeds, UK",
       "startDate": "11/2023",
       "endDate": "Present",
       "current": true,
       "color": "violet",
       "stack": [
+        "LLM",
+        "RAG",
+        "Prompt Engineering",
+        "Embeddings & Vector Search",
+        "Semantic Search",
+        "AI System Design",
         "NestJS",
         "ASP.NET Core",
         "C#",
@@ -524,17 +622,18 @@
         "Docker",
         "AWS",
         "CI/CD",
-        "Microservices"
+        "Microservices",
+        "OpenAI"
       ],
       "desc": [
-        "Led architecture and development of scalable full-stack applications using NestJS, ASP.NET Core, GraphQL, and React.",
-        "Designed and maintained secure REST and GraphQL APIs using .NET and Node.js following MVC and clean architecture principles.",
-        "Implemented microservices using Docker, Kafka, and RabbitMQ, improving system reliability and throughput.",
-        "Optimized CI/CD pipelines for both .NET and Node.js services using Docker, GitHub Actions, and AWS.",
-        "Managed cloud infrastructure on AWS with a strong focus on scalability, security, and cost efficiency.",
-        "Implemented unit and integration testing across JavaScript and C# codebases to ensure quality and maintainability.",
-        "Mentored junior developers, promoted engineering best practices, and improved team productivity.",
-        "Collaborated with product, design, and QA teams to deliver features aligned with business goals."
+        "Led architecture and development of scalable AI-powered distributed systems using NestJS, ASP.NET Core, GraphQL, and React.",
+        "Designed and deployed production-grade LLM services integrating OpenAI, Gemini, and Claude APIs into enterprise backend systems.",
+        "Built RAG pipelines using embeddings, vector databases, and semantic search to enable context-aware AI-driven responses.",
+        "Developed event-driven AI microservices using Kafka and RabbitMQ for real-time processing and intelligent automation workflows.",
+        "Engineered scalable AI APIs with .NET and Node.js using clean architecture, microservices, and domain-driven design principles.",
+        "Implemented prompt engineering standards and LLM evaluation workflows to improve reliability, consistency, and output quality.",
+        "Designed cloud-native AI infrastructure on AWS with Docker and CI/CD pipelines ensuring scalability, observability, and performance.",
+        "Mentored engineers and collaborated cross-functionally to deliver AI-powered features including conversational interfaces and semantic search systems."
       ]
     },
     {
@@ -557,21 +656,26 @@
         "MongoDB",
         "AWS",
         "Docker",
-        "CI/CD"
+        "CI/CD",
+        "AI Integration",
+        "Prompt Engineering",
+        "Semantic Search"
       ],
       "desc": [
-        "Developed and maintained scalable full-stack web applications using NestJS and ASP.NET Core.",
-        "Built RESTful APIs using .NET MVC and GraphQL services to improve performance, flexibility, and data access.",
-        "Integrated React-based frontends with backend services built in Node.js and C#.",
-        "Managed AWS infrastructure including S3, EC2, and cloud security best practices.",
-        "Automated CI/CD pipelines for JavaScript and .NET applications, reducing deployment time and improving delivery reliability.",
-        "Troubleshot and optimized existing applications to enhance backend performance and user experience."
+        "Developed and maintained scalable full-stack web applications using NestJS and ASP.NET Core with a focus on performance and extensibility.",
+        "Built and optimized REST and GraphQL APIs using .NET and Node.js, enabling flexible data access and improved system efficiency.",
+        "Integrated early-stage AI capabilities into applications using OpenAI APIs for automation, content generation, and intelligent features.",
+        "Worked with embedding-based and semantic search concepts to enhance data retrieval and user experience in web applications.",
+        "Integrated React frontends with backend services built in Node.js and C#, ensuring seamless data flow across systems.",
+        "Managed AWS infrastructure (EC2, S3) and applied cloud best practices for scalable and secure deployments.",
+        "Automated CI/CD pipelines for both .NET and JavaScript applications, improving deployment speed and release reliability.",
+        "Troubleshot, optimized, and refactored backend systems while exploring AI-assisted features to improve application intelligence."
       ]
     },
     {
-      "company": "VENTUREDIVE",
+      "company": "Innovify",
       "position": "Software Engineer",
-      "location": "Lahore, Pakistan",
+      "location": "Landon, UK",
       "startDate": "07/2020",
       "endDate": "02/2022",
       "current": false,
@@ -586,16 +690,20 @@
         "PostgreSQL",
         "MongoDB",
         "AWS",
-        "CI/CD"
+        "CI/CD",
+        "Event-Driven Architecture",
+        "Microservices Architecture",
+        "Distributed Systems"
       ],
       "desc": [
-        "Developed backend services using ASP.NET Core and C#, following MVC and clean architecture principles.",
-        "Built scalable applications using NestJS and Node.js with a strong focus on maintainable system design.",
-        "Designed and implemented microservices using Apache Kafka for real-time, event-driven communication.",
-        "Optimized PostgreSQL and MongoDB schemas and queries across .NET and Node.js services to improve performance.",
-        "Managed AWS infrastructure with an emphasis on scalability, security, and cost optimization.",
-        "Automated CI/CD pipelines, significantly accelerating the release and deployment process.",
-        "Mentored junior engineers and contributed to engineering best practices and system design discussions."
+        "Developed backend services using ASP.NET Core and C#, following MVC, clean architecture, and scalable system design principles.",
+        "Built and maintained distributed applications using NestJS and Node.js with a focus on modular, maintainable backend systems.",
+        "Designed event-driven microservices using Apache Kafka to support real-time data processing and asynchronous workflows.",
+        "Optimized PostgreSQL and MongoDB schemas and queries across distributed services to improve system performance and reliability.",
+        "Managed AWS infrastructure with emphasis on scalability, security, and cost-efficient deployment strategies.",
+        "Automated CI/CD pipelines to streamline release cycles and improve deployment consistency across environments.",
+        "Contributed to early-stage intelligent system thinking by working on event-driven and data-heavy architectures that later evolved into AI-ready systems.",
+        "Mentored junior engineers and participated in system design discussions focused on scalability, reliability, and backend architecture best practices."
       ]
     }
   ],
@@ -612,7 +720,7 @@
       "desc": "Recognized credentials demonstrating expertise in cloud technologies, DevOps practices, AI tooling, and modern development workflows.",
       "metrics": [
         "AWS Certified Developer – Associate",
-        "DevOps Foundations – CI/CD",
+        "LLM Applications Development with LangChain and OpenAI",
         "ChatGPT Prompt Engineering for Developers",
         "Docker Foundations Professional Certificate"
       ],
