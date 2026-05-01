@@ -164,7 +164,7 @@ const Skills = ({ skillData }: Props) => {
             className="grid md:grid-cols-3 gap-6 mt-6 md:mt-16"
           >
             {[
-              { value: '5+', label: 'Years Experience' },
+              { value: '6+', label: 'Years Experience' },
               { value: '20+', label: 'Technologies Mastered' },
               { value: '10+', label: 'Projects Completed' },
             ].map((stat, i) => (

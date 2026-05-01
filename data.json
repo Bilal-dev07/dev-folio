@@ -11,7 +11,7 @@
     "coffeeLabel": "Building the future",
     "titles": [
       "Senior AI Engineer",
-      "5+ Years OF Professional Experience",
+      "6+ Years OF Professional Experience",
       "10+ Projects Completed",
       "Continuously Enhancing My Skills"
     ],
@@ -46,7 +46,7 @@
   },
   "about": {
     "title": "Senior AI Engineer",
-    "summary": "Senior AI Engineer with over 5+ years of hands-on experience in designing, developing, and deploying scalable, high-performance AI-driven systems and intelligent web applications. Specialized in Large Language Models (LLMs), backend architecture, and full-stack development, with expertise in technologies including React, Node.js, ASP.NET Core, .NET, C#, PostgreSQL, and AWS. Proven ability to build secure, reliable, and production-ready solutions, integrating AI capabilities into real-world applications to drive business value. Adept at writing clean, maintainable, and efficient code while adhering to modern design patterns and best practices. Experienced in agile environments, collaborating with cross-functional teams to deliver innovative, data-driven solutions that enhance user experience and operational efficiency. Passionate about solving complex technical challenges, advancing AI capabilities, and continuously exploring emerging technologies to deliver impactful and scalable solutions.",
+    "summary": "Senior AI Engineer with over 6+ years of hands-on experience in designing, developing, and deploying scalable, high-performance AI-driven systems and intelligent web applications. Specialized in Large Language Models (LLMs), backend architecture, and full-stack development, with expertise in technologies including React, Node.js, ASP.NET Core, .NET, C#, PostgreSQL, and AWS. Proven ability to build secure, reliable, and production-ready solutions, integrating AI capabilities into real-world applications to drive business value. Adept at writing clean, maintainable, and efficient code while adhering to modern design patterns and best practices. Experienced in agile environments, collaborating with cross-functional teams to deliver innovative, data-driven solutions that enhance user experience and operational efficiency. Passionate about solving complex technical challenges, advancing AI capabilities, and continuously exploring emerging technologies to deliver impactful and scalable solutions.",
     "currentFocus": [
       "Designing and deploying scalable AI-driven systems and applications leveraging Large Language Models (LLMs) and modern full-stack architectures",
       "Optimizing backend performance for AI workloads through efficient data pipelines, caching strategies, vector databases, and high-performance .NET and Node.js services",
@@ -638,7 +638,7 @@
     },
     {
       "company": "NORTHCODERS",
-      "position": "Senior Software Engineer",
+      "position": "AI Engineer",
       "location": "Manchester, UK",
       "startDate": "02/2022",
       "endDate": "09/2023",
