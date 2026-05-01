@@ -5,15 +5,15 @@
     "linkedIn": "https://www.linkedin.com/in/bilal-dev9",
     "github": "https://github.com/Bilal-dev07",
     "phone": "+447521438761",
-    "shortDesc": "I build scalable AI-powered systems and modern web applications, with a focus on LLM integration, backend architecture, and high performance full-stack solutions that drive real business impact.",
-    "opportunity": "Available for new opportunities",
-    "location": "Leeds, United Kingdom",
-    "coffeeLabel": "Building the future",
+    "shortDesc": "I build production-grade AI systems powered by LLMs, specializing in RAG pipelines, AI agents, and scalable backend architectures that deliver real-world impact.",
+    "opportunity": "Available for AI Engineering opportunities",
+    "location": "California, United States",
+    "coffeeLabel": "Building AI Systems",
     "titles": [
       "Senior AI Engineer",
-      "6+ Years OF Professional Experience",
-      "10+ Projects Completed",
-      "Continuously Enhancing My Skills"
+      "LLM & RAG Specialist",
+      "6+ Years Professional Experience",
+      "10+ AI Projects Delivered"
     ],
     "heroImage": "/me.jpeg",
     "techStackImages": [
@@ -24,89 +24,102 @@
       "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000"
     ],
     "tags": [
-      "AI Engineering",
       "LLM",
-      "Generative AI",
       "RAG",
-      "Vector Databases",
+      "Generative AI",
+      "AI Agents",
       "Prompt Engineering",
+      "Vector Databases",
+      "Embeddings",
       "Python",
       "FastAPI",
-      "React",
       "Node.js",
-      "ASP.NET Core",
-      ".NET Core",
-      "PostgreSQL",
+      ".NET",
       "AWS",
       "Docker",
-      "Microservices Architecture",
-      "REST & GraphQL APIs",
+      "Microservices",
       "CI/CD"
     ]
   },
   "about": {
     "title": "Senior AI Engineer",
-    "summary": "Senior AI Engineer with over 6+ years of hands-on experience in designing, developing, and deploying scalable, high-performance AI-driven systems and intelligent web applications. Specialized in Large Language Models (LLMs), backend architecture, and full-stack development, with expertise in technologies including React, Node.js, ASP.NET Core, .NET, C#, PostgreSQL, and AWS. Proven ability to build secure, reliable, and production-ready solutions, integrating AI capabilities into real-world applications to drive business value. Adept at writing clean, maintainable, and efficient code while adhering to modern design patterns and best practices. Experienced in agile environments, collaborating with cross-functional teams to deliver innovative, data-driven solutions that enhance user experience and operational efficiency. Passionate about solving complex technical challenges, advancing AI capabilities, and continuously exploring emerging technologies to deliver impactful and scalable solutions.",
+    "summary": "Senior AI Engineer with 6+ years of experience building and deploying production-grade AI systems powered by Large Language Models (LLMs). Specialized in Retrieval-Augmented Generation (RAG), AI agents, and scalable backend architectures using Python, FastAPI, Node.js, and .NET. Proven track record of designing end-to-end AI solutions, from data pipelines and embeddings to model integration, evaluation, and deployment on AWS. Experienced in developing high-performance AI microservices, semantic search systems, and intelligent automation workflows that drive measurable business impact. Strong focus on clean architecture, scalability, and LLMOps best practices to deliver reliable, production-ready AI applications.",
     "currentFocus": [
-      "Designing and deploying scalable AI-driven systems and applications leveraging Large Language Models (LLMs) and modern full-stack architectures",
-      "Optimizing backend performance for AI workloads through efficient data pipelines, caching strategies, vector databases, and high-performance .NET and Node.js services",
-      "Building and integrating intelligent APIs (REST/GraphQL) with AI capabilities, following clean architecture and microservices principles",
-      "Developing AI-enhanced user experiences, including conversational interfaces, semantic search, and personalized features",
-      "Managing cloud-native AI deployments using AWS, Docker, and CI/CD pipelines, ensuring reliability, scalability, and production readiness",
-      "Exploring advanced AI systems including autonomous agents, multi-agent orchestration, LLM evaluation frameworks, and AI safety/guardrails for production-grade reliability"
+      "Designing and deploying LLM-powered systems using RAG, embeddings, and vector databases for scalable knowledge retrieval",
+      "Building AI agents and multi-agent workflows using tool/function calling for autonomous task execution",
+      "Developing high-performance AI microservices with Python (FastAPI), Node.js, and .NET in distributed architectures",
+      "Implementing LLMOps practices including evaluation, monitoring, and optimization for production AI systems",
+      "Optimizing AI system performance through caching, batching, and efficient inference strategies",
+      "Deploying cloud-native AI solutions on AWS using Docker and CI/CD with focus on scalability and reliability"
     ],
     "achievements": [
-      "Delivered 10+ production-ready AI-enabled full-stack applications for global clients, integrating Large Language Models (LLMs) into React, Node.js, and ASP.NET Core ecosystems",
-      "Automated complex business workflows and reduced manual effort by up to 40% using AI-driven solutions, including intelligent dashboards, NLP pipelines, and decision-support systems",
-      "Enhanced system performance and scalability by up to 60% through optimized backend architectures, caching strategies, vector search integration, and efficient .NET/Node.js services",
-      "Led end-to-end design and deployment of AI-powered products, implementing clean architecture, microservices, and LLM-based features such as semantic search and conversational interfaces",
-      "Deployed scalable, secure, and cost-efficient AI systems on AWS (EC2, S3, RDS, CloudWatch), ensuring high availability, observability, and production-grade reliability"
+      "Delivered 10+ production-grade AI applications integrating LLMs, RAG pipelines, and semantic search into real-world systems",
+      "Reduced manual workflows by up to 40% through AI-driven automation using NLP pipelines and intelligent agents",
+      "Improved system performance and scalability by up to 60% via optimized backend architectures and vector search integration",
+      "Led end-to-end development of AI platforms including conversational AI, knowledge retrieval systems, and automation tools",
+      "Deployed scalable AI infrastructure on AWS with high availability, observability, and cost-efficient architecture"
     ]
   },
   "skills": [
     {
-      "name": "JavaScript",
-      "category": "Frontend"
+      "name": "LLM",
+      "category": "AI Engineering"
     },
     {
-      "name": "TypeScript",
-      "category": "Frontend"
+      "name": "Generative AI",
+      "category": "AI Engineering"
     },
     {
-      "name": "React",
-      "category": "Frontend"
+      "name": "RAG",
+      "category": "AI Engineering"
     },
     {
-      "name": "Next.js",
-      "category": "Frontend"
+      "name": "Prompt Engineering",
+      "category": "AI Engineering"
     },
     {
-      "name": "Vue.js",
-      "category": "Frontend"
+      "name": "AI System Design",
+      "category": "AI Engineering"
     },
     {
-      "name": "Redux",
-      "category": "Frontend"
+      "name": "LangChain",
+      "category": "AI Engineering"
     },
     {
-      "name": "Angular",
-      "category": "Frontend"
+      "name": "LlamaIndex",
+      "category": "AI Engineering"
     },
     {
-      "name": "Blazor",
-      "category": "Frontend"
+      "name": "Embeddings",
+      "category": "AI Engineering"
     },
     {
-      "name": "HTML5",
-      "category": "Frontend"
+      "name": "Vector Search",
+      "category": "AI Engineering"
     },
     {
-      "name": "CSS3",
-      "category": "Frontend"
+      "name": "Semantic Search",
+      "category": "AI Engineering"
     },
     {
-      "name": "Tailwind CSS",
-      "category": "Frontend"
+      "name": "AI Agents",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Tool Calling",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "Fine-Tuning",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "LLMOps",
+      "category": "AI Engineering"
+    },
+    {
+      "name": "OpenAI",
+      "category": "AI Engineering"
     },
     {
       "name": "Node.js",
@@ -189,52 +202,48 @@
       "category": "Database"
     },
     {
-      "name": "LLM",
-      "category": "AI Engineering"
+      "name": "JavaScript",
+      "category": "Frontend"
     },
     {
-      "name": "Generative AI",
-      "category": "AI Engineering"
+      "name": "TypeScript",
+      "category": "Frontend"
     },
     {
-      "name": "RAG",
-      "category": "AI Engineering"
+      "name": "React",
+      "category": "Frontend"
     },
     {
-      "name": "Prompt Engineering",
-      "category": "AI Engineering"
+      "name": "Next.js",
+      "category": "Frontend"
     },
     {
-      "name": "AI System Design",
-      "category": "AI Engineering"
+      "name": "Vue.js",
+      "category": "Frontend"
     },
     {
-      "name": "Semantic Search",
-      "category": "AI Engineering"
+      "name": "Redux",
+      "category": "Frontend"
     },
     {
-      "name": "Embeddings",
-      "category": "AI Engineering"
+      "name": "Angular",
+      "category": "Frontend"
     },
     {
-      "name": "Vector Search",
-      "category": "AI Engineering"
+      "name": "Blazor",
+      "category": "Frontend"
     },
     {
-      "name": "OpenAI",
-      "category": "AI Engineering"
+      "name": "HTML5",
+      "category": "Frontend"
     },
     {
-      "name": "Gemini",
-      "category": "AI Engineering"
+      "name": "CSS3",
+      "category": "Frontend"
     },
     {
-      "name": "Claude",
-      "category": "AI Engineering"
-    },
-    {
-      "name": "Conversational AI",
-      "category": "AI Engineering"
+      "name": "Tailwind CSS",
+      "category": "Frontend"
     },
     {
       "name": "Git",
@@ -325,27 +334,28 @@
     {
       "name": "LassWho",
       "subtitle": "Live video chat platform connecting fans with global icons",
-      "description": "A real-time video communication platform enabling fans to interact with world-class athletes, speakers, and celebrities through secure video calls using WebRTC and modern web technologies.",
+      "description": "A real-time video communication platform enabling fans to interact with global personalities through secure, low-latency video calls, enhanced with intelligent personalization and scalable backend systems.",
       "achievements": [
-        "Developed and optimized WebRTC-based real-time video calling, boosting engagement by 30%",
-        "Built scalable backend services using ASP.NET Core and Node.js for secure session management and API handling",
-        "Built responsive, interactive UI using Tailwind CSS and TypeScript, improving load times by 25%",
-        "Optimized PostgreSQL queries across .NET and JavaScript services, increasing data retrieval performance by 20%",
-        "Integrated secure video conferencing APIs for seamless low-latency calls",
-        "Collaborated with product and design teams to enhance cross-platform usability, improving retention by 15%",
-        "Improved call stability to reach a 98% uptime across multiple devices"
+        "Developed WebRTC-based real-time video communication system, increasing user engagement by 30%",
+        "Built scalable backend services using ASP.NET Core and Node.js for secure session and API management",
+        "Implemented recommendation logic to personalize user sessions and improve discovery experience",
+        "Explored AI-based moderation techniques for real-time content filtering and user safety",
+        "Optimized PostgreSQL queries and backend workflows, improving data retrieval performance by 20%",
+        "Improved call reliability and system stability, achieving 98% uptime across devices"
       ],
       "technologies": [
         "Next.js",
         "TypeScript",
-        "Tailwind CSS",
         "ASP.NET Core",
         "C#",
+        "Node.js",
         "PostgreSQL",
         "WebRTC",
-        "Video Conferencing API"
+        "AWS",
+        "AI-based Moderation",
+        "Recommendation Systems"
       ],
-      "techstack": "Next.js, TypeScript, Tailwind CSS, ASP.NET Core, C#, PostgreSQL, WebRTC, Video Conferencing API",
+      "techstack": "Next.js, TypeScript, ASP.NET Core, C#, Node.js, PostgreSQL, WebRTC, AWS, AI Moderation, Recommendation Systems",
       "category": "Full Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765215793/LassWho_fsaor7.png",
       "links": {
@@ -357,19 +367,17 @@
     {
       "name": "Oval",
       "subtitle": "NFC-powered digital business card and networking platform",
-      "description": "A cloud-based digital business card system enabling seamless profile sharing using NFC Smart Cards and QR codes, designed for modern networking and lead generation.",
+      "description": "A cloud-based digital identity platform enabling seamless profile sharing through NFC and QR technologies, with scalable APIs and intelligent analytics for lead generation.",
       "achievements": [
-        "Developed NFC and QR-based profile sharing workflows, increasing lead generation by 30%",
-        "Built scalable backend services using Nest.js and ASP.NET Core to support enterprise-grade APIs",
-        "Integrated Stripe for secure payments and subscription handling using .NET and Node.js services",
-        "Created automated CI/CD pipelines for JavaScript and .NET applications, reducing deployment time by 40%",
-        "Utilized Docker to deploy efficient microservices on AWS, lowering infrastructure costs by 20%",
-        "Enhanced user onboarding flows to reduce account setup time by 15%",
-        "Implemented audit logging and error tracking in .NET backend to improve system reliability",
-        "Optimized MongoDB and SQL queries to reduce API response times by 25%"
+        "Developed NFC and QR-based sharing workflows, increasing lead generation efficiency by 30%",
+        "Built scalable backend systems using Nest.js and ASP.NET Core for enterprise-grade APIs",
+        "Integrated Stripe for secure payments and subscription workflows across distributed services",
+        "Implemented CI/CD pipelines and Docker deployments, reducing deployment time by 40%",
+        "Optimized MongoDB and SQL queries, improving API response performance by 25%",
+        "Introduced analytics and data tracking features to support intelligent business insights"
       ],
       "technologies": [
-        "Nest.js",
+        "NestJS",
         "ASP.NET Core",
         "C#",
         "TypeScript",
@@ -378,9 +386,9 @@
         "Docker",
         "Stripe",
         "CI/CD",
-        "QR Code"
+        "Data Analytics"
       ],
-      "techstack": "Nest.js, ASP.NET Core, C#, TypeScript, MongoDB, AWS, Docker, Stripe, CI/CD, QR Code",
+      "techstack": "NestJS, ASP.NET Core, C#, TypeScript, MongoDB, AWS, Docker, Stripe, CI/CD, Data Analytics",
       "category": "MERN Stack",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/i0lhyyedfa1uxtxdq8pm.png",
       "links": {
@@ -392,27 +400,29 @@
     {
       "name": "Designs.ai",
       "subtitle": "AI-powered design automation platform",
-      "description": "An AI-driven creative platform that enables users to quickly produce marketing assets, videos, branding content, and graphic designs through automated and intelligent workflows.",
+      "description": "An AI-driven creative platform enabling automated generation of marketing content using LLMs and multimodal generative AI workflows for text, images, and videos.",
       "achievements": [
-        "Built AI-driven templates and design suggestions, increasing user engagement by 35%",
-        "Developed scalable React/Redux interfaces and integrated Node.js APIs, improving load speed by 25% and reducing data retrieval time by 30%",
-        "Implemented RabbitMQ and optimized backend task queues, reducing processing latency by up to 20%",
-        "Collaborated with backend and DevOps teams to ensure smooth AWS deployment with 99.9% uptime",
-        "Implemented role-based access control (RBAC) in APIs to secure user data and administrative functions"
+        "Developed LLM-powered content generation workflows for automated design and branding outputs",
+        "Integrated generative AI APIs for multimodal content creation including text, images, and video",
+        "Built scalable backend pipelines using Node.js and RabbitMQ for asynchronous AI processing",
+        "Optimized AI inference pipelines, reducing generation latency by 20%",
+        "Deployed AI workloads on AWS with high availability and scalable infrastructure",
+        "Implemented secure access controls for managing AI-generated assets and workflows"
       ],
       "technologies": [
         "React.js",
         "Node.js",
         "Express.js",
         "PostgreSQL",
-        "AI",
-        "Redux",
-        "REST APIs",
+        "LLM",
+        "Generative AI",
+        "Multimodal AI",
         "AWS",
-        "RabbitMQ"
+        "RabbitMQ",
+        "AI APIs"
       ],
-      "techstack": "React.js, Node.js, Express.js, PostgreSQL, AI, Redux, REST APIs, AWS, RabbitMQ",
-      "category": "MERN Stack",
+      "techstack": "React.js, Node.js, Express.js, PostgreSQL, LLM, Generative AI, Multimodal AI, AWS, RabbitMQ",
+      "category": "AI Engineering",
       "image": "https://res.cloudinary.com/dmspgqaqz/image/upload/v1730987945/projects/mrruzinwjhhibbccwbrt.png",
       "links": {
         "code": "",
@@ -423,28 +433,28 @@
     {
       "name": "Glamezy",
       "subtitle": "Beauty service booking platform",
-      "description": "A cloud-hosted booking system enabling users to find nearby beauty salons, book appointments, and make secure payments.",
+      "description": "A scalable booking platform enabling users to discover, schedule, and manage beauty services with optimized workflows and intelligent user experience features.",
       "achievements": [
-        "Developed core features that enhanced user booking experience and platform usability",
+        "Developed booking and scheduling features improving user experience and engagement",
         "Integrated Stripe for secure and seamless payment processing",
-        "Implemented Google Maps API to help users locate and book nearby venues",
-        "Built responsive UI components using React and TypeScript, improving overall engagement",
-        "Optimized backend workflows to reduce booking confirmation time by 18%",
-        "Implemented role-based access control for salons and customers to secure booking workflows",
-        "Improved API reliability and error handling, reducing failed booking attempts"
+        "Implemented location-based services using Google Maps API for nearby discovery",
+        "Built responsive UI components using React and TypeScript",
+        "Optimized backend workflows, reducing booking confirmation time by 18%",
+        "Enhanced system reliability with improved API handling and error management"
       ],
       "technologies": [
         "NestJS",
         "React",
-        "Redux",
-        "Docker",
-        "Amazon S3",
-        "Stripe",
+        "TypeScript",
         "PostgreSQL",
-        "Google Maps API"
+        "AWS S3",
+        "Stripe",
+        "Docker",
+        "Google Maps API",
+        "REST APIs"
       ],
-      "techstack": "NestJS, React, Redux, Docker, Amazon S3, Stripe, PostgreSQL, Google Maps API",
-      "category": "MERN Stack",
+      "techstack": "NestJS, React, TypeScript, PostgreSQL, AWS S3, Stripe, Docker, Google Maps API",
+      "category": "Full Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765217655/glamezy_as26cz.png",
       "links": {
         "code": "",
@@ -455,28 +465,28 @@
     {
       "name": "Popless",
       "subtitle": "Next-gen learning and teaching management platform",
-      "description": "A production-grade platform enabling teachers and students to manage classes, payments, and learning workflows efficiently with a scalable backend.",
+      "description": "A scalable learning management platform enabling users to manage classes, payments, and educational workflows with efficient backend systems.",
       "achievements": [
-        "Developed backend services using ASP.NET Core, C#, and Nest.js to enhance performance and scalability",
-        "Designed MVC-based API architecture following clean architecture principles",
-        "Configured and optimized PostgreSQL database architecture for secure and efficient data storage",
-        "Integrated Stripe to support global payment processing with multi-currency support",
-        "Implemented GraphQL APIs enabling efficient communication and reduced data over-fetching"
+        "Developed backend services using ASP.NET Core and Nest.js for scalable system architecture",
+        "Designed clean architecture-based APIs ensuring maintainability and modularity",
+        "Optimized PostgreSQL database performance for secure and efficient data handling",
+        "Integrated Stripe for global payment processing and subscription management",
+        "Implemented GraphQL APIs to improve data fetching efficiency",
+        "Enhanced system scalability and performance through backend optimizations"
       ],
       "technologies": [
         "ASP.NET Core",
         "C#",
         ".NET",
-        "Nest.js",
+        "NestJS",
         "TypeScript",
         "PostgreSQL",
         "GraphQL",
         "AWS",
         "Docker",
-        "Stripe",
         "CI/CD"
       ],
-      "techstack": "ASP.NET Core, C#, .NET, Nest.js, TypeScript, PostgreSQL, GraphQL, AWS, Docker, Stripe, CI/CD",
+      "techstack": "ASP.NET Core, C#, .NET, NestJS, TypeScript, PostgreSQL, GraphQL, AWS, Docker",
       "category": "Full Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765217654/popless_snpltg.png",
       "links": {
@@ -488,27 +498,27 @@
     {
       "name": "SeekSocial",
       "subtitle": "Influencer discovery and engagement platform",
-      "description": "A scalable platform helping users search, filter, and analyze influencers with fast data processing and real-time performance.",
+      "description": "A scalable platform enabling intelligent influencer discovery using search optimization, ranking systems, and high-performance backend services.",
       "achievements": [
-        "Developed core platform features including influencer search, filtering, and personalized browsing experience",
-        "Improved system performance using React, Redux, and optimized REST API integration",
-        "Implemented RabbitMQ message queues to speed up influencer search and request processing",
-        "Collaborated with cross-functional teams to ensure smooth AWS deployment and high availability",
-        "Optimized MongoDB queries and indexing to reduce search latency and improve data retrieval speed",
-        "Implemented role-based access control and API security best practices for protected endpoints"
+        "Developed advanced search and filtering features for influencer discovery",
+        "Implemented recommendation and ranking logic to improve user engagement",
+        "Integrated data-driven scoring mechanisms for better content relevance",
+        "Optimized backend performance using Node.js and MongoDB",
+        "Implemented RabbitMQ queues for faster data processing and requests",
+        "Reduced search latency through optimized indexing and query performance"
       ],
       "technologies": [
         "React",
-        "Redux",
         "Node.js",
         "Express.js",
-        "RabbitMQ",
         "MongoDB",
+        "RabbitMQ",
         "AWS",
-        "REST APIs"
+        "Recommendation Systems",
+        "Search Optimization"
       ],
-      "techstack": "React, Redux, Node.js, Express.js, RabbitMQ, MongoDB, AWS, REST APIs",
-      "category": "MERN Stack",
+      "techstack": "React, Node.js, Express.js, MongoDB, RabbitMQ, AWS, Recommendation Systems",
+      "category": "Full Stack",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1765217654/seeksocial_ribnuv.png",
       "links": {
         "code": "",
@@ -519,26 +529,27 @@
     {
       "name": "Sabermine",
       "subtitle": "AI Document Processing System",
-      "description": "An AI-powered document processing platform designed to automate large-scale extraction, validation, and analysis of structured and unstructured documents using OCR, NLP, and scalable cloud-based architecture.",
+      "description": "An AI-powered document processing platform leveraging OCR and NLP to automate extraction, classification, and validation of structured and unstructured data.",
       "achievements": [
-        "Developed OCR and NLP pipelines to extract and structure data from complex, low-quality, and handwritten documents",
-        "Built scalable FastAPI microservices for high-volume document ingestion and real-time processing",
-        "Automated document validation and auditing workflows, significantly reducing manual effort and turnaround time",
-        "Designed multi-format processing system supporting PDFs, images, and reports with structured output generation",
-        "Deployed on AWS with scalable infrastructure to enable high-throughput, reliable document processing"
+        "Built OCR and NLP pipelines for extracting structured data from complex documents",
+        "Developed FastAPI microservices for scalable document processing workflows",
+        "Implemented entity recognition and classification using NLP techniques",
+        "Automated document validation workflows, reducing manual effort significantly",
+        "Designed multi-format processing pipelines for PDFs and images",
+        "Deployed scalable AI infrastructure on AWS for high-throughput processing"
       ],
       "technologies": [
         "Python",
         "FastAPI",
+        "NLP",
         "OCR",
-        "Natural Language Processing (NLP)",
         "Document AI",
         "AWS",
         "Microservices",
         "Data Extraction",
         "Automation"
       ],
-      "techstack": "Python, FastAPI, OCR, NLP, AWS, Microservices, Document AI, Automation",
+      "techstack": "Python, FastAPI, NLP, OCR, AWS, Microservices, Document AI",
       "category": "AI Engineering",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1777055089/sabermine_lasqti.png",
       "links": {
@@ -550,13 +561,14 @@
     {
       "name": "Amelia",
       "subtitle": "Enterprise Conversational AI Platform",
-      "description": "An enterprise-grade conversational AI platform enabling intelligent, context-aware AI agents to automate complex customer interactions and business workflows using LLMs, RAG pipelines, and multi-agent orchestration.",
+      "description": "An enterprise-grade AI platform leveraging LLMs, RAG pipelines, and multi-agent systems to automate complex workflows and deliver context-aware conversational experiences.",
       "achievements": [
-        "Designed and deployed RAG-based architecture using embeddings and vector databases for accurate, context-aware AI responses",
-        "Built multi-agent workflows with LangGraph to handle complex reasoning and automated task execution",
-        "Developed scalable FastAPI microservices for real-time conversational AI and API integrations",
-        "Implemented semantic search and vector retrieval for efficient querying across large enterprise datasets",
-        "Deployed production-grade AI system on AWS, optimizing scalability, performance, and reliability"
+        "Designed RAG-based architecture using embeddings and vector databases",
+        "Built multi-agent workflows using LangGraph for complex reasoning tasks",
+        "Implemented LLM evaluation and prompt optimization strategies",
+        "Developed FastAPI-based microservices for real-time AI interactions",
+        "Enabled semantic search across enterprise datasets using vector retrieval",
+        "Deployed scalable AI systems on AWS ensuring high availability"
       ],
       "technologies": [
         "Python",
@@ -568,9 +580,9 @@
         "Semantic Search",
         "Prompt Engineering",
         "AWS",
-        "Microservices"
+        "AI Agents"
       ],
-      "techstack": "Python, FastAPI, LLMs, RAG, LangGraph, Vector Databases, AWS, Semantic Search, Prompt Engineering, Microservices",
+      "techstack": "Python, FastAPI, LLM, RAG, LangGraph, Vector DB, AWS, AI Agents",
       "category": "AI Engineering",
       "image": "https://res.cloudinary.com/dakrliszc/image/upload/v1777055089/Amelia_jpcuz6.png",
       "links": {
@@ -603,107 +615,125 @@
       "current": true,
       "color": "violet",
       "stack": [
+        "Python",
+        "FastAPI",
         "LLM",
         "RAG",
+        "LangChain",
+        "LangGraph",
+        "LlamaIndex",
         "Prompt Engineering",
-        "Embeddings & Vector Search",
+        "Embeddings",
+        "Vector Databases (Pinecone, ChromaDB)",
         "Semantic Search",
-        "AI System Design",
-        "NestJS",
-        "ASP.NET Core",
-        "C#",
-        ".NET",
-        "GraphQL",
-        "React",
-        "PostgreSQL",
-        "Redis",
-        "Kafka",
-        "RabbitMQ",
-        "Docker",
+        "AI Agents",
+        "Multi-Agent Systems",
+        "Tool Calling",
+        "Function Calling",
+        "Fine-Tuning",
+        "RLHF",
+        "MLflow",
+        "OpenAI",
+        "Hugging Face",
+        "Transformers",
         "AWS",
+        "Docker",
+        "Kubernetes",
+        "Kafka",
         "CI/CD",
-        "Microservices",
-        "OpenAI"
+        "Microservices"
       ],
       "desc": [
-        "Led architecture and development of scalable AI-powered distributed systems using NestJS, ASP.NET Core, GraphQL, and React.",
-        "Designed and deployed production-grade LLM services integrating OpenAI, Gemini, and Claude APIs into enterprise backend systems.",
-        "Built RAG pipelines using embeddings, vector databases, and semantic search to enable context-aware AI-driven responses.",
-        "Developed event-driven AI microservices using Kafka and RabbitMQ for real-time processing and intelligent automation workflows.",
-        "Engineered scalable AI APIs with .NET and Node.js using clean architecture, microservices, and domain-driven design principles.",
-        "Implemented prompt engineering standards and LLM evaluation workflows to improve reliability, consistency, and output quality.",
-        "Designed cloud-native AI infrastructure on AWS with Docker and CI/CD pipelines ensuring scalability, observability, and performance.",
-        "Mentored engineers and collaborated cross-functionally to deliver AI-powered features including conversational interfaces and semantic search systems."
+        "Architected and deployed production-grade LLM-powered applications using RAG pipelines, improving response accuracy and contextual relevance across enterprise workflows.",
+        "Built scalable AI microservices using Python and FastAPI to support real-time inference, high-throughput processing, and low-latency AI APIs.",
+        "Developed advanced multi-agent AI systems using LangGraph and tool/function calling for autonomous workflow execution and decision-making.",
+        "Implemented vector search systems using Pinecone and ChromaDB, enabling semantic search and knowledge retrieval across large-scale datasets.",
+        "Fine-tuned transformer models and applied RLHF techniques to improve model performance, alignment, and domain-specific accuracy.",
+        "Designed end-to-end ML pipelines with MLflow for experiment tracking, evaluation, and continuous model improvement (LLMOps).",
+        "Integrated OpenAI, Hugging Face, and open-source LLMs into enterprise platforms for conversational AI, automation, and intelligent assistants.",
+        "Optimized AI system performance, reducing inference latency and improving throughput through model optimization and caching strategies.",
+        "Led cross-functional AI initiatives, mentoring engineers and driving adoption of AI-first architecture across products."
       ]
     },
     {
       "company": "NORTHCODERS",
       "position": "AI Engineer",
       "location": "Manchester, UK",
-      "startDate": "02/2022",
+      "startDate": "03/2022",
       "endDate": "09/2023",
       "current": false,
       "color": "violet",
       "stack": [
-        "NestJS",
-        "ASP.NET Core",
-        "C#",
-        ".NET",
-        "Express.js",
-        "ReactJS",
-        "REST APIs",
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "LLM",
+        "RAG",
+        "LangChain",
+        "Prompt Engineering",
+        "Embeddings",
+        "Semantic Search",
+        "Vector Databases",
+        "OpenAI",
+        "Hugging Face",
+        "Transformers",
+        "Recommendation Systems",
+        "NLP",
+        "React",
         "GraphQL",
         "MongoDB",
+        "PostgreSQL",
         "AWS",
         "Docker",
         "CI/CD",
-        "AI Integration",
-        "Prompt Engineering",
-        "Semantic Search"
+        "Microservices"
       ],
       "desc": [
-        "Developed and maintained scalable full-stack web applications using NestJS and ASP.NET Core with a focus on performance and extensibility.",
-        "Built and optimized REST and GraphQL APIs using .NET and Node.js, enabling flexible data access and improved system efficiency.",
-        "Integrated early-stage AI capabilities into applications using OpenAI APIs for automation, content generation, and intelligent features.",
-        "Worked with embedding-based and semantic search concepts to enhance data retrieval and user experience in web applications.",
-        "Integrated React frontends with backend services built in Node.js and C#, ensuring seamless data flow across systems.",
-        "Managed AWS infrastructure (EC2, S3) and applied cloud best practices for scalable and secure deployments.",
-        "Automated CI/CD pipelines for both .NET and JavaScript applications, improving deployment speed and release reliability.",
-        "Troubleshot, optimized, and refactored backend systems while exploring AI-assisted features to improve application intelligence."
+        "Developed AI-powered full-stack applications integrating LLM-based features such as intelligent search, conversational assistants, and recommendation systems.",
+        "Designed and implemented RAG pipelines connecting LLMs with structured and unstructured enterprise data sources.",
+        "Built backend AI services using Python (FastAPI) and Node.js within scalable microservices architectures.",
+        "Applied NLP techniques and transformer-based models for text processing, classification, and semantic understanding.",
+        "Implemented embedding-based retrieval systems to enhance search relevance and user experience.",
+        "Integrated OpenAI and Hugging Face models for content generation, summarization, and workflow automation.",
+        "Improved user engagement and system efficiency by ~30% through AI-driven personalization and recommendations.",
+        "Collaborated across teams to transition traditional systems into AI-enabled platforms."
       ]
     },
     {
       "company": "Innovify",
-      "position": "Software Engineer",
+      "position": "Full Stack Developer",
       "location": "Landon, UK",
       "startDate": "07/2020",
       "endDate": "02/2022",
       "current": false,
       "color": "violet",
       "stack": [
-        "ASP.NET Core",
+        "Python",
+        "FastAPI",
+        "Node.js",
         "C#",
         ".NET",
-        "NestJS",
-        "Node.js",
+        "ASP.NET Core",
+        "Distributed Systems",
+        "Event-Driven Architecture",
         "Kafka",
         "PostgreSQL",
         "MongoDB",
         "AWS",
+        "Docker",
         "CI/CD",
-        "Event-Driven Architecture",
-        "Microservices Architecture",
-        "Distributed Systems"
+        "Data Pipelines",
+        "Scalable Systems Design"
       ],
       "desc": [
-        "Developed backend services using ASP.NET Core and C#, following MVC, clean architecture, and scalable system design principles.",
-        "Built and maintained distributed applications using NestJS and Node.js with a focus on modular, maintainable backend systems.",
-        "Designed event-driven microservices using Apache Kafka to support real-time data processing and asynchronous workflows.",
-        "Optimized PostgreSQL and MongoDB schemas and queries across distributed services to improve system performance and reliability.",
-        "Managed AWS infrastructure with emphasis on scalability, security, and cost-efficient deployment strategies.",
-        "Automated CI/CD pipelines to streamline release cycles and improve deployment consistency across environments.",
-        "Contributed to early-stage intelligent system thinking by working on event-driven and data-heavy architectures that later evolved into AI-ready systems.",
-        "Mentored junior engineers and participated in system design discussions focused on scalability, reliability, and backend architecture best practices."
+        "Built scalable backend systems and REST APIs using Python (FastAPI), Node.js, and ASP.NET Core for high-performance applications.",
+        "Developed and maintained backend services using C# and .NET, following clean architecture and modular design principles.",
+        "Designed distributed, event-driven architectures using Kafka to support real-time data processing pipelines.",
+        "Developed data-intensive systems that laid the foundation for AI/ML integration and intelligent workflows.",
+        "Optimized database performance (PostgreSQL, MongoDB), reducing query latency and improving throughput.",
+        "Implemented scalable cloud infrastructure on AWS ensuring reliability, fault tolerance, and performance.",
+        "Contributed to early-stage AI readiness by structuring data pipelines and backend systems for future ML adoption.",
+        "Collaborated on system design decisions focusing on scalability, maintainability, and data-driven architecture."
       ]
     }
   ],
